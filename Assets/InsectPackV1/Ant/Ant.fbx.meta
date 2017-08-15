@@ -1,0 +1,619 @@
+fileFormatVersion: 2
+guid: 6b59d32c01463d84a9f57b7949ca4e88
+timeCreated: 1487001112
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Ant
+    100004: AntLOD
+    100006: AntSkeleton
+    100008: ArmL1
+    100010: ArmL10
+    100012: ArmL10_end
+    100014: ArmL2
+    100016: ArmL3
+    100018: ArmL3_end
+    100020: ArmL4
+    100022: ArmL5
+    100024: ArmL7
+    100026: ArmL7_end
+    100028: ArmL8
+    100030: ArmL9
+    100032: ArmR1
+    100034: ArmR2
+    100036: ArmR3
+    100038: ArmR3_end
+    100040: ArmR4
+    100042: ArmR5
+    100044: ArmR6
+    100046: ArmR6_end
+    100048: ArmR7
+    100050: ArmR8
+    100052: ArmR9
+    100054: ArmR9_end
+    100056: Body
+    100058: Head
+    100060: Head_end
+    100062: Tail
+    100064: Tail_end
+    400000: //RootNode
+    400002: Ant
+    400004: AntLOD
+    400006: AntSkeleton
+    400008: ArmL1
+    400010: ArmL10
+    400012: ArmL10_end
+    400014: ArmL2
+    400016: ArmL3
+    400018: ArmL3_end
+    400020: ArmL4
+    400022: ArmL5
+    400024: ArmL7
+    400026: ArmL7_end
+    400028: ArmL8
+    400030: ArmL9
+    400032: ArmR1
+    400034: ArmR2
+    400036: ArmR3
+    400038: ArmR3_end
+    400040: ArmR4
+    400042: ArmR5
+    400044: ArmR6
+    400046: ArmR6_end
+    400048: ArmR7
+    400050: ArmR8
+    400052: ArmR9
+    400054: ArmR9_end
+    400056: Body
+    400058: Head
+    400060: Head_end
+    400062: Tail
+    400064: Tail_end
+    4300000: AntLOD
+    4300002: Ant
+    7400000: eat
+    7400002: hurt
+    7400004: idle
+    7400006: AntSkeleton|Pose
+    7400008: walk
+    7400010: death
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Ant
+    13700002: AntLOD
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: eat
+      takeName: AntSkeleton|eat
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ant
+        weight: 1
+      - path: AntLOD
+        weight: 1
+      - path: AntSkeleton
+        weight: 1
+      - path: AntSkeleton/Body
+        weight: 1
+      - path: AntSkeleton/Body/ArmL1
+        weight: 1
+      - path: AntSkeleton/Body/ArmL1/ArmL2
+        weight: 1
+      - path: AntSkeleton/Body/ArmL1/ArmL2/ArmL3
+        weight: 1
+      - path: AntSkeleton/Body/ArmL1/ArmL2/ArmL3/ArmL3_end
+        weight: 1
+      - path: AntSkeleton/Body/ArmL4
+        weight: 1
+      - path: AntSkeleton/Body/ArmL4/ArmL5
+        weight: 1
+      - path: AntSkeleton/Body/ArmL4/ArmL5/ArmL7
+        weight: 1
+      - path: AntSkeleton/Body/ArmL4/ArmL5/ArmL7/ArmL7_end
+        weight: 1
+      - path: AntSkeleton/Body/ArmL8
+        weight: 1
+      - path: AntSkeleton/Body/ArmL8/ArmL9
+        weight: 1
+      - path: AntSkeleton/Body/ArmL8/ArmL9/ArmL10
+        weight: 1
+      - path: AntSkeleton/Body/ArmL8/ArmL9/ArmL10/ArmL10_end
+        weight: 1
+      - path: AntSkeleton/Body/ArmR1
+        weight: 1
+      - path: AntSkeleton/Body/ArmR1/ArmR2
+        weight: 1
+      - path: AntSkeleton/Body/ArmR1/ArmR2/ArmR3
+        weight: 1
+      - path: AntSkeleton/Body/ArmR1/ArmR2/ArmR3/ArmR3_end
+        weight: 1
+      - path: AntSkeleton/Body/ArmR4
+        weight: 1
+      - path: AntSkeleton/Body/ArmR4/ArmR5
+        weight: 1
+      - path: AntSkeleton/Body/ArmR4/ArmR5/ArmR6
+        weight: 1
+      - path: AntSkeleton/Body/ArmR4/ArmR5/ArmR6/ArmR6_end
+        weight: 1
+      - path: AntSkeleton/Body/ArmR7
+        weight: 1
+      - path: AntSkeleton/Body/ArmR7/ArmR8
+        weight: 1
+      - path: AntSkeleton/Body/ArmR7/ArmR8/ArmR9
+        weight: 1
+      - path: AntSkeleton/Body/ArmR7/ArmR8/ArmR9/ArmR9_end
+        weight: 1
+      - path: AntSkeleton/Body/Head
+        weight: 1
+      - path: AntSkeleton/Body/Head/Head_end
+        weight: 1
+      - path: AntSkeleton/Body/Tail
+        weight: 1
+      - path: AntSkeleton/Body/Tail/Tail_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hurt
+      takeName: AntSkeleton|hurt
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ant
+        weight: 1
+      - path: AntLOD
+        weight: 1
+      - path: AntSkeleton
+        weight: 1
+      - path: AntSkeleton/Body
+        weight: 1
+      - path: AntSkeleton/Body/ArmL1
+        weight: 1
+      - path: AntSkeleton/Body/ArmL1/ArmL2
+        weight: 1
+      - path: AntSkeleton/Body/ArmL1/ArmL2/ArmL3
+        weight: 1
+      - path: AntSkeleton/Body/ArmL1/ArmL2/ArmL3/ArmL3_end
+        weight: 1
+      - path: AntSkeleton/Body/ArmL4
+        weight: 1
+      - path: AntSkeleton/Body/ArmL4/ArmL5
+        weight: 1
+      - path: AntSkeleton/Body/ArmL4/ArmL5/ArmL7
+        weight: 1
+      - path: AntSkeleton/Body/ArmL4/ArmL5/ArmL7/ArmL7_end
+        weight: 1
+      - path: AntSkeleton/Body/ArmL8
+        weight: 1
+      - path: AntSkeleton/Body/ArmL8/ArmL9
+        weight: 1
+      - path: AntSkeleton/Body/ArmL8/ArmL9/ArmL10
+        weight: 1
+      - path: AntSkeleton/Body/ArmL8/ArmL9/ArmL10/ArmL10_end
+        weight: 1
+      - path: AntSkeleton/Body/ArmR1
+        weight: 1
+      - path: AntSkeleton/Body/ArmR1/ArmR2
+        weight: 1
+      - path: AntSkeleton/Body/ArmR1/ArmR2/ArmR3
+        weight: 1
+      - path: AntSkeleton/Body/ArmR1/ArmR2/ArmR3/ArmR3_end
+        weight: 1
+      - path: AntSkeleton/Body/ArmR4
+        weight: 1
+      - path: AntSkeleton/Body/ArmR4/ArmR5
+        weight: 1
+      - path: AntSkeleton/Body/ArmR4/ArmR5/ArmR6
+        weight: 1
+      - path: AntSkeleton/Body/ArmR4/ArmR5/ArmR6/ArmR6_end
+        weight: 1
+      - path: AntSkeleton/Body/ArmR7
+        weight: 1
+      - path: AntSkeleton/Body/ArmR7/ArmR8
+        weight: 1
+      - path: AntSkeleton/Body/ArmR7/ArmR8/ArmR9
+        weight: 1
+      - path: AntSkeleton/Body/ArmR7/ArmR8/ArmR9/ArmR9_end
+        weight: 1
+      - path: AntSkeleton/Body/Head
+        weight: 1
+      - path: AntSkeleton/Body/Head/Head_end
+        weight: 1
+      - path: AntSkeleton/Body/Tail
+        weight: 1
+      - path: AntSkeleton/Body/Tail/Tail_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle
+      takeName: AntSkeleton|idle
+      firstFrame: 0
+      lastFrame: 99
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ant
+        weight: 1
+      - path: AntLOD
+        weight: 1
+      - path: AntSkeleton
+        weight: 1
+      - path: AntSkeleton/Body
+        weight: 1
+      - path: AntSkeleton/Body/ArmL1
+        weight: 1
+      - path: AntSkeleton/Body/ArmL1/ArmL2
+        weight: 1
+      - path: AntSkeleton/Body/ArmL1/ArmL2/ArmL3
+        weight: 1
+      - path: AntSkeleton/Body/ArmL1/ArmL2/ArmL3/ArmL3_end
+        weight: 1
+      - path: AntSkeleton/Body/ArmL4
+        weight: 1
+      - path: AntSkeleton/Body/ArmL4/ArmL5
+        weight: 1
+      - path: AntSkeleton/Body/ArmL4/ArmL5/ArmL7
+        weight: 1
+      - path: AntSkeleton/Body/ArmL4/ArmL5/ArmL7/ArmL7_end
+        weight: 1
+      - path: AntSkeleton/Body/ArmL8
+        weight: 1
+      - path: AntSkeleton/Body/ArmL8/ArmL9
+        weight: 1
+      - path: AntSkeleton/Body/ArmL8/ArmL9/ArmL10
+        weight: 1
+      - path: AntSkeleton/Body/ArmL8/ArmL9/ArmL10/ArmL10_end
+        weight: 1
+      - path: AntSkeleton/Body/ArmR1
+        weight: 1
+      - path: AntSkeleton/Body/ArmR1/ArmR2
+        weight: 1
+      - path: AntSkeleton/Body/ArmR1/ArmR2/ArmR3
+        weight: 1
+      - path: AntSkeleton/Body/ArmR1/ArmR2/ArmR3/ArmR3_end
+        weight: 1
+      - path: AntSkeleton/Body/ArmR4
+        weight: 1
+      - path: AntSkeleton/Body/ArmR4/ArmR5
+        weight: 1
+      - path: AntSkeleton/Body/ArmR4/ArmR5/ArmR6
+        weight: 1
+      - path: AntSkeleton/Body/ArmR4/ArmR5/ArmR6/ArmR6_end
+        weight: 1
+      - path: AntSkeleton/Body/ArmR7
+        weight: 1
+      - path: AntSkeleton/Body/ArmR7/ArmR8
+        weight: 1
+      - path: AntSkeleton/Body/ArmR7/ArmR8/ArmR9
+        weight: 1
+      - path: AntSkeleton/Body/ArmR7/ArmR8/ArmR9/ArmR9_end
+        weight: 1
+      - path: AntSkeleton/Body/Head
+        weight: 1
+      - path: AntSkeleton/Body/Head/Head_end
+        weight: 1
+      - path: AntSkeleton/Body/Tail
+        weight: 1
+      - path: AntSkeleton/Body/Tail/Tail_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk
+      takeName: AntSkeleton|walk
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ant
+        weight: 1
+      - path: AntLOD
+        weight: 1
+      - path: AntSkeleton
+        weight: 1
+      - path: AntSkeleton/Body
+        weight: 1
+      - path: AntSkeleton/Body/ArmL1
+        weight: 1
+      - path: AntSkeleton/Body/ArmL1/ArmL2
+        weight: 1
+      - path: AntSkeleton/Body/ArmL1/ArmL2/ArmL3
+        weight: 1
+      - path: AntSkeleton/Body/ArmL1/ArmL2/ArmL3/ArmL3_end
+        weight: 1
+      - path: AntSkeleton/Body/ArmL4
+        weight: 1
+      - path: AntSkeleton/Body/ArmL4/ArmL5
+        weight: 1
+      - path: AntSkeleton/Body/ArmL4/ArmL5/ArmL7
+        weight: 1
+      - path: AntSkeleton/Body/ArmL4/ArmL5/ArmL7/ArmL7_end
+        weight: 1
+      - path: AntSkeleton/Body/ArmL8
+        weight: 1
+      - path: AntSkeleton/Body/ArmL8/ArmL9
+        weight: 1
+      - path: AntSkeleton/Body/ArmL8/ArmL9/ArmL10
+        weight: 1
+      - path: AntSkeleton/Body/ArmL8/ArmL9/ArmL10/ArmL10_end
+        weight: 1
+      - path: AntSkeleton/Body/ArmR1
+        weight: 1
+      - path: AntSkeleton/Body/ArmR1/ArmR2
+        weight: 1
+      - path: AntSkeleton/Body/ArmR1/ArmR2/ArmR3
+        weight: 1
+      - path: AntSkeleton/Body/ArmR1/ArmR2/ArmR3/ArmR3_end
+        weight: 1
+      - path: AntSkeleton/Body/ArmR4
+        weight: 1
+      - path: AntSkeleton/Body/ArmR4/ArmR5
+        weight: 1
+      - path: AntSkeleton/Body/ArmR4/ArmR5/ArmR6
+        weight: 1
+      - path: AntSkeleton/Body/ArmR4/ArmR5/ArmR6/ArmR6_end
+        weight: 1
+      - path: AntSkeleton/Body/ArmR7
+        weight: 1
+      - path: AntSkeleton/Body/ArmR7/ArmR8
+        weight: 1
+      - path: AntSkeleton/Body/ArmR7/ArmR8/ArmR9
+        weight: 1
+      - path: AntSkeleton/Body/ArmR7/ArmR8/ArmR9/ArmR9_end
+        weight: 1
+      - path: AntSkeleton/Body/Head
+        weight: 1
+      - path: AntSkeleton/Body/Head/Head_end
+        weight: 1
+      - path: AntSkeleton/Body/Tail
+        weight: 1
+      - path: AntSkeleton/Body/Tail/Tail_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: death
+      takeName: AntSkeleton|death
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ant
+        weight: 1
+      - path: AntLOD
+        weight: 1
+      - path: AntSkeleton
+        weight: 1
+      - path: AntSkeleton/Body
+        weight: 1
+      - path: AntSkeleton/Body/ArmL1
+        weight: 1
+      - path: AntSkeleton/Body/ArmL1/ArmL2
+        weight: 1
+      - path: AntSkeleton/Body/ArmL1/ArmL2/ArmL3
+        weight: 1
+      - path: AntSkeleton/Body/ArmL1/ArmL2/ArmL3/ArmL3_end
+        weight: 1
+      - path: AntSkeleton/Body/ArmL4
+        weight: 1
+      - path: AntSkeleton/Body/ArmL4/ArmL5
+        weight: 1
+      - path: AntSkeleton/Body/ArmL4/ArmL5/ArmL7
+        weight: 1
+      - path: AntSkeleton/Body/ArmL4/ArmL5/ArmL7/ArmL7_end
+        weight: 1
+      - path: AntSkeleton/Body/ArmL8
+        weight: 1
+      - path: AntSkeleton/Body/ArmL8/ArmL9
+        weight: 1
+      - path: AntSkeleton/Body/ArmL8/ArmL9/ArmL10
+        weight: 1
+      - path: AntSkeleton/Body/ArmL8/ArmL9/ArmL10/ArmL10_end
+        weight: 1
+      - path: AntSkeleton/Body/ArmR1
+        weight: 1
+      - path: AntSkeleton/Body/ArmR1/ArmR2
+        weight: 1
+      - path: AntSkeleton/Body/ArmR1/ArmR2/ArmR3
+        weight: 1
+      - path: AntSkeleton/Body/ArmR1/ArmR2/ArmR3/ArmR3_end
+        weight: 1
+      - path: AntSkeleton/Body/ArmR4
+        weight: 1
+      - path: AntSkeleton/Body/ArmR4/ArmR5
+        weight: 1
+      - path: AntSkeleton/Body/ArmR4/ArmR5/ArmR6
+        weight: 1
+      - path: AntSkeleton/Body/ArmR4/ArmR5/ArmR6/ArmR6_end
+        weight: 1
+      - path: AntSkeleton/Body/ArmR7
+        weight: 1
+      - path: AntSkeleton/Body/ArmR7/ArmR8
+        weight: 1
+      - path: AntSkeleton/Body/ArmR7/ArmR8/ArmR9
+        weight: 1
+      - path: AntSkeleton/Body/ArmR7/ArmR8/ArmR9/ArmR9_end
+        weight: 1
+      - path: AntSkeleton/Body/Head
+        weight: 1
+      - path: AntSkeleton/Body/Head/Head_end
+        weight: 1
+      - path: AntSkeleton/Body/Tail
+        weight: 1
+      - path: AntSkeleton/Body/Tail/Tail_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

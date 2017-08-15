@@ -1,0 +1,415 @@
+fileFormatVersion: 2
+guid: 02e7d85c469e0944f8bf6b81eca9bb44
+timeCreated: 1487001111
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Body
+    100002: Body2
+    100004: hornsLeft
+    100006: hornsLeft_end
+    100008: hornsRight
+    100010: hornsRight_end
+    100012: shell1
+    100014: shell2
+    100016: shell2_end
+    100018: //RootNode
+    100020: Snail
+    100022: SnailLOD
+    100024: SnailSkeleton
+    100026: Tail1
+    100028: Tail2
+    100030: Tail2_end
+    400000: Body
+    400002: Body2
+    400004: hornsLeft
+    400006: hornsLeft_end
+    400008: hornsRight
+    400010: hornsRight_end
+    400012: shell1
+    400014: shell2
+    400016: shell2_end
+    400018: Snail
+    400020: //RootNode
+    400022: SnailLOD
+    400024: SnailSkeleton
+    400026: Tail1
+    400028: Tail2
+    400030: Tail2_end
+    4300000: SnailLOD
+    4300002: Snail
+    7400000: death
+    7400002: hurt
+    7400004: idle
+    7400006: SnailSkeleton|pose
+    7400008: protection
+    7400010: walk
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Snail
+    13700002: SnailLOD
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: death
+      takeName: SnailSkeleton|death
+      firstFrame: 0
+      lastFrame: 36
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Snail
+        weight: 1
+      - path: SnailLOD
+        weight: 1
+      - path: SnailSkeleton
+        weight: 1
+      - path: SnailSkeleton/Body
+        weight: 1
+      - path: SnailSkeleton/Body/Body2
+        weight: 1
+      - path: SnailSkeleton/Body/Body2/Tail1
+        weight: 1
+      - path: SnailSkeleton/Body/Body2/Tail1/Tail2
+        weight: 1
+      - path: SnailSkeleton/Body/Body2/Tail1/Tail2/Tail2_end
+        weight: 1
+      - path: SnailSkeleton/Body/hornsLeft
+        weight: 1
+      - path: SnailSkeleton/Body/hornsLeft/hornsLeft_end
+        weight: 1
+      - path: SnailSkeleton/Body/hornsRight
+        weight: 1
+      - path: SnailSkeleton/Body/hornsRight/hornsRight_end
+        weight: 1
+      - path: SnailSkeleton/Body/shell1
+        weight: 1
+      - path: SnailSkeleton/Body/shell1/shell2
+        weight: 1
+      - path: SnailSkeleton/Body/shell1/shell2/shell2_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hurt
+      takeName: SnailSkeleton|hurt
+      firstFrame: 0
+      lastFrame: 36
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Snail
+        weight: 1
+      - path: SnailLOD
+        weight: 1
+      - path: SnailSkeleton
+        weight: 1
+      - path: SnailSkeleton/Body
+        weight: 1
+      - path: SnailSkeleton/Body/Body2
+        weight: 1
+      - path: SnailSkeleton/Body/Body2/Tail1
+        weight: 1
+      - path: SnailSkeleton/Body/Body2/Tail1/Tail2
+        weight: 1
+      - path: SnailSkeleton/Body/Body2/Tail1/Tail2/Tail2_end
+        weight: 1
+      - path: SnailSkeleton/Body/hornsLeft
+        weight: 1
+      - path: SnailSkeleton/Body/hornsLeft/hornsLeft_end
+        weight: 1
+      - path: SnailSkeleton/Body/hornsRight
+        weight: 1
+      - path: SnailSkeleton/Body/hornsRight/hornsRight_end
+        weight: 1
+      - path: SnailSkeleton/Body/shell1
+        weight: 1
+      - path: SnailSkeleton/Body/shell1/shell2
+        weight: 1
+      - path: SnailSkeleton/Body/shell1/shell2/shell2_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle
+      takeName: SnailSkeleton|idle
+      firstFrame: 0
+      lastFrame: 99
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Snail
+        weight: 1
+      - path: SnailLOD
+        weight: 1
+      - path: SnailSkeleton
+        weight: 1
+      - path: SnailSkeleton/Body
+        weight: 1
+      - path: SnailSkeleton/Body/Body2
+        weight: 1
+      - path: SnailSkeleton/Body/Body2/Tail1
+        weight: 1
+      - path: SnailSkeleton/Body/Body2/Tail1/Tail2
+        weight: 1
+      - path: SnailSkeleton/Body/Body2/Tail1/Tail2/Tail2_end
+        weight: 1
+      - path: SnailSkeleton/Body/hornsLeft
+        weight: 1
+      - path: SnailSkeleton/Body/hornsLeft/hornsLeft_end
+        weight: 1
+      - path: SnailSkeleton/Body/hornsRight
+        weight: 1
+      - path: SnailSkeleton/Body/hornsRight/hornsRight_end
+        weight: 1
+      - path: SnailSkeleton/Body/shell1
+        weight: 1
+      - path: SnailSkeleton/Body/shell1/shell2
+        weight: 1
+      - path: SnailSkeleton/Body/shell1/shell2/shell2_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: protection
+      takeName: SnailSkeleton|protection
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Snail
+        weight: 1
+      - path: SnailLOD
+        weight: 1
+      - path: SnailSkeleton
+        weight: 1
+      - path: SnailSkeleton/Body
+        weight: 1
+      - path: SnailSkeleton/Body/Body2
+        weight: 1
+      - path: SnailSkeleton/Body/Body2/Tail1
+        weight: 1
+      - path: SnailSkeleton/Body/Body2/Tail1/Tail2
+        weight: 1
+      - path: SnailSkeleton/Body/Body2/Tail1/Tail2/Tail2_end
+        weight: 1
+      - path: SnailSkeleton/Body/hornsLeft
+        weight: 1
+      - path: SnailSkeleton/Body/hornsLeft/hornsLeft_end
+        weight: 1
+      - path: SnailSkeleton/Body/hornsRight
+        weight: 1
+      - path: SnailSkeleton/Body/hornsRight/hornsRight_end
+        weight: 1
+      - path: SnailSkeleton/Body/shell1
+        weight: 1
+      - path: SnailSkeleton/Body/shell1/shell2
+        weight: 1
+      - path: SnailSkeleton/Body/shell1/shell2/shell2_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk
+      takeName: SnailSkeleton|walk
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Snail
+        weight: 1
+      - path: SnailLOD
+        weight: 1
+      - path: SnailSkeleton
+        weight: 1
+      - path: SnailSkeleton/Body
+        weight: 1
+      - path: SnailSkeleton/Body/Body2
+        weight: 1
+      - path: SnailSkeleton/Body/Body2/Tail1
+        weight: 1
+      - path: SnailSkeleton/Body/Body2/Tail1/Tail2
+        weight: 1
+      - path: SnailSkeleton/Body/Body2/Tail1/Tail2/Tail2_end
+        weight: 1
+      - path: SnailSkeleton/Body/hornsLeft
+        weight: 1
+      - path: SnailSkeleton/Body/hornsLeft/hornsLeft_end
+        weight: 1
+      - path: SnailSkeleton/Body/hornsRight
+        weight: 1
+      - path: SnailSkeleton/Body/hornsRight/hornsRight_end
+        weight: 1
+      - path: SnailSkeleton/Body/shell1
+        weight: 1
+      - path: SnailSkeleton/Body/shell1/shell2
+        weight: 1
+      - path: SnailSkeleton/Body/shell1/shell2/shell2_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

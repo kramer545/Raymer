@@ -1,0 +1,667 @@
+fileFormatVersion: 2
+guid: fb68efc9023b70f4bbba7ec26c4dd53a
+timeCreated: 1487001117
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: body
+    100002: footLeft1
+    100004: footLeft1_end
+    100006: footLeft2
+    100008: footLeft2_end
+    100010: footLeft3
+    100012: footLeft3_end
+    100014: footRight1
+    100016: footRight1_end
+    100018: footRight2
+    100020: footRight2_end
+    100022: footRight3
+    100024: footRight3_end
+    100026: //RootNode
+    100028: Grasshopper
+    100030: GrasshopperLOD
+    100032: GrasshopperSkeleton
+    100034: head
+    100036: head_end
+    100038: PawLeft1
+    100040: PawLeft2
+    100042: PawLeft3
+    100044: PawLeft4
+    100046: PawLeft6
+    100048: PawLeft7
+    100050: PawRight1
+    100052: PawRight2
+    100054: PawRight4
+    100056: PawRight5
+    100058: PawRight6
+    100060: PawRight7
+    100062: tail
+    100064: tail_end
+    100066: WingRight
+    100068: WingRight_end
+    100070: WingsLeft
+    100072: WingsLeft_end
+    400000: body
+    400002: footLeft1
+    400004: footLeft1_end
+    400006: footLeft2
+    400008: footLeft2_end
+    400010: footLeft3
+    400012: footLeft3_end
+    400014: footRight1
+    400016: footRight1_end
+    400018: footRight2
+    400020: footRight2_end
+    400022: footRight3
+    400024: footRight3_end
+    400026: //RootNode
+    400028: Grasshopper
+    400030: GrasshopperLOD
+    400032: GrasshopperSkeleton
+    400034: head
+    400036: head_end
+    400038: PawLeft1
+    400040: PawLeft2
+    400042: PawLeft3
+    400044: PawLeft4
+    400046: PawLeft6
+    400048: PawLeft7
+    400050: PawRight1
+    400052: PawRight2
+    400054: PawRight4
+    400056: PawRight5
+    400058: PawRight6
+    400060: PawRight7
+    400062: tail
+    400064: tail_end
+    400066: WingRight
+    400068: WingRight_end
+    400070: WingsLeft
+    400072: WingsLeft_end
+    4300000: GrasshopperLOD
+    4300002: Grasshopper
+    7400000: death
+    7400002: eat
+    7400004: fly
+    7400006: idle
+    7400008: GrasshopperSkeleton|pose
+    7400010: walk jump
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Grasshopper
+    13700002: GrasshopperLOD
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: death
+      takeName: GrasshopperSkeleton|death
+      firstFrame: 0
+      lastFrame: 42
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Grasshopper
+        weight: 1
+      - path: GrasshopperLOD
+        weight: 1
+      - path: GrasshopperSkeleton
+        weight: 1
+      - path: GrasshopperSkeleton/body
+        weight: 1
+      - path: GrasshopperSkeleton/body/head
+        weight: 1
+      - path: GrasshopperSkeleton/body/head/head_end
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawLeft2
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawLeft2/PawLeft1
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawLeft2/PawLeft1/footLeft3
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawLeft2/PawLeft1/footLeft3/footLeft3_end
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawLeft3
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawLeft3/PawLeft4
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawLeft3/PawLeft4/footLeft2
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawLeft3/PawLeft4/footLeft2/footLeft2_end
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawLeft6
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawLeft6/PawLeft7
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawLeft6/PawLeft7/footLeft1
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawLeft6/PawLeft7/footLeft1/footLeft1_end
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawRight1
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawRight1/PawRight2
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawRight1/PawRight2/footRight3
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawRight1/PawRight2/footRight3/footRight3_end
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawRight4
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawRight4/PawRight5
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawRight4/PawRight5/footRight2
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawRight4/PawRight5/footRight2/footRight2_end
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawRight7
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawRight7/PawRight6
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawRight7/PawRight6/footRight1
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawRight7/PawRight6/footRight1/footRight1_end
+        weight: 1
+      - path: GrasshopperSkeleton/body/tail
+        weight: 1
+      - path: GrasshopperSkeleton/body/tail/tail_end
+        weight: 1
+      - path: GrasshopperSkeleton/body/WingRight
+        weight: 1
+      - path: GrasshopperSkeleton/body/WingRight/WingRight_end
+        weight: 1
+      - path: GrasshopperSkeleton/body/WingsLeft
+        weight: 1
+      - path: GrasshopperSkeleton/body/WingsLeft/WingsLeft_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: eat
+      takeName: GrasshopperSkeleton|eat
+      firstFrame: 0
+      lastFrame: 49
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Grasshopper
+        weight: 1
+      - path: GrasshopperLOD
+        weight: 1
+      - path: GrasshopperSkeleton
+        weight: 1
+      - path: GrasshopperSkeleton/body
+        weight: 1
+      - path: GrasshopperSkeleton/body/head
+        weight: 1
+      - path: GrasshopperSkeleton/body/head/head_end
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawLeft2
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawLeft2/PawLeft1
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawLeft2/PawLeft1/footLeft3
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawLeft2/PawLeft1/footLeft3/footLeft3_end
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawLeft3
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawLeft3/PawLeft4
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawLeft3/PawLeft4/footLeft2
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawLeft3/PawLeft4/footLeft2/footLeft2_end
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawLeft6
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawLeft6/PawLeft7
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawLeft6/PawLeft7/footLeft1
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawLeft6/PawLeft7/footLeft1/footLeft1_end
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawRight1
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawRight1/PawRight2
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawRight1/PawRight2/footRight3
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawRight1/PawRight2/footRight3/footRight3_end
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawRight4
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawRight4/PawRight5
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawRight4/PawRight5/footRight2
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawRight4/PawRight5/footRight2/footRight2_end
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawRight7
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawRight7/PawRight6
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawRight7/PawRight6/footRight1
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawRight7/PawRight6/footRight1/footRight1_end
+        weight: 1
+      - path: GrasshopperSkeleton/body/tail
+        weight: 1
+      - path: GrasshopperSkeleton/body/tail/tail_end
+        weight: 1
+      - path: GrasshopperSkeleton/body/WingRight
+        weight: 1
+      - path: GrasshopperSkeleton/body/WingRight/WingRight_end
+        weight: 1
+      - path: GrasshopperSkeleton/body/WingsLeft
+        weight: 1
+      - path: GrasshopperSkeleton/body/WingsLeft/WingsLeft_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: fly
+      takeName: GrasshopperSkeleton|fly
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Grasshopper
+        weight: 1
+      - path: GrasshopperLOD
+        weight: 1
+      - path: GrasshopperSkeleton
+        weight: 1
+      - path: GrasshopperSkeleton/body
+        weight: 1
+      - path: GrasshopperSkeleton/body/head
+        weight: 1
+      - path: GrasshopperSkeleton/body/head/head_end
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawLeft2
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawLeft2/PawLeft1
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawLeft2/PawLeft1/footLeft3
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawLeft2/PawLeft1/footLeft3/footLeft3_end
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawLeft3
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawLeft3/PawLeft4
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawLeft3/PawLeft4/footLeft2
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawLeft3/PawLeft4/footLeft2/footLeft2_end
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawLeft6
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawLeft6/PawLeft7
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawLeft6/PawLeft7/footLeft1
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawLeft6/PawLeft7/footLeft1/footLeft1_end
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawRight1
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawRight1/PawRight2
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawRight1/PawRight2/footRight3
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawRight1/PawRight2/footRight3/footRight3_end
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawRight4
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawRight4/PawRight5
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawRight4/PawRight5/footRight2
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawRight4/PawRight5/footRight2/footRight2_end
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawRight7
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawRight7/PawRight6
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawRight7/PawRight6/footRight1
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawRight7/PawRight6/footRight1/footRight1_end
+        weight: 1
+      - path: GrasshopperSkeleton/body/tail
+        weight: 1
+      - path: GrasshopperSkeleton/body/tail/tail_end
+        weight: 1
+      - path: GrasshopperSkeleton/body/WingRight
+        weight: 1
+      - path: GrasshopperSkeleton/body/WingRight/WingRight_end
+        weight: 1
+      - path: GrasshopperSkeleton/body/WingsLeft
+        weight: 1
+      - path: GrasshopperSkeleton/body/WingsLeft/WingsLeft_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle
+      takeName: GrasshopperSkeleton|idle
+      firstFrame: 0
+      lastFrame: 99
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Grasshopper
+        weight: 1
+      - path: GrasshopperLOD
+        weight: 1
+      - path: GrasshopperSkeleton
+        weight: 1
+      - path: GrasshopperSkeleton/body
+        weight: 1
+      - path: GrasshopperSkeleton/body/head
+        weight: 1
+      - path: GrasshopperSkeleton/body/head/head_end
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawLeft2
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawLeft2/PawLeft1
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawLeft2/PawLeft1/footLeft3
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawLeft2/PawLeft1/footLeft3/footLeft3_end
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawLeft3
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawLeft3/PawLeft4
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawLeft3/PawLeft4/footLeft2
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawLeft3/PawLeft4/footLeft2/footLeft2_end
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawLeft6
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawLeft6/PawLeft7
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawLeft6/PawLeft7/footLeft1
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawLeft6/PawLeft7/footLeft1/footLeft1_end
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawRight1
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawRight1/PawRight2
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawRight1/PawRight2/footRight3
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawRight1/PawRight2/footRight3/footRight3_end
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawRight4
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawRight4/PawRight5
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawRight4/PawRight5/footRight2
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawRight4/PawRight5/footRight2/footRight2_end
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawRight7
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawRight7/PawRight6
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawRight7/PawRight6/footRight1
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawRight7/PawRight6/footRight1/footRight1_end
+        weight: 1
+      - path: GrasshopperSkeleton/body/tail
+        weight: 1
+      - path: GrasshopperSkeleton/body/tail/tail_end
+        weight: 1
+      - path: GrasshopperSkeleton/body/WingRight
+        weight: 1
+      - path: GrasshopperSkeleton/body/WingRight/WingRight_end
+        weight: 1
+      - path: GrasshopperSkeleton/body/WingsLeft
+        weight: 1
+      - path: GrasshopperSkeleton/body/WingsLeft/WingsLeft_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk jump
+      takeName: GrasshopperSkeleton|walk jump
+      firstFrame: 0
+      lastFrame: 22
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Grasshopper
+        weight: 1
+      - path: GrasshopperLOD
+        weight: 1
+      - path: GrasshopperSkeleton
+        weight: 1
+      - path: GrasshopperSkeleton/body
+        weight: 1
+      - path: GrasshopperSkeleton/body/head
+        weight: 1
+      - path: GrasshopperSkeleton/body/head/head_end
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawLeft2
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawLeft2/PawLeft1
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawLeft2/PawLeft1/footLeft3
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawLeft2/PawLeft1/footLeft3/footLeft3_end
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawLeft3
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawLeft3/PawLeft4
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawLeft3/PawLeft4/footLeft2
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawLeft3/PawLeft4/footLeft2/footLeft2_end
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawLeft6
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawLeft6/PawLeft7
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawLeft6/PawLeft7/footLeft1
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawLeft6/PawLeft7/footLeft1/footLeft1_end
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawRight1
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawRight1/PawRight2
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawRight1/PawRight2/footRight3
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawRight1/PawRight2/footRight3/footRight3_end
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawRight4
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawRight4/PawRight5
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawRight4/PawRight5/footRight2
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawRight4/PawRight5/footRight2/footRight2_end
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawRight7
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawRight7/PawRight6
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawRight7/PawRight6/footRight1
+        weight: 1
+      - path: GrasshopperSkeleton/body/PawRight7/PawRight6/footRight1/footRight1_end
+        weight: 1
+      - path: GrasshopperSkeleton/body/tail
+        weight: 1
+      - path: GrasshopperSkeleton/body/tail/tail_end
+        weight: 1
+      - path: GrasshopperSkeleton/body/WingRight
+        weight: 1
+      - path: GrasshopperSkeleton/body/WingRight/WingRight_end
+        weight: 1
+      - path: GrasshopperSkeleton/body/WingsLeft
+        weight: 1
+      - path: GrasshopperSkeleton/body/WingsLeft/WingsLeft_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

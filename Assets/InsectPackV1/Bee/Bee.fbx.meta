@@ -1,0 +1,954 @@
+fileFormatVersion: 2
+guid: ec03e4e5dd1640747af89b0ded3f073d
+timeCreated: 1487001116
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Bee
+    100004: Bee.LOD
+    100006: BeeSkeleton
+    100008: Body
+    100010: Head
+    100012: Head_end
+    100014: PawLeft1
+    100016: PawLeft10
+    100018: PawLeft11
+    100020: PawLeft12
+    100022: PawLeft13
+    100024: PawLeft13_end
+    100026: PawLeft1_end
+    100028: PawLeft2
+    100030: PawLeft3
+    100032: PawLeft4
+    100034: PawLeft5
+    100036: PawLeft6
+    100038: PawLeft7
+    100040: PawLeft8
+    100042: PawLeft8_end
+    100044: PawRight1
+    100046: PawRight10
+    100048: PawRight11
+    100050: PawRight12
+    100052: PawRight12_end
+    100054: PawRight2
+    100056: PawRight3
+    100058: PawRight4
+    100060: PawRight4_end
+    100062: PawRight5
+    100064: PawRight6
+    100066: PawRight7
+    100068: PawRight8
+    100070: PawRight8_end
+    100072: PawRight9
+    100074: Tail
+    100076: WingLeft
+    100078: WingLeft_end
+    100080: WingRight
+    100082: WingRight_end
+    400000: //RootNode
+    400002: Bee
+    400004: Bee.LOD
+    400006: BeeSkeleton
+    400008: Body
+    400010: Head
+    400012: Head_end
+    400014: PawLeft1
+    400016: PawLeft10
+    400018: PawLeft11
+    400020: PawLeft12
+    400022: PawLeft13
+    400024: PawLeft13_end
+    400026: PawLeft1_end
+    400028: PawLeft2
+    400030: PawLeft3
+    400032: PawLeft4
+    400034: PawLeft5
+    400036: PawLeft6
+    400038: PawLeft7
+    400040: PawLeft8
+    400042: PawLeft8_end
+    400044: PawRight1
+    400046: PawRight10
+    400048: PawRight11
+    400050: PawRight12
+    400052: PawRight12_end
+    400054: PawRight2
+    400056: PawRight3
+    400058: PawRight4
+    400060: PawRight4_end
+    400062: PawRight5
+    400064: PawRight6
+    400066: PawRight7
+    400068: PawRight8
+    400070: PawRight8_end
+    400072: PawRight9
+    400074: Tail
+    400076: WingLeft
+    400078: WingLeft_end
+    400080: WingRight
+    400082: WingRight_end
+    4300000: Bee.LOD
+    4300002: Bee
+    7400000: death
+    7400002: eat
+    7400004: fly
+    7400006: fly death
+    7400008: fly hurt
+    7400010: idle
+    7400012: BeeSkeleton|pose
+    7400014: walk
+    7400016: Bee|idle
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Bee
+    13700002: Bee.LOD
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: death
+      takeName: BeeSkeleton|death
+      firstFrame: 0
+      lastFrame: 57
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bee
+        weight: 1
+      - path: Bee.LOD
+        weight: 1
+      - path: BeeSkeleton
+        weight: 1
+      - path: BeeSkeleton/Body
+        weight: 1
+      - path: BeeSkeleton/Body/Head
+        weight: 1
+      - path: BeeSkeleton/Body/Head/Head_end
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft4
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft4/PawLeft3
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft4/PawLeft3/PawLeft2
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft4/PawLeft3/PawLeft2/PawLeft1
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft4/PawLeft3/PawLeft2/PawLeft1/PawLeft1_end
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft5
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft5/PawLeft6
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft5/PawLeft6/PawLeft7
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft5/PawLeft6/PawLeft7/PawLeft8
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft5/PawLeft6/PawLeft7/PawLeft8/PawLeft8_end
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight1
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight1/PawRight2
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight1/PawRight2/PawRight3
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight1/PawRight2/PawRight3/PawRight4
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight1/PawRight2/PawRight3/PawRight4/PawRight4_end
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight5
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight5/PawRight6
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight5/PawRight6/PawRight7
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight5/PawRight6/PawRight7/PawRight8
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight5/PawRight6/PawRight7/PawRight8/PawRight8_end
+        weight: 1
+      - path: BeeSkeleton/Body/Tail
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawLeft10
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawLeft10/PawLeft11
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawLeft10/PawLeft11/PawLeft12
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawLeft10/PawLeft11/PawLeft12/PawLeft13
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawLeft10/PawLeft11/PawLeft12/PawLeft13/PawLeft13_end
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawRight9
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawRight9/PawRight10
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawRight9/PawRight10/PawRight11
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawRight9/PawRight10/PawRight11/PawRight12
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawRight9/PawRight10/PawRight11/PawRight12/PawRight12_end
+        weight: 1
+      - path: BeeSkeleton/Body/WingLeft
+        weight: 1
+      - path: BeeSkeleton/Body/WingLeft/WingLeft_end
+        weight: 1
+      - path: BeeSkeleton/Body/WingRight
+        weight: 1
+      - path: BeeSkeleton/Body/WingRight/WingRight_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: eat
+      takeName: BeeSkeleton|eat
+      firstFrame: 0
+      lastFrame: 49
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bee
+        weight: 1
+      - path: Bee.LOD
+        weight: 1
+      - path: BeeSkeleton
+        weight: 1
+      - path: BeeSkeleton/Body
+        weight: 1
+      - path: BeeSkeleton/Body/Head
+        weight: 1
+      - path: BeeSkeleton/Body/Head/Head_end
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft4
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft4/PawLeft3
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft4/PawLeft3/PawLeft2
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft4/PawLeft3/PawLeft2/PawLeft1
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft4/PawLeft3/PawLeft2/PawLeft1/PawLeft1_end
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft5
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft5/PawLeft6
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft5/PawLeft6/PawLeft7
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft5/PawLeft6/PawLeft7/PawLeft8
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft5/PawLeft6/PawLeft7/PawLeft8/PawLeft8_end
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight1
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight1/PawRight2
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight1/PawRight2/PawRight3
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight1/PawRight2/PawRight3/PawRight4
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight1/PawRight2/PawRight3/PawRight4/PawRight4_end
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight5
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight5/PawRight6
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight5/PawRight6/PawRight7
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight5/PawRight6/PawRight7/PawRight8
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight5/PawRight6/PawRight7/PawRight8/PawRight8_end
+        weight: 1
+      - path: BeeSkeleton/Body/Tail
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawLeft10
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawLeft10/PawLeft11
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawLeft10/PawLeft11/PawLeft12
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawLeft10/PawLeft11/PawLeft12/PawLeft13
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawLeft10/PawLeft11/PawLeft12/PawLeft13/PawLeft13_end
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawRight9
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawRight9/PawRight10
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawRight9/PawRight10/PawRight11
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawRight9/PawRight10/PawRight11/PawRight12
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawRight9/PawRight10/PawRight11/PawRight12/PawRight12_end
+        weight: 1
+      - path: BeeSkeleton/Body/WingLeft
+        weight: 1
+      - path: BeeSkeleton/Body/WingLeft/WingLeft_end
+        weight: 1
+      - path: BeeSkeleton/Body/WingRight
+        weight: 1
+      - path: BeeSkeleton/Body/WingRight/WingRight_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: fly
+      takeName: BeeSkeleton|fly
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bee
+        weight: 1
+      - path: Bee.LOD
+        weight: 1
+      - path: BeeSkeleton
+        weight: 1
+      - path: BeeSkeleton/Body
+        weight: 1
+      - path: BeeSkeleton/Body/Head
+        weight: 1
+      - path: BeeSkeleton/Body/Head/Head_end
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft4
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft4/PawLeft3
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft4/PawLeft3/PawLeft2
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft4/PawLeft3/PawLeft2/PawLeft1
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft4/PawLeft3/PawLeft2/PawLeft1/PawLeft1_end
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft5
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft5/PawLeft6
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft5/PawLeft6/PawLeft7
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft5/PawLeft6/PawLeft7/PawLeft8
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft5/PawLeft6/PawLeft7/PawLeft8/PawLeft8_end
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight1
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight1/PawRight2
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight1/PawRight2/PawRight3
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight1/PawRight2/PawRight3/PawRight4
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight1/PawRight2/PawRight3/PawRight4/PawRight4_end
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight5
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight5/PawRight6
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight5/PawRight6/PawRight7
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight5/PawRight6/PawRight7/PawRight8
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight5/PawRight6/PawRight7/PawRight8/PawRight8_end
+        weight: 1
+      - path: BeeSkeleton/Body/Tail
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawLeft10
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawLeft10/PawLeft11
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawLeft10/PawLeft11/PawLeft12
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawLeft10/PawLeft11/PawLeft12/PawLeft13
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawLeft10/PawLeft11/PawLeft12/PawLeft13/PawLeft13_end
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawRight9
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawRight9/PawRight10
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawRight9/PawRight10/PawRight11
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawRight9/PawRight10/PawRight11/PawRight12
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawRight9/PawRight10/PawRight11/PawRight12/PawRight12_end
+        weight: 1
+      - path: BeeSkeleton/Body/WingLeft
+        weight: 1
+      - path: BeeSkeleton/Body/WingLeft/WingLeft_end
+        weight: 1
+      - path: BeeSkeleton/Body/WingRight
+        weight: 1
+      - path: BeeSkeleton/Body/WingRight/WingRight_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: fly death
+      takeName: BeeSkeleton|fly death
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bee
+        weight: 1
+      - path: Bee.LOD
+        weight: 1
+      - path: BeeSkeleton
+        weight: 1
+      - path: BeeSkeleton/Body
+        weight: 1
+      - path: BeeSkeleton/Body/Head
+        weight: 1
+      - path: BeeSkeleton/Body/Head/Head_end
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft4
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft4/PawLeft3
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft4/PawLeft3/PawLeft2
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft4/PawLeft3/PawLeft2/PawLeft1
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft4/PawLeft3/PawLeft2/PawLeft1/PawLeft1_end
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft5
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft5/PawLeft6
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft5/PawLeft6/PawLeft7
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft5/PawLeft6/PawLeft7/PawLeft8
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft5/PawLeft6/PawLeft7/PawLeft8/PawLeft8_end
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight1
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight1/PawRight2
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight1/PawRight2/PawRight3
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight1/PawRight2/PawRight3/PawRight4
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight1/PawRight2/PawRight3/PawRight4/PawRight4_end
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight5
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight5/PawRight6
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight5/PawRight6/PawRight7
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight5/PawRight6/PawRight7/PawRight8
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight5/PawRight6/PawRight7/PawRight8/PawRight8_end
+        weight: 1
+      - path: BeeSkeleton/Body/Tail
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawLeft10
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawLeft10/PawLeft11
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawLeft10/PawLeft11/PawLeft12
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawLeft10/PawLeft11/PawLeft12/PawLeft13
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawLeft10/PawLeft11/PawLeft12/PawLeft13/PawLeft13_end
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawRight9
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawRight9/PawRight10
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawRight9/PawRight10/PawRight11
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawRight9/PawRight10/PawRight11/PawRight12
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawRight9/PawRight10/PawRight11/PawRight12/PawRight12_end
+        weight: 1
+      - path: BeeSkeleton/Body/WingLeft
+        weight: 1
+      - path: BeeSkeleton/Body/WingLeft/WingLeft_end
+        weight: 1
+      - path: BeeSkeleton/Body/WingRight
+        weight: 1
+      - path: BeeSkeleton/Body/WingRight/WingRight_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: fly hurt
+      takeName: BeeSkeleton|fly hurt
+      firstFrame: 0
+      lastFrame: 27
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bee
+        weight: 1
+      - path: Bee.LOD
+        weight: 1
+      - path: BeeSkeleton
+        weight: 1
+      - path: BeeSkeleton/Body
+        weight: 1
+      - path: BeeSkeleton/Body/Head
+        weight: 1
+      - path: BeeSkeleton/Body/Head/Head_end
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft4
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft4/PawLeft3
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft4/PawLeft3/PawLeft2
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft4/PawLeft3/PawLeft2/PawLeft1
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft4/PawLeft3/PawLeft2/PawLeft1/PawLeft1_end
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft5
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft5/PawLeft6
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft5/PawLeft6/PawLeft7
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft5/PawLeft6/PawLeft7/PawLeft8
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft5/PawLeft6/PawLeft7/PawLeft8/PawLeft8_end
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight1
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight1/PawRight2
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight1/PawRight2/PawRight3
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight1/PawRight2/PawRight3/PawRight4
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight1/PawRight2/PawRight3/PawRight4/PawRight4_end
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight5
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight5/PawRight6
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight5/PawRight6/PawRight7
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight5/PawRight6/PawRight7/PawRight8
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight5/PawRight6/PawRight7/PawRight8/PawRight8_end
+        weight: 1
+      - path: BeeSkeleton/Body/Tail
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawLeft10
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawLeft10/PawLeft11
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawLeft10/PawLeft11/PawLeft12
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawLeft10/PawLeft11/PawLeft12/PawLeft13
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawLeft10/PawLeft11/PawLeft12/PawLeft13/PawLeft13_end
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawRight9
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawRight9/PawRight10
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawRight9/PawRight10/PawRight11
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawRight9/PawRight10/PawRight11/PawRight12
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawRight9/PawRight10/PawRight11/PawRight12/PawRight12_end
+        weight: 1
+      - path: BeeSkeleton/Body/WingLeft
+        weight: 1
+      - path: BeeSkeleton/Body/WingLeft/WingLeft_end
+        weight: 1
+      - path: BeeSkeleton/Body/WingRight
+        weight: 1
+      - path: BeeSkeleton/Body/WingRight/WingRight_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle
+      takeName: BeeSkeleton|idle
+      firstFrame: 0
+      lastFrame: 99
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bee
+        weight: 1
+      - path: Bee.LOD
+        weight: 1
+      - path: BeeSkeleton
+        weight: 1
+      - path: BeeSkeleton/Body
+        weight: 1
+      - path: BeeSkeleton/Body/Head
+        weight: 1
+      - path: BeeSkeleton/Body/Head/Head_end
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft4
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft4/PawLeft3
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft4/PawLeft3/PawLeft2
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft4/PawLeft3/PawLeft2/PawLeft1
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft4/PawLeft3/PawLeft2/PawLeft1/PawLeft1_end
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft5
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft5/PawLeft6
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft5/PawLeft6/PawLeft7
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft5/PawLeft6/PawLeft7/PawLeft8
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft5/PawLeft6/PawLeft7/PawLeft8/PawLeft8_end
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight1
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight1/PawRight2
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight1/PawRight2/PawRight3
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight1/PawRight2/PawRight3/PawRight4
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight1/PawRight2/PawRight3/PawRight4/PawRight4_end
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight5
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight5/PawRight6
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight5/PawRight6/PawRight7
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight5/PawRight6/PawRight7/PawRight8
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight5/PawRight6/PawRight7/PawRight8/PawRight8_end
+        weight: 1
+      - path: BeeSkeleton/Body/Tail
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawLeft10
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawLeft10/PawLeft11
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawLeft10/PawLeft11/PawLeft12
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawLeft10/PawLeft11/PawLeft12/PawLeft13
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawLeft10/PawLeft11/PawLeft12/PawLeft13/PawLeft13_end
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawRight9
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawRight9/PawRight10
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawRight9/PawRight10/PawRight11
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawRight9/PawRight10/PawRight11/PawRight12
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawRight9/PawRight10/PawRight11/PawRight12/PawRight12_end
+        weight: 1
+      - path: BeeSkeleton/Body/WingLeft
+        weight: 1
+      - path: BeeSkeleton/Body/WingLeft/WingLeft_end
+        weight: 1
+      - path: BeeSkeleton/Body/WingRight
+        weight: 1
+      - path: BeeSkeleton/Body/WingRight/WingRight_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk
+      takeName: BeeSkeleton|walk
+      firstFrame: 0
+      lastFrame: 14
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bee
+        weight: 1
+      - path: Bee.LOD
+        weight: 1
+      - path: BeeSkeleton
+        weight: 1
+      - path: BeeSkeleton/Body
+        weight: 1
+      - path: BeeSkeleton/Body/Head
+        weight: 1
+      - path: BeeSkeleton/Body/Head/Head_end
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft4
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft4/PawLeft3
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft4/PawLeft3/PawLeft2
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft4/PawLeft3/PawLeft2/PawLeft1
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft4/PawLeft3/PawLeft2/PawLeft1/PawLeft1_end
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft5
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft5/PawLeft6
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft5/PawLeft6/PawLeft7
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft5/PawLeft6/PawLeft7/PawLeft8
+        weight: 1
+      - path: BeeSkeleton/Body/PawLeft5/PawLeft6/PawLeft7/PawLeft8/PawLeft8_end
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight1
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight1/PawRight2
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight1/PawRight2/PawRight3
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight1/PawRight2/PawRight3/PawRight4
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight1/PawRight2/PawRight3/PawRight4/PawRight4_end
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight5
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight5/PawRight6
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight5/PawRight6/PawRight7
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight5/PawRight6/PawRight7/PawRight8
+        weight: 1
+      - path: BeeSkeleton/Body/PawRight5/PawRight6/PawRight7/PawRight8/PawRight8_end
+        weight: 1
+      - path: BeeSkeleton/Body/Tail
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawLeft10
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawLeft10/PawLeft11
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawLeft10/PawLeft11/PawLeft12
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawLeft10/PawLeft11/PawLeft12/PawLeft13
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawLeft10/PawLeft11/PawLeft12/PawLeft13/PawLeft13_end
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawRight9
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawRight9/PawRight10
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawRight9/PawRight10/PawRight11
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawRight9/PawRight10/PawRight11/PawRight12
+        weight: 1
+      - path: BeeSkeleton/Body/Tail/PawRight9/PawRight10/PawRight11/PawRight12/PawRight12_end
+        weight: 1
+      - path: BeeSkeleton/Body/WingLeft
+        weight: 1
+      - path: BeeSkeleton/Body/WingLeft/WingLeft_end
+        weight: 1
+      - path: BeeSkeleton/Body/WingRight
+        weight: 1
+      - path: BeeSkeleton/Body/WingRight/WingRight_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

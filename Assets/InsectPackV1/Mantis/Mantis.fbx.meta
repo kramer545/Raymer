@@ -1,0 +1,1099 @@
+fileFormatVersion: 2
+guid: 28f19d10b332d4343a3c13036b86307d
+timeCreated: 1487001112
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: armL1
+    100002: armL2
+    100004: armL3
+    100006: armL3_end
+    100008: armR1
+    100010: armR2
+    100012: armR3
+    100014: armR3_end
+    100016: Body
+    100018: footL1
+    100020: footL2
+    100022: footL3
+    100024: footL5
+    100026: footL6
+    100028: footL7
+    100030: footL7_end
+    100032: footR1
+    100034: footR2
+    100036: footR3
+    100038: footR5
+    100040: footR6
+    100042: footR7
+    100044: footR7_end
+    100046: head
+    100048: head_end
+    100050: //RootNode
+    100052: Mantis
+    100054: MantisLOD
+    100056: MantisSkeleton
+    100058: pawr1
+    100060: pawr1_end
+    100062: paws1
+    100064: paws1_end
+    100066: tail
+    100068: wingL1
+    100070: wingL1_end
+    100072: wingR1
+    100074: wingR1_end
+    400000: armL1
+    400002: armL2
+    400004: armL3
+    400006: armL3_end
+    400008: armR1
+    400010: armR2
+    400012: armR3
+    400014: armR3_end
+    400016: Body
+    400018: footL1
+    400020: footL2
+    400022: footL3
+    400024: footL5
+    400026: footL6
+    400028: footL7
+    400030: footL7_end
+    400032: footR1
+    400034: footR2
+    400036: footR3
+    400038: footR5
+    400040: footR6
+    400042: footR7
+    400044: footR7_end
+    400046: head
+    400048: head_end
+    400050: //RootNode
+    400052: Mantis
+    400054: MantisLOD
+    400056: MantisSkeleton
+    400058: pawr1
+    400060: pawr1_end
+    400062: paws1
+    400064: paws1_end
+    400066: tail
+    400068: wingL1
+    400070: wingL1_end
+    400072: wingR1
+    400074: wingR1_end
+    4300000: MantisLOD
+    4300002: Mantis
+    7400000: aggressive
+    7400002: attack
+    7400004: death
+    7400006: fly
+    7400008: fly death
+    7400010: fly hurt
+    7400012: hurt
+    7400014: idle
+    7400016: MantisSkeleton|pose
+    7400018: walk
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Mantis
+    13700002: MantisLOD
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: aggressive
+      takeName: MantisSkeleton|aggressive
+      firstFrame: 0
+      lastFrame: 149
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mantis
+        weight: 1
+      - path: MantisLOD
+        weight: 1
+      - path: MantisSkeleton
+        weight: 1
+      - path: MantisSkeleton/Body
+        weight: 1
+      - path: MantisSkeleton/Body/armL1
+        weight: 1
+      - path: MantisSkeleton/Body/armL1/armL2
+        weight: 1
+      - path: MantisSkeleton/Body/armL1/armL2/armL3
+        weight: 1
+      - path: MantisSkeleton/Body/armL1/armL2/armL3/armL3_end
+        weight: 1
+      - path: MantisSkeleton/Body/armR1
+        weight: 1
+      - path: MantisSkeleton/Body/armR1/armR2
+        weight: 1
+      - path: MantisSkeleton/Body/armR1/armR2/armR3
+        weight: 1
+      - path: MantisSkeleton/Body/armR1/armR2/armR3/armR3_end
+        weight: 1
+      - path: MantisSkeleton/Body/footL1
+        weight: 1
+      - path: MantisSkeleton/Body/footL1/footL2
+        weight: 1
+      - path: MantisSkeleton/Body/footL1/footL2/footL3
+        weight: 1
+      - path: MantisSkeleton/Body/footL1/footL2/footL3/paws1
+        weight: 1
+      - path: MantisSkeleton/Body/footL1/footL2/footL3/paws1/paws1_end
+        weight: 1
+      - path: MantisSkeleton/Body/footL5
+        weight: 1
+      - path: MantisSkeleton/Body/footL5/footL6
+        weight: 1
+      - path: MantisSkeleton/Body/footL5/footL6/footL7
+        weight: 1
+      - path: MantisSkeleton/Body/footL5/footL6/footL7/footL7_end
+        weight: 1
+      - path: MantisSkeleton/Body/footR1
+        weight: 1
+      - path: MantisSkeleton/Body/footR1/footR2
+        weight: 1
+      - path: MantisSkeleton/Body/footR1/footR2/footR3
+        weight: 1
+      - path: MantisSkeleton/Body/footR1/footR2/footR3/pawr1
+        weight: 1
+      - path: MantisSkeleton/Body/footR1/footR2/footR3/pawr1/pawr1_end
+        weight: 1
+      - path: MantisSkeleton/Body/footR5
+        weight: 1
+      - path: MantisSkeleton/Body/footR5/footR6
+        weight: 1
+      - path: MantisSkeleton/Body/footR5/footR6/footR7
+        weight: 1
+      - path: MantisSkeleton/Body/footR5/footR6/footR7/footR7_end
+        weight: 1
+      - path: MantisSkeleton/Body/head
+        weight: 1
+      - path: MantisSkeleton/Body/head/head_end
+        weight: 1
+      - path: MantisSkeleton/Body/tail
+        weight: 1
+      - path: MantisSkeleton/Body/tail/wingL1
+        weight: 1
+      - path: MantisSkeleton/Body/tail/wingL1/wingL1_end
+        weight: 1
+      - path: MantisSkeleton/Body/tail/wingR1
+        weight: 1
+      - path: MantisSkeleton/Body/tail/wingR1/wingR1_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attack
+      takeName: MantisSkeleton|attack
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mantis
+        weight: 1
+      - path: MantisLOD
+        weight: 1
+      - path: MantisSkeleton
+        weight: 1
+      - path: MantisSkeleton/Body
+        weight: 1
+      - path: MantisSkeleton/Body/armL1
+        weight: 1
+      - path: MantisSkeleton/Body/armL1/armL2
+        weight: 1
+      - path: MantisSkeleton/Body/armL1/armL2/armL3
+        weight: 1
+      - path: MantisSkeleton/Body/armL1/armL2/armL3/armL3_end
+        weight: 1
+      - path: MantisSkeleton/Body/armR1
+        weight: 1
+      - path: MantisSkeleton/Body/armR1/armR2
+        weight: 1
+      - path: MantisSkeleton/Body/armR1/armR2/armR3
+        weight: 1
+      - path: MantisSkeleton/Body/armR1/armR2/armR3/armR3_end
+        weight: 1
+      - path: MantisSkeleton/Body/footL1
+        weight: 1
+      - path: MantisSkeleton/Body/footL1/footL2
+        weight: 1
+      - path: MantisSkeleton/Body/footL1/footL2/footL3
+        weight: 1
+      - path: MantisSkeleton/Body/footL1/footL2/footL3/paws1
+        weight: 1
+      - path: MantisSkeleton/Body/footL1/footL2/footL3/paws1/paws1_end
+        weight: 1
+      - path: MantisSkeleton/Body/footL5
+        weight: 1
+      - path: MantisSkeleton/Body/footL5/footL6
+        weight: 1
+      - path: MantisSkeleton/Body/footL5/footL6/footL7
+        weight: 1
+      - path: MantisSkeleton/Body/footL5/footL6/footL7/footL7_end
+        weight: 1
+      - path: MantisSkeleton/Body/footR1
+        weight: 1
+      - path: MantisSkeleton/Body/footR1/footR2
+        weight: 1
+      - path: MantisSkeleton/Body/footR1/footR2/footR3
+        weight: 1
+      - path: MantisSkeleton/Body/footR1/footR2/footR3/pawr1
+        weight: 1
+      - path: MantisSkeleton/Body/footR1/footR2/footR3/pawr1/pawr1_end
+        weight: 1
+      - path: MantisSkeleton/Body/footR5
+        weight: 1
+      - path: MantisSkeleton/Body/footR5/footR6
+        weight: 1
+      - path: MantisSkeleton/Body/footR5/footR6/footR7
+        weight: 1
+      - path: MantisSkeleton/Body/footR5/footR6/footR7/footR7_end
+        weight: 1
+      - path: MantisSkeleton/Body/head
+        weight: 1
+      - path: MantisSkeleton/Body/head/head_end
+        weight: 1
+      - path: MantisSkeleton/Body/tail
+        weight: 1
+      - path: MantisSkeleton/Body/tail/wingL1
+        weight: 1
+      - path: MantisSkeleton/Body/tail/wingL1/wingL1_end
+        weight: 1
+      - path: MantisSkeleton/Body/tail/wingR1
+        weight: 1
+      - path: MantisSkeleton/Body/tail/wingR1/wingR1_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: death
+      takeName: MantisSkeleton|death
+      firstFrame: 0
+      lastFrame: 28
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mantis
+        weight: 1
+      - path: MantisLOD
+        weight: 1
+      - path: MantisSkeleton
+        weight: 1
+      - path: MantisSkeleton/Body
+        weight: 1
+      - path: MantisSkeleton/Body/armL1
+        weight: 1
+      - path: MantisSkeleton/Body/armL1/armL2
+        weight: 1
+      - path: MantisSkeleton/Body/armL1/armL2/armL3
+        weight: 1
+      - path: MantisSkeleton/Body/armL1/armL2/armL3/armL3_end
+        weight: 1
+      - path: MantisSkeleton/Body/armR1
+        weight: 1
+      - path: MantisSkeleton/Body/armR1/armR2
+        weight: 1
+      - path: MantisSkeleton/Body/armR1/armR2/armR3
+        weight: 1
+      - path: MantisSkeleton/Body/armR1/armR2/armR3/armR3_end
+        weight: 1
+      - path: MantisSkeleton/Body/footL1
+        weight: 1
+      - path: MantisSkeleton/Body/footL1/footL2
+        weight: 1
+      - path: MantisSkeleton/Body/footL1/footL2/footL3
+        weight: 1
+      - path: MantisSkeleton/Body/footL1/footL2/footL3/paws1
+        weight: 1
+      - path: MantisSkeleton/Body/footL1/footL2/footL3/paws1/paws1_end
+        weight: 1
+      - path: MantisSkeleton/Body/footL5
+        weight: 1
+      - path: MantisSkeleton/Body/footL5/footL6
+        weight: 1
+      - path: MantisSkeleton/Body/footL5/footL6/footL7
+        weight: 1
+      - path: MantisSkeleton/Body/footL5/footL6/footL7/footL7_end
+        weight: 1
+      - path: MantisSkeleton/Body/footR1
+        weight: 1
+      - path: MantisSkeleton/Body/footR1/footR2
+        weight: 1
+      - path: MantisSkeleton/Body/footR1/footR2/footR3
+        weight: 1
+      - path: MantisSkeleton/Body/footR1/footR2/footR3/pawr1
+        weight: 1
+      - path: MantisSkeleton/Body/footR1/footR2/footR3/pawr1/pawr1_end
+        weight: 1
+      - path: MantisSkeleton/Body/footR5
+        weight: 1
+      - path: MantisSkeleton/Body/footR5/footR6
+        weight: 1
+      - path: MantisSkeleton/Body/footR5/footR6/footR7
+        weight: 1
+      - path: MantisSkeleton/Body/footR5/footR6/footR7/footR7_end
+        weight: 1
+      - path: MantisSkeleton/Body/head
+        weight: 1
+      - path: MantisSkeleton/Body/head/head_end
+        weight: 1
+      - path: MantisSkeleton/Body/tail
+        weight: 1
+      - path: MantisSkeleton/Body/tail/wingL1
+        weight: 1
+      - path: MantisSkeleton/Body/tail/wingL1/wingL1_end
+        weight: 1
+      - path: MantisSkeleton/Body/tail/wingR1
+        weight: 1
+      - path: MantisSkeleton/Body/tail/wingR1/wingR1_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: fly
+      takeName: MantisSkeleton|fly
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mantis
+        weight: 1
+      - path: MantisLOD
+        weight: 1
+      - path: MantisSkeleton
+        weight: 1
+      - path: MantisSkeleton/Body
+        weight: 1
+      - path: MantisSkeleton/Body/armL1
+        weight: 1
+      - path: MantisSkeleton/Body/armL1/armL2
+        weight: 1
+      - path: MantisSkeleton/Body/armL1/armL2/armL3
+        weight: 1
+      - path: MantisSkeleton/Body/armL1/armL2/armL3/armL3_end
+        weight: 1
+      - path: MantisSkeleton/Body/armR1
+        weight: 1
+      - path: MantisSkeleton/Body/armR1/armR2
+        weight: 1
+      - path: MantisSkeleton/Body/armR1/armR2/armR3
+        weight: 1
+      - path: MantisSkeleton/Body/armR1/armR2/armR3/armR3_end
+        weight: 1
+      - path: MantisSkeleton/Body/footL1
+        weight: 1
+      - path: MantisSkeleton/Body/footL1/footL2
+        weight: 1
+      - path: MantisSkeleton/Body/footL1/footL2/footL3
+        weight: 1
+      - path: MantisSkeleton/Body/footL1/footL2/footL3/paws1
+        weight: 1
+      - path: MantisSkeleton/Body/footL1/footL2/footL3/paws1/paws1_end
+        weight: 1
+      - path: MantisSkeleton/Body/footL5
+        weight: 1
+      - path: MantisSkeleton/Body/footL5/footL6
+        weight: 1
+      - path: MantisSkeleton/Body/footL5/footL6/footL7
+        weight: 1
+      - path: MantisSkeleton/Body/footL5/footL6/footL7/footL7_end
+        weight: 1
+      - path: MantisSkeleton/Body/footR1
+        weight: 1
+      - path: MantisSkeleton/Body/footR1/footR2
+        weight: 1
+      - path: MantisSkeleton/Body/footR1/footR2/footR3
+        weight: 1
+      - path: MantisSkeleton/Body/footR1/footR2/footR3/pawr1
+        weight: 1
+      - path: MantisSkeleton/Body/footR1/footR2/footR3/pawr1/pawr1_end
+        weight: 1
+      - path: MantisSkeleton/Body/footR5
+        weight: 1
+      - path: MantisSkeleton/Body/footR5/footR6
+        weight: 1
+      - path: MantisSkeleton/Body/footR5/footR6/footR7
+        weight: 1
+      - path: MantisSkeleton/Body/footR5/footR6/footR7/footR7_end
+        weight: 1
+      - path: MantisSkeleton/Body/head
+        weight: 1
+      - path: MantisSkeleton/Body/head/head_end
+        weight: 1
+      - path: MantisSkeleton/Body/tail
+        weight: 1
+      - path: MantisSkeleton/Body/tail/wingL1
+        weight: 1
+      - path: MantisSkeleton/Body/tail/wingL1/wingL1_end
+        weight: 1
+      - path: MantisSkeleton/Body/tail/wingR1
+        weight: 1
+      - path: MantisSkeleton/Body/tail/wingR1/wingR1_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: fly death
+      takeName: MantisSkeleton|fly death
+      firstFrame: 0
+      lastFrame: 49
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mantis
+        weight: 1
+      - path: MantisLOD
+        weight: 1
+      - path: MantisSkeleton
+        weight: 1
+      - path: MantisSkeleton/Body
+        weight: 1
+      - path: MantisSkeleton/Body/armL1
+        weight: 1
+      - path: MantisSkeleton/Body/armL1/armL2
+        weight: 1
+      - path: MantisSkeleton/Body/armL1/armL2/armL3
+        weight: 1
+      - path: MantisSkeleton/Body/armL1/armL2/armL3/armL3_end
+        weight: 1
+      - path: MantisSkeleton/Body/armR1
+        weight: 1
+      - path: MantisSkeleton/Body/armR1/armR2
+        weight: 1
+      - path: MantisSkeleton/Body/armR1/armR2/armR3
+        weight: 1
+      - path: MantisSkeleton/Body/armR1/armR2/armR3/armR3_end
+        weight: 1
+      - path: MantisSkeleton/Body/footL1
+        weight: 1
+      - path: MantisSkeleton/Body/footL1/footL2
+        weight: 1
+      - path: MantisSkeleton/Body/footL1/footL2/footL3
+        weight: 1
+      - path: MantisSkeleton/Body/footL1/footL2/footL3/paws1
+        weight: 1
+      - path: MantisSkeleton/Body/footL1/footL2/footL3/paws1/paws1_end
+        weight: 1
+      - path: MantisSkeleton/Body/footL5
+        weight: 1
+      - path: MantisSkeleton/Body/footL5/footL6
+        weight: 1
+      - path: MantisSkeleton/Body/footL5/footL6/footL7
+        weight: 1
+      - path: MantisSkeleton/Body/footL5/footL6/footL7/footL7_end
+        weight: 1
+      - path: MantisSkeleton/Body/footR1
+        weight: 1
+      - path: MantisSkeleton/Body/footR1/footR2
+        weight: 1
+      - path: MantisSkeleton/Body/footR1/footR2/footR3
+        weight: 1
+      - path: MantisSkeleton/Body/footR1/footR2/footR3/pawr1
+        weight: 1
+      - path: MantisSkeleton/Body/footR1/footR2/footR3/pawr1/pawr1_end
+        weight: 1
+      - path: MantisSkeleton/Body/footR5
+        weight: 1
+      - path: MantisSkeleton/Body/footR5/footR6
+        weight: 1
+      - path: MantisSkeleton/Body/footR5/footR6/footR7
+        weight: 1
+      - path: MantisSkeleton/Body/footR5/footR6/footR7/footR7_end
+        weight: 1
+      - path: MantisSkeleton/Body/head
+        weight: 1
+      - path: MantisSkeleton/Body/head/head_end
+        weight: 1
+      - path: MantisSkeleton/Body/tail
+        weight: 1
+      - path: MantisSkeleton/Body/tail/wingL1
+        weight: 1
+      - path: MantisSkeleton/Body/tail/wingL1/wingL1_end
+        weight: 1
+      - path: MantisSkeleton/Body/tail/wingR1
+        weight: 1
+      - path: MantisSkeleton/Body/tail/wingR1/wingR1_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: fly hurt
+      takeName: MantisSkeleton|fly hurt
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mantis
+        weight: 1
+      - path: MantisLOD
+        weight: 1
+      - path: MantisSkeleton
+        weight: 1
+      - path: MantisSkeleton/Body
+        weight: 1
+      - path: MantisSkeleton/Body/armL1
+        weight: 1
+      - path: MantisSkeleton/Body/armL1/armL2
+        weight: 1
+      - path: MantisSkeleton/Body/armL1/armL2/armL3
+        weight: 1
+      - path: MantisSkeleton/Body/armL1/armL2/armL3/armL3_end
+        weight: 1
+      - path: MantisSkeleton/Body/armR1
+        weight: 1
+      - path: MantisSkeleton/Body/armR1/armR2
+        weight: 1
+      - path: MantisSkeleton/Body/armR1/armR2/armR3
+        weight: 1
+      - path: MantisSkeleton/Body/armR1/armR2/armR3/armR3_end
+        weight: 1
+      - path: MantisSkeleton/Body/footL1
+        weight: 1
+      - path: MantisSkeleton/Body/footL1/footL2
+        weight: 1
+      - path: MantisSkeleton/Body/footL1/footL2/footL3
+        weight: 1
+      - path: MantisSkeleton/Body/footL1/footL2/footL3/paws1
+        weight: 1
+      - path: MantisSkeleton/Body/footL1/footL2/footL3/paws1/paws1_end
+        weight: 1
+      - path: MantisSkeleton/Body/footL5
+        weight: 1
+      - path: MantisSkeleton/Body/footL5/footL6
+        weight: 1
+      - path: MantisSkeleton/Body/footL5/footL6/footL7
+        weight: 1
+      - path: MantisSkeleton/Body/footL5/footL6/footL7/footL7_end
+        weight: 1
+      - path: MantisSkeleton/Body/footR1
+        weight: 1
+      - path: MantisSkeleton/Body/footR1/footR2
+        weight: 1
+      - path: MantisSkeleton/Body/footR1/footR2/footR3
+        weight: 1
+      - path: MantisSkeleton/Body/footR1/footR2/footR3/pawr1
+        weight: 1
+      - path: MantisSkeleton/Body/footR1/footR2/footR3/pawr1/pawr1_end
+        weight: 1
+      - path: MantisSkeleton/Body/footR5
+        weight: 1
+      - path: MantisSkeleton/Body/footR5/footR6
+        weight: 1
+      - path: MantisSkeleton/Body/footR5/footR6/footR7
+        weight: 1
+      - path: MantisSkeleton/Body/footR5/footR6/footR7/footR7_end
+        weight: 1
+      - path: MantisSkeleton/Body/head
+        weight: 1
+      - path: MantisSkeleton/Body/head/head_end
+        weight: 1
+      - path: MantisSkeleton/Body/tail
+        weight: 1
+      - path: MantisSkeleton/Body/tail/wingL1
+        weight: 1
+      - path: MantisSkeleton/Body/tail/wingL1/wingL1_end
+        weight: 1
+      - path: MantisSkeleton/Body/tail/wingR1
+        weight: 1
+      - path: MantisSkeleton/Body/tail/wingR1/wingR1_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hurt
+      takeName: MantisSkeleton|hurt
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mantis
+        weight: 1
+      - path: MantisLOD
+        weight: 1
+      - path: MantisSkeleton
+        weight: 1
+      - path: MantisSkeleton/Body
+        weight: 1
+      - path: MantisSkeleton/Body/armL1
+        weight: 1
+      - path: MantisSkeleton/Body/armL1/armL2
+        weight: 1
+      - path: MantisSkeleton/Body/armL1/armL2/armL3
+        weight: 1
+      - path: MantisSkeleton/Body/armL1/armL2/armL3/armL3_end
+        weight: 1
+      - path: MantisSkeleton/Body/armR1
+        weight: 1
+      - path: MantisSkeleton/Body/armR1/armR2
+        weight: 1
+      - path: MantisSkeleton/Body/armR1/armR2/armR3
+        weight: 1
+      - path: MantisSkeleton/Body/armR1/armR2/armR3/armR3_end
+        weight: 1
+      - path: MantisSkeleton/Body/footL1
+        weight: 1
+      - path: MantisSkeleton/Body/footL1/footL2
+        weight: 1
+      - path: MantisSkeleton/Body/footL1/footL2/footL3
+        weight: 1
+      - path: MantisSkeleton/Body/footL1/footL2/footL3/paws1
+        weight: 1
+      - path: MantisSkeleton/Body/footL1/footL2/footL3/paws1/paws1_end
+        weight: 1
+      - path: MantisSkeleton/Body/footL5
+        weight: 1
+      - path: MantisSkeleton/Body/footL5/footL6
+        weight: 1
+      - path: MantisSkeleton/Body/footL5/footL6/footL7
+        weight: 1
+      - path: MantisSkeleton/Body/footL5/footL6/footL7/footL7_end
+        weight: 1
+      - path: MantisSkeleton/Body/footR1
+        weight: 1
+      - path: MantisSkeleton/Body/footR1/footR2
+        weight: 1
+      - path: MantisSkeleton/Body/footR1/footR2/footR3
+        weight: 1
+      - path: MantisSkeleton/Body/footR1/footR2/footR3/pawr1
+        weight: 1
+      - path: MantisSkeleton/Body/footR1/footR2/footR3/pawr1/pawr1_end
+        weight: 1
+      - path: MantisSkeleton/Body/footR5
+        weight: 1
+      - path: MantisSkeleton/Body/footR5/footR6
+        weight: 1
+      - path: MantisSkeleton/Body/footR5/footR6/footR7
+        weight: 1
+      - path: MantisSkeleton/Body/footR5/footR6/footR7/footR7_end
+        weight: 1
+      - path: MantisSkeleton/Body/head
+        weight: 1
+      - path: MantisSkeleton/Body/head/head_end
+        weight: 1
+      - path: MantisSkeleton/Body/tail
+        weight: 1
+      - path: MantisSkeleton/Body/tail/wingL1
+        weight: 1
+      - path: MantisSkeleton/Body/tail/wingL1/wingL1_end
+        weight: 1
+      - path: MantisSkeleton/Body/tail/wingR1
+        weight: 1
+      - path: MantisSkeleton/Body/tail/wingR1/wingR1_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle
+      takeName: MantisSkeleton|idle
+      firstFrame: 0
+      lastFrame: 99
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mantis
+        weight: 1
+      - path: MantisLOD
+        weight: 1
+      - path: MantisSkeleton
+        weight: 1
+      - path: MantisSkeleton/Body
+        weight: 1
+      - path: MantisSkeleton/Body/armL1
+        weight: 1
+      - path: MantisSkeleton/Body/armL1/armL2
+        weight: 1
+      - path: MantisSkeleton/Body/armL1/armL2/armL3
+        weight: 1
+      - path: MantisSkeleton/Body/armL1/armL2/armL3/armL3_end
+        weight: 1
+      - path: MantisSkeleton/Body/armR1
+        weight: 1
+      - path: MantisSkeleton/Body/armR1/armR2
+        weight: 1
+      - path: MantisSkeleton/Body/armR1/armR2/armR3
+        weight: 1
+      - path: MantisSkeleton/Body/armR1/armR2/armR3/armR3_end
+        weight: 1
+      - path: MantisSkeleton/Body/footL1
+        weight: 1
+      - path: MantisSkeleton/Body/footL1/footL2
+        weight: 1
+      - path: MantisSkeleton/Body/footL1/footL2/footL3
+        weight: 1
+      - path: MantisSkeleton/Body/footL1/footL2/footL3/paws1
+        weight: 1
+      - path: MantisSkeleton/Body/footL1/footL2/footL3/paws1/paws1_end
+        weight: 1
+      - path: MantisSkeleton/Body/footL5
+        weight: 1
+      - path: MantisSkeleton/Body/footL5/footL6
+        weight: 1
+      - path: MantisSkeleton/Body/footL5/footL6/footL7
+        weight: 1
+      - path: MantisSkeleton/Body/footL5/footL6/footL7/footL7_end
+        weight: 1
+      - path: MantisSkeleton/Body/footR1
+        weight: 1
+      - path: MantisSkeleton/Body/footR1/footR2
+        weight: 1
+      - path: MantisSkeleton/Body/footR1/footR2/footR3
+        weight: 1
+      - path: MantisSkeleton/Body/footR1/footR2/footR3/pawr1
+        weight: 1
+      - path: MantisSkeleton/Body/footR1/footR2/footR3/pawr1/pawr1_end
+        weight: 1
+      - path: MantisSkeleton/Body/footR5
+        weight: 1
+      - path: MantisSkeleton/Body/footR5/footR6
+        weight: 1
+      - path: MantisSkeleton/Body/footR5/footR6/footR7
+        weight: 1
+      - path: MantisSkeleton/Body/footR5/footR6/footR7/footR7_end
+        weight: 1
+      - path: MantisSkeleton/Body/head
+        weight: 1
+      - path: MantisSkeleton/Body/head/head_end
+        weight: 1
+      - path: MantisSkeleton/Body/tail
+        weight: 1
+      - path: MantisSkeleton/Body/tail/wingL1
+        weight: 1
+      - path: MantisSkeleton/Body/tail/wingL1/wingL1_end
+        weight: 1
+      - path: MantisSkeleton/Body/tail/wingR1
+        weight: 1
+      - path: MantisSkeleton/Body/tail/wingR1/wingR1_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk
+      takeName: MantisSkeleton|walk
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mantis
+        weight: 1
+      - path: MantisLOD
+        weight: 1
+      - path: MantisSkeleton
+        weight: 1
+      - path: MantisSkeleton/Body
+        weight: 1
+      - path: MantisSkeleton/Body/armL1
+        weight: 1
+      - path: MantisSkeleton/Body/armL1/armL2
+        weight: 1
+      - path: MantisSkeleton/Body/armL1/armL2/armL3
+        weight: 1
+      - path: MantisSkeleton/Body/armL1/armL2/armL3/armL3_end
+        weight: 1
+      - path: MantisSkeleton/Body/armR1
+        weight: 1
+      - path: MantisSkeleton/Body/armR1/armR2
+        weight: 1
+      - path: MantisSkeleton/Body/armR1/armR2/armR3
+        weight: 1
+      - path: MantisSkeleton/Body/armR1/armR2/armR3/armR3_end
+        weight: 1
+      - path: MantisSkeleton/Body/footL1
+        weight: 1
+      - path: MantisSkeleton/Body/footL1/footL2
+        weight: 1
+      - path: MantisSkeleton/Body/footL1/footL2/footL3
+        weight: 1
+      - path: MantisSkeleton/Body/footL1/footL2/footL3/paws1
+        weight: 1
+      - path: MantisSkeleton/Body/footL1/footL2/footL3/paws1/paws1_end
+        weight: 1
+      - path: MantisSkeleton/Body/footL5
+        weight: 1
+      - path: MantisSkeleton/Body/footL5/footL6
+        weight: 1
+      - path: MantisSkeleton/Body/footL5/footL6/footL7
+        weight: 1
+      - path: MantisSkeleton/Body/footL5/footL6/footL7/footL7_end
+        weight: 1
+      - path: MantisSkeleton/Body/footR1
+        weight: 1
+      - path: MantisSkeleton/Body/footR1/footR2
+        weight: 1
+      - path: MantisSkeleton/Body/footR1/footR2/footR3
+        weight: 1
+      - path: MantisSkeleton/Body/footR1/footR2/footR3/pawr1
+        weight: 1
+      - path: MantisSkeleton/Body/footR1/footR2/footR3/pawr1/pawr1_end
+        weight: 1
+      - path: MantisSkeleton/Body/footR5
+        weight: 1
+      - path: MantisSkeleton/Body/footR5/footR6
+        weight: 1
+      - path: MantisSkeleton/Body/footR5/footR6/footR7
+        weight: 1
+      - path: MantisSkeleton/Body/footR5/footR6/footR7/footR7_end
+        weight: 1
+      - path: MantisSkeleton/Body/head
+        weight: 1
+      - path: MantisSkeleton/Body/head/head_end
+        weight: 1
+      - path: MantisSkeleton/Body/tail
+        weight: 1
+      - path: MantisSkeleton/Body/tail/wingL1
+        weight: 1
+      - path: MantisSkeleton/Body/tail/wingL1/wingL1_end
+        weight: 1
+      - path: MantisSkeleton/Body/tail/wingR1
+        weight: 1
+      - path: MantisSkeleton/Body/tail/wingR1/wingR1_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

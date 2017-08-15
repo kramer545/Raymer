@@ -1,0 +1,146 @@
+
+                                                   _INSECT PACK V1 LOW POLY_ 
+
+
+this pack contains 7 animated Animals:
+
+
+
+ Models Only Texture Atlas Format:
+
+1-Bee rex/textureAtlas Color-1 
+1-Ant/textureAtlas Color1
+1-GrassHopper/textureAtlas Color1
+1-Mantis/textureAtlas Color1
+1-Scorpio/textureAtlas Color1
+1-Spider/textureAtlas Color 1
+1-Snail/textureAtlas Color1
+
+
+TextureAtlas 1 Png
+1 Normal Map Include Png.
+
+
+
+
+Formats Models Only:
+fbx
+
+
+                                          ----       Unity3D Import   ------
+pack created unity 5
+ Version 5.4.1
+
+import package INSECT PACK V1 LOW POLY in the unity 5
+
+
+
+
+Prefab Models:
+All models are already ready for use in practical prefab already generated and ready for you you just place them in the scene.
+
+
+optimizations:
+
+1-Models Lowpoly saving on quantities of polygons
+2-Skeleton:
+Using a few bones but that guarantee a realistic movement necessary in order to ease the calculation.
+3-Animations
+Using short animations, big impact, Savings Calculation.
+4-TextureAtlas:
+Including homestyle considerable savings calculation.
+
+
+Ps important:
+it is possible that many models generally understood you present a notice in the console:
+ImportFBX Warnings:
+Can not import tangents and binormals, Because mesh.
+It frequently happens that Unity3D present this message because of particular exports and good to note that this does not mean that the model and compromise.
+proceed in this way:
+the item Model / Normals and Tangents.
+Normals:
+Calculate
+
+Smooting angle = 180
+
+Tangents
+Calculate Legacy
+
+Apply
+
+
+                                           _INSECT PACK V1 LOW POLY_ 
+
+
+Bee Animation:
+
+Idle = 0-99
+walk = 0-14
+death = 0-57
+eat = 0-49
+fly = 0-39
+fly death = 0-50
+fly hurt = 0-50
+
+
+Ant Animation:
+ 
+eat = 0-39
+hurt = 0-19
+idle = 0-99
+walk = 0-19
+death = 0-40
+
+
+GrassHopper Animation
+
+fly = 0-39
+idle = 0-39
+death = 0-42
+eat = 0-49
+walk jump = 0-22
+
+
+Mantis Animation
+
+idle = 0-99
+aggressive = 0-149
+attack = 0-19
+walk = 0-39
+death = 0-28
+fly = 0-39
+fly death = 0-49
+fly hurt = 0-20
+hurt = 0-19
+
+Scorpio  Animation
+
+idle = 0-99
+attack1 = 0-21
+attack2 = 0-21
+death = 0-29
+hurt = 0-14
+walk = 0-19
+
+Spider Animation
+
+
+Idle = 0-99
+death = 0-49
+walk  = 0-39
+death = 0-49
+Attack = 0-28
+hurt = 0-15
+
+Snail Animation
+Idle = 0-99
+protection = 0-36
+hurt = 0-36
+walk = 0-59
+death = 0-36
+
+
+
+
+
+This package is created by elkan

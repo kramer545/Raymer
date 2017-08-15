@@ -1,0 +1,910 @@
+fileFormatVersion: 2
+guid: dd068122be90da64a8de1f0555ec7731
+timeCreated: 1487001115
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: armL1
+    100002: armL10
+    100004: armL11
+    100006: armL11_end
+    100008: armL12
+    100010: armL13
+    100012: armL14
+    100014: armL15
+    100016: armL15_end
+    100018: armL2
+    100020: armL3
+    100022: armL4
+    100024: armL5
+    100026: armL6
+    100028: armL7
+    100030: armL7_end
+    100032: armL8
+    100034: armL9
+    100036: armR1
+    100038: armR11
+    100040: armR12
+    100042: armR13
+    100044: armR13_end
+    100046: armR14
+    100048: armR15
+    100050: armR16
+    100052: armR17
+    100054: armR17_end
+    100056: armR2
+    100058: armR3
+    100060: armR4
+    100062: armR4.001
+    100064: armR4.001_end
+    100066: armR4_end
+    100068: armR5
+    100070: armR6
+    100072: armR7
+    100074: armR8
+    100076: armR8_end
+    100078: armR9
+    100080: Body
+    100082: //RootNode
+    100084: Spider
+    100086: SpiderLOD
+    100088: SpiderSkeleton
+    100090: Tail
+    100092: Tail_end
+    400000: armL1
+    400002: armL10
+    400004: armL11
+    400006: armL11_end
+    400008: armL12
+    400010: armL13
+    400012: armL14
+    400014: armL15
+    400016: armL15_end
+    400018: armL2
+    400020: armL3
+    400022: armL4
+    400024: armL5
+    400026: armL6
+    400028: armL7
+    400030: armL7_end
+    400032: armL8
+    400034: armL9
+    400036: armR1
+    400038: armR11
+    400040: armR12
+    400042: armR13
+    400044: armR13_end
+    400046: armR14
+    400048: armR15
+    400050: armR16
+    400052: armR17
+    400054: armR17_end
+    400056: armR2
+    400058: armR3
+    400060: armR4
+    400062: armR4.001
+    400064: armR4.001_end
+    400066: armR4_end
+    400068: armR5
+    400070: armR6
+    400072: armR7
+    400074: armR8
+    400076: armR8_end
+    400078: armR9
+    400080: Body
+    400082: Spider
+    400084: //RootNode
+    400086: SpiderLOD
+    400088: SpiderSkeleton
+    400090: Tail
+    400092: Tail_end
+    4300000: SpiderLOD
+    4300002: Spider
+    7400000: attack
+    7400002: death
+    7400004: eat
+    7400006: hurt
+    7400008: idle
+    7400010: SpiderSkeleton|pose
+    7400012: walk
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Spider
+    13700002: SpiderLOD
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: attack
+      takeName: SpiderSkeleton|attack
+      firstFrame: 0
+      lastFrame: 28
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Spider
+        weight: 1
+      - path: SpiderLOD
+        weight: 1
+      - path: SpiderSkeleton
+        weight: 1
+      - path: SpiderSkeleton/Body
+        weight: 1
+      - path: SpiderSkeleton/Body/armL1
+        weight: 1
+      - path: SpiderSkeleton/Body/armL1/armL2
+        weight: 1
+      - path: SpiderSkeleton/Body/armL1/armL2/armL3
+        weight: 1
+      - path: SpiderSkeleton/Body/armL1/armL2/armL3/armR4.001
+        weight: 1
+      - path: SpiderSkeleton/Body/armL1/armL2/armL3/armR4.001/armR4.001_end
+        weight: 1
+      - path: SpiderSkeleton/Body/armL4
+        weight: 1
+      - path: SpiderSkeleton/Body/armL4/armL5
+        weight: 1
+      - path: SpiderSkeleton/Body/armL4/armL5/armL6
+        weight: 1
+      - path: SpiderSkeleton/Body/armL4/armL5/armL6/armL7
+        weight: 1
+      - path: SpiderSkeleton/Body/armL4/armL5/armL6/armL7/armL7_end
+        weight: 1
+      - path: SpiderSkeleton/Body/armL8
+        weight: 1
+      - path: SpiderSkeleton/Body/armL8/armL9
+        weight: 1
+      - path: SpiderSkeleton/Body/armL8/armL9/armL10
+        weight: 1
+      - path: SpiderSkeleton/Body/armL8/armL9/armL10/armL11
+        weight: 1
+      - path: SpiderSkeleton/Body/armL8/armL9/armL10/armL11/armL11_end
+        weight: 1
+      - path: SpiderSkeleton/Body/armL12
+        weight: 1
+      - path: SpiderSkeleton/Body/armL12/armL13
+        weight: 1
+      - path: SpiderSkeleton/Body/armL12/armL13/armL14
+        weight: 1
+      - path: SpiderSkeleton/Body/armL12/armL13/armL14/armL15
+        weight: 1
+      - path: SpiderSkeleton/Body/armL12/armL13/armL14/armL15/armL15_end
+        weight: 1
+      - path: SpiderSkeleton/Body/armR1
+        weight: 1
+      - path: SpiderSkeleton/Body/armR1/armR2
+        weight: 1
+      - path: SpiderSkeleton/Body/armR1/armR2/armR3
+        weight: 1
+      - path: SpiderSkeleton/Body/armR1/armR2/armR3/armR4
+        weight: 1
+      - path: SpiderSkeleton/Body/armR1/armR2/armR3/armR4/armR4_end
+        weight: 1
+      - path: SpiderSkeleton/Body/armR5
+        weight: 1
+      - path: SpiderSkeleton/Body/armR5/armR6
+        weight: 1
+      - path: SpiderSkeleton/Body/armR5/armR6/armR7
+        weight: 1
+      - path: SpiderSkeleton/Body/armR5/armR6/armR7/armR8
+        weight: 1
+      - path: SpiderSkeleton/Body/armR5/armR6/armR7/armR8/armR8_end
+        weight: 1
+      - path: SpiderSkeleton/Body/armR9
+        weight: 1
+      - path: SpiderSkeleton/Body/armR9/armR11
+        weight: 1
+      - path: SpiderSkeleton/Body/armR9/armR11/armR12
+        weight: 1
+      - path: SpiderSkeleton/Body/armR9/armR11/armR12/armR13
+        weight: 1
+      - path: SpiderSkeleton/Body/armR9/armR11/armR12/armR13/armR13_end
+        weight: 1
+      - path: SpiderSkeleton/Body/armR14
+        weight: 1
+      - path: SpiderSkeleton/Body/armR14/armR15
+        weight: 1
+      - path: SpiderSkeleton/Body/armR14/armR15/armR16
+        weight: 1
+      - path: SpiderSkeleton/Body/armR14/armR15/armR16/armR17
+        weight: 1
+      - path: SpiderSkeleton/Body/armR14/armR15/armR16/armR17/armR17_end
+        weight: 1
+      - path: SpiderSkeleton/Body/Tail
+        weight: 1
+      - path: SpiderSkeleton/Body/Tail/Tail_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: death
+      takeName: SpiderSkeleton|death
+      firstFrame: 0
+      lastFrame: 49
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Spider
+        weight: 1
+      - path: SpiderLOD
+        weight: 1
+      - path: SpiderSkeleton
+        weight: 1
+      - path: SpiderSkeleton/Body
+        weight: 1
+      - path: SpiderSkeleton/Body/armL1
+        weight: 1
+      - path: SpiderSkeleton/Body/armL1/armL2
+        weight: 1
+      - path: SpiderSkeleton/Body/armL1/armL2/armL3
+        weight: 1
+      - path: SpiderSkeleton/Body/armL1/armL2/armL3/armR4.001
+        weight: 1
+      - path: SpiderSkeleton/Body/armL1/armL2/armL3/armR4.001/armR4.001_end
+        weight: 1
+      - path: SpiderSkeleton/Body/armL4
+        weight: 1
+      - path: SpiderSkeleton/Body/armL4/armL5
+        weight: 1
+      - path: SpiderSkeleton/Body/armL4/armL5/armL6
+        weight: 1
+      - path: SpiderSkeleton/Body/armL4/armL5/armL6/armL7
+        weight: 1
+      - path: SpiderSkeleton/Body/armL4/armL5/armL6/armL7/armL7_end
+        weight: 1
+      - path: SpiderSkeleton/Body/armL8
+        weight: 1
+      - path: SpiderSkeleton/Body/armL8/armL9
+        weight: 1
+      - path: SpiderSkeleton/Body/armL8/armL9/armL10
+        weight: 1
+      - path: SpiderSkeleton/Body/armL8/armL9/armL10/armL11
+        weight: 1
+      - path: SpiderSkeleton/Body/armL8/armL9/armL10/armL11/armL11_end
+        weight: 1
+      - path: SpiderSkeleton/Body/armL12
+        weight: 1
+      - path: SpiderSkeleton/Body/armL12/armL13
+        weight: 1
+      - path: SpiderSkeleton/Body/armL12/armL13/armL14
+        weight: 1
+      - path: SpiderSkeleton/Body/armL12/armL13/armL14/armL15
+        weight: 1
+      - path: SpiderSkeleton/Body/armL12/armL13/armL14/armL15/armL15_end
+        weight: 1
+      - path: SpiderSkeleton/Body/armR1
+        weight: 1
+      - path: SpiderSkeleton/Body/armR1/armR2
+        weight: 1
+      - path: SpiderSkeleton/Body/armR1/armR2/armR3
+        weight: 1
+      - path: SpiderSkeleton/Body/armR1/armR2/armR3/armR4
+        weight: 1
+      - path: SpiderSkeleton/Body/armR1/armR2/armR3/armR4/armR4_end
+        weight: 1
+      - path: SpiderSkeleton/Body/armR5
+        weight: 1
+      - path: SpiderSkeleton/Body/armR5/armR6
+        weight: 1
+      - path: SpiderSkeleton/Body/armR5/armR6/armR7
+        weight: 1
+      - path: SpiderSkeleton/Body/armR5/armR6/armR7/armR8
+        weight: 1
+      - path: SpiderSkeleton/Body/armR5/armR6/armR7/armR8/armR8_end
+        weight: 1
+      - path: SpiderSkeleton/Body/armR9
+        weight: 1
+      - path: SpiderSkeleton/Body/armR9/armR11
+        weight: 1
+      - path: SpiderSkeleton/Body/armR9/armR11/armR12
+        weight: 1
+      - path: SpiderSkeleton/Body/armR9/armR11/armR12/armR13
+        weight: 1
+      - path: SpiderSkeleton/Body/armR9/armR11/armR12/armR13/armR13_end
+        weight: 1
+      - path: SpiderSkeleton/Body/armR14
+        weight: 1
+      - path: SpiderSkeleton/Body/armR14/armR15
+        weight: 1
+      - path: SpiderSkeleton/Body/armR14/armR15/armR16
+        weight: 1
+      - path: SpiderSkeleton/Body/armR14/armR15/armR16/armR17
+        weight: 1
+      - path: SpiderSkeleton/Body/armR14/armR15/armR16/armR17/armR17_end
+        weight: 1
+      - path: SpiderSkeleton/Body/Tail
+        weight: 1
+      - path: SpiderSkeleton/Body/Tail/Tail_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: eat
+      takeName: SpiderSkeleton|eat
+      firstFrame: 0
+      lastFrame: 41
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Spider
+        weight: 1
+      - path: SpiderLOD
+        weight: 1
+      - path: SpiderSkeleton
+        weight: 1
+      - path: SpiderSkeleton/Body
+        weight: 1
+      - path: SpiderSkeleton/Body/armL1
+        weight: 1
+      - path: SpiderSkeleton/Body/armL1/armL2
+        weight: 1
+      - path: SpiderSkeleton/Body/armL1/armL2/armL3
+        weight: 1
+      - path: SpiderSkeleton/Body/armL1/armL2/armL3/armR4.001
+        weight: 1
+      - path: SpiderSkeleton/Body/armL1/armL2/armL3/armR4.001/armR4.001_end
+        weight: 1
+      - path: SpiderSkeleton/Body/armL4
+        weight: 1
+      - path: SpiderSkeleton/Body/armL4/armL5
+        weight: 1
+      - path: SpiderSkeleton/Body/armL4/armL5/armL6
+        weight: 1
+      - path: SpiderSkeleton/Body/armL4/armL5/armL6/armL7
+        weight: 1
+      - path: SpiderSkeleton/Body/armL4/armL5/armL6/armL7/armL7_end
+        weight: 1
+      - path: SpiderSkeleton/Body/armL8
+        weight: 1
+      - path: SpiderSkeleton/Body/armL8/armL9
+        weight: 1
+      - path: SpiderSkeleton/Body/armL8/armL9/armL10
+        weight: 1
+      - path: SpiderSkeleton/Body/armL8/armL9/armL10/armL11
+        weight: 1
+      - path: SpiderSkeleton/Body/armL8/armL9/armL10/armL11/armL11_end
+        weight: 1
+      - path: SpiderSkeleton/Body/armL12
+        weight: 1
+      - path: SpiderSkeleton/Body/armL12/armL13
+        weight: 1
+      - path: SpiderSkeleton/Body/armL12/armL13/armL14
+        weight: 1
+      - path: SpiderSkeleton/Body/armL12/armL13/armL14/armL15
+        weight: 1
+      - path: SpiderSkeleton/Body/armL12/armL13/armL14/armL15/armL15_end
+        weight: 1
+      - path: SpiderSkeleton/Body/armR1
+        weight: 1
+      - path: SpiderSkeleton/Body/armR1/armR2
+        weight: 1
+      - path: SpiderSkeleton/Body/armR1/armR2/armR3
+        weight: 1
+      - path: SpiderSkeleton/Body/armR1/armR2/armR3/armR4
+        weight: 1
+      - path: SpiderSkeleton/Body/armR1/armR2/armR3/armR4/armR4_end
+        weight: 1
+      - path: SpiderSkeleton/Body/armR5
+        weight: 1
+      - path: SpiderSkeleton/Body/armR5/armR6
+        weight: 1
+      - path: SpiderSkeleton/Body/armR5/armR6/armR7
+        weight: 1
+      - path: SpiderSkeleton/Body/armR5/armR6/armR7/armR8
+        weight: 1
+      - path: SpiderSkeleton/Body/armR5/armR6/armR7/armR8/armR8_end
+        weight: 1
+      - path: SpiderSkeleton/Body/armR9
+        weight: 1
+      - path: SpiderSkeleton/Body/armR9/armR11
+        weight: 1
+      - path: SpiderSkeleton/Body/armR9/armR11/armR12
+        weight: 1
+      - path: SpiderSkeleton/Body/armR9/armR11/armR12/armR13
+        weight: 1
+      - path: SpiderSkeleton/Body/armR9/armR11/armR12/armR13/armR13_end
+        weight: 1
+      - path: SpiderSkeleton/Body/armR14
+        weight: 1
+      - path: SpiderSkeleton/Body/armR14/armR15
+        weight: 1
+      - path: SpiderSkeleton/Body/armR14/armR15/armR16
+        weight: 1
+      - path: SpiderSkeleton/Body/armR14/armR15/armR16/armR17
+        weight: 1
+      - path: SpiderSkeleton/Body/armR14/armR15/armR16/armR17/armR17_end
+        weight: 1
+      - path: SpiderSkeleton/Body/Tail
+        weight: 1
+      - path: SpiderSkeleton/Body/Tail/Tail_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hurt
+      takeName: SpiderSkeleton|hurt
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Spider
+        weight: 1
+      - path: SpiderLOD
+        weight: 1
+      - path: SpiderSkeleton
+        weight: 1
+      - path: SpiderSkeleton/Body
+        weight: 1
+      - path: SpiderSkeleton/Body/armL1
+        weight: 1
+      - path: SpiderSkeleton/Body/armL1/armL2
+        weight: 1
+      - path: SpiderSkeleton/Body/armL1/armL2/armL3
+        weight: 1
+      - path: SpiderSkeleton/Body/armL1/armL2/armL3/armR4.001
+        weight: 1
+      - path: SpiderSkeleton/Body/armL1/armL2/armL3/armR4.001/armR4.001_end
+        weight: 1
+      - path: SpiderSkeleton/Body/armL4
+        weight: 1
+      - path: SpiderSkeleton/Body/armL4/armL5
+        weight: 1
+      - path: SpiderSkeleton/Body/armL4/armL5/armL6
+        weight: 1
+      - path: SpiderSkeleton/Body/armL4/armL5/armL6/armL7
+        weight: 1
+      - path: SpiderSkeleton/Body/armL4/armL5/armL6/armL7/armL7_end
+        weight: 1
+      - path: SpiderSkeleton/Body/armL8
+        weight: 1
+      - path: SpiderSkeleton/Body/armL8/armL9
+        weight: 1
+      - path: SpiderSkeleton/Body/armL8/armL9/armL10
+        weight: 1
+      - path: SpiderSkeleton/Body/armL8/armL9/armL10/armL11
+        weight: 1
+      - path: SpiderSkeleton/Body/armL8/armL9/armL10/armL11/armL11_end
+        weight: 1
+      - path: SpiderSkeleton/Body/armL12
+        weight: 1
+      - path: SpiderSkeleton/Body/armL12/armL13
+        weight: 1
+      - path: SpiderSkeleton/Body/armL12/armL13/armL14
+        weight: 1
+      - path: SpiderSkeleton/Body/armL12/armL13/armL14/armL15
+        weight: 1
+      - path: SpiderSkeleton/Body/armL12/armL13/armL14/armL15/armL15_end
+        weight: 1
+      - path: SpiderSkeleton/Body/armR1
+        weight: 1
+      - path: SpiderSkeleton/Body/armR1/armR2
+        weight: 1
+      - path: SpiderSkeleton/Body/armR1/armR2/armR3
+        weight: 1
+      - path: SpiderSkeleton/Body/armR1/armR2/armR3/armR4
+        weight: 1
+      - path: SpiderSkeleton/Body/armR1/armR2/armR3/armR4/armR4_end
+        weight: 1
+      - path: SpiderSkeleton/Body/armR5
+        weight: 1
+      - path: SpiderSkeleton/Body/armR5/armR6
+        weight: 1
+      - path: SpiderSkeleton/Body/armR5/armR6/armR7
+        weight: 1
+      - path: SpiderSkeleton/Body/armR5/armR6/armR7/armR8
+        weight: 1
+      - path: SpiderSkeleton/Body/armR5/armR6/armR7/armR8/armR8_end
+        weight: 1
+      - path: SpiderSkeleton/Body/armR9
+        weight: 1
+      - path: SpiderSkeleton/Body/armR9/armR11
+        weight: 1
+      - path: SpiderSkeleton/Body/armR9/armR11/armR12
+        weight: 1
+      - path: SpiderSkeleton/Body/armR9/armR11/armR12/armR13
+        weight: 1
+      - path: SpiderSkeleton/Body/armR9/armR11/armR12/armR13/armR13_end
+        weight: 1
+      - path: SpiderSkeleton/Body/armR14
+        weight: 1
+      - path: SpiderSkeleton/Body/armR14/armR15
+        weight: 1
+      - path: SpiderSkeleton/Body/armR14/armR15/armR16
+        weight: 1
+      - path: SpiderSkeleton/Body/armR14/armR15/armR16/armR17
+        weight: 1
+      - path: SpiderSkeleton/Body/armR14/armR15/armR16/armR17/armR17_end
+        weight: 1
+      - path: SpiderSkeleton/Body/Tail
+        weight: 1
+      - path: SpiderSkeleton/Body/Tail/Tail_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle
+      takeName: SpiderSkeleton|idle
+      firstFrame: 0
+      lastFrame: 99
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Spider
+        weight: 1
+      - path: SpiderLOD
+        weight: 1
+      - path: SpiderSkeleton
+        weight: 1
+      - path: SpiderSkeleton/Body
+        weight: 1
+      - path: SpiderSkeleton/Body/armL1
+        weight: 1
+      - path: SpiderSkeleton/Body/armL1/armL2
+        weight: 1
+      - path: SpiderSkeleton/Body/armL1/armL2/armL3
+        weight: 1
+      - path: SpiderSkeleton/Body/armL1/armL2/armL3/armR4.001
+        weight: 1
+      - path: SpiderSkeleton/Body/armL1/armL2/armL3/armR4.001/armR4.001_end
+        weight: 1
+      - path: SpiderSkeleton/Body/armL4
+        weight: 1
+      - path: SpiderSkeleton/Body/armL4/armL5
+        weight: 1
+      - path: SpiderSkeleton/Body/armL4/armL5/armL6
+        weight: 1
+      - path: SpiderSkeleton/Body/armL4/armL5/armL6/armL7
+        weight: 1
+      - path: SpiderSkeleton/Body/armL4/armL5/armL6/armL7/armL7_end
+        weight: 1
+      - path: SpiderSkeleton/Body/armL8
+        weight: 1
+      - path: SpiderSkeleton/Body/armL8/armL9
+        weight: 1
+      - path: SpiderSkeleton/Body/armL8/armL9/armL10
+        weight: 1
+      - path: SpiderSkeleton/Body/armL8/armL9/armL10/armL11
+        weight: 1
+      - path: SpiderSkeleton/Body/armL8/armL9/armL10/armL11/armL11_end
+        weight: 1
+      - path: SpiderSkeleton/Body/armL12
+        weight: 1
+      - path: SpiderSkeleton/Body/armL12/armL13
+        weight: 1
+      - path: SpiderSkeleton/Body/armL12/armL13/armL14
+        weight: 1
+      - path: SpiderSkeleton/Body/armL12/armL13/armL14/armL15
+        weight: 1
+      - path: SpiderSkeleton/Body/armL12/armL13/armL14/armL15/armL15_end
+        weight: 1
+      - path: SpiderSkeleton/Body/armR1
+        weight: 1
+      - path: SpiderSkeleton/Body/armR1/armR2
+        weight: 1
+      - path: SpiderSkeleton/Body/armR1/armR2/armR3
+        weight: 1
+      - path: SpiderSkeleton/Body/armR1/armR2/armR3/armR4
+        weight: 1
+      - path: SpiderSkeleton/Body/armR1/armR2/armR3/armR4/armR4_end
+        weight: 1
+      - path: SpiderSkeleton/Body/armR5
+        weight: 1
+      - path: SpiderSkeleton/Body/armR5/armR6
+        weight: 1
+      - path: SpiderSkeleton/Body/armR5/armR6/armR7
+        weight: 1
+      - path: SpiderSkeleton/Body/armR5/armR6/armR7/armR8
+        weight: 1
+      - path: SpiderSkeleton/Body/armR5/armR6/armR7/armR8/armR8_end
+        weight: 1
+      - path: SpiderSkeleton/Body/armR9
+        weight: 1
+      - path: SpiderSkeleton/Body/armR9/armR11
+        weight: 1
+      - path: SpiderSkeleton/Body/armR9/armR11/armR12
+        weight: 1
+      - path: SpiderSkeleton/Body/armR9/armR11/armR12/armR13
+        weight: 1
+      - path: SpiderSkeleton/Body/armR9/armR11/armR12/armR13/armR13_end
+        weight: 1
+      - path: SpiderSkeleton/Body/armR14
+        weight: 1
+      - path: SpiderSkeleton/Body/armR14/armR15
+        weight: 1
+      - path: SpiderSkeleton/Body/armR14/armR15/armR16
+        weight: 1
+      - path: SpiderSkeleton/Body/armR14/armR15/armR16/armR17
+        weight: 1
+      - path: SpiderSkeleton/Body/armR14/armR15/armR16/armR17/armR17_end
+        weight: 1
+      - path: SpiderSkeleton/Body/Tail
+        weight: 1
+      - path: SpiderSkeleton/Body/Tail/Tail_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk
+      takeName: SpiderSkeleton|walk
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Spider
+        weight: 1
+      - path: SpiderLOD
+        weight: 1
+      - path: SpiderSkeleton
+        weight: 1
+      - path: SpiderSkeleton/Body
+        weight: 1
+      - path: SpiderSkeleton/Body/armL1
+        weight: 1
+      - path: SpiderSkeleton/Body/armL1/armL2
+        weight: 1
+      - path: SpiderSkeleton/Body/armL1/armL2/armL3
+        weight: 1
+      - path: SpiderSkeleton/Body/armL1/armL2/armL3/armR4.001
+        weight: 1
+      - path: SpiderSkeleton/Body/armL1/armL2/armL3/armR4.001/armR4.001_end
+        weight: 1
+      - path: SpiderSkeleton/Body/armL4
+        weight: 1
+      - path: SpiderSkeleton/Body/armL4/armL5
+        weight: 1
+      - path: SpiderSkeleton/Body/armL4/armL5/armL6
+        weight: 1
+      - path: SpiderSkeleton/Body/armL4/armL5/armL6/armL7
+        weight: 1
+      - path: SpiderSkeleton/Body/armL4/armL5/armL6/armL7/armL7_end
+        weight: 1
+      - path: SpiderSkeleton/Body/armL8
+        weight: 1
+      - path: SpiderSkeleton/Body/armL8/armL9
+        weight: 1
+      - path: SpiderSkeleton/Body/armL8/armL9/armL10
+        weight: 1
+      - path: SpiderSkeleton/Body/armL8/armL9/armL10/armL11
+        weight: 1
+      - path: SpiderSkeleton/Body/armL8/armL9/armL10/armL11/armL11_end
+        weight: 1
+      - path: SpiderSkeleton/Body/armL12
+        weight: 1
+      - path: SpiderSkeleton/Body/armL12/armL13
+        weight: 1
+      - path: SpiderSkeleton/Body/armL12/armL13/armL14
+        weight: 1
+      - path: SpiderSkeleton/Body/armL12/armL13/armL14/armL15
+        weight: 1
+      - path: SpiderSkeleton/Body/armL12/armL13/armL14/armL15/armL15_end
+        weight: 1
+      - path: SpiderSkeleton/Body/armR1
+        weight: 1
+      - path: SpiderSkeleton/Body/armR1/armR2
+        weight: 1
+      - path: SpiderSkeleton/Body/armR1/armR2/armR3
+        weight: 1
+      - path: SpiderSkeleton/Body/armR1/armR2/armR3/armR4
+        weight: 1
+      - path: SpiderSkeleton/Body/armR1/armR2/armR3/armR4/armR4_end
+        weight: 1
+      - path: SpiderSkeleton/Body/armR5
+        weight: 1
+      - path: SpiderSkeleton/Body/armR5/armR6
+        weight: 1
+      - path: SpiderSkeleton/Body/armR5/armR6/armR7
+        weight: 1
+      - path: SpiderSkeleton/Body/armR5/armR6/armR7/armR8
+        weight: 1
+      - path: SpiderSkeleton/Body/armR5/armR6/armR7/armR8/armR8_end
+        weight: 1
+      - path: SpiderSkeleton/Body/armR9
+        weight: 1
+      - path: SpiderSkeleton/Body/armR9/armR11
+        weight: 1
+      - path: SpiderSkeleton/Body/armR9/armR11/armR12
+        weight: 1
+      - path: SpiderSkeleton/Body/armR9/armR11/armR12/armR13
+        weight: 1
+      - path: SpiderSkeleton/Body/armR9/armR11/armR12/armR13/armR13_end
+        weight: 1
+      - path: SpiderSkeleton/Body/armR14
+        weight: 1
+      - path: SpiderSkeleton/Body/armR14/armR15
+        weight: 1
+      - path: SpiderSkeleton/Body/armR14/armR15/armR16
+        weight: 1
+      - path: SpiderSkeleton/Body/armR14/armR15/armR16/armR17
+        weight: 1
+      - path: SpiderSkeleton/Body/armR14/armR15/armR16/armR17/armR17_end
+        weight: 1
+      - path: SpiderSkeleton/Body/Tail
+        weight: 1
+      - path: SpiderSkeleton/Body/Tail/Tail_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

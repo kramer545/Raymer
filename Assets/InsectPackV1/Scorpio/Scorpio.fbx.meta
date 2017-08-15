@@ -1,0 +1,1274 @@
+fileFormatVersion: 2
+guid: ad83d4ca1ba5e3e4a82ae3bd1c2321d0
+timeCreated: 1487001114
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: arm1
+    100002: arm2
+    100004: arm4
+    100006: arm5
+    100008: arm6
+    100010: arm7
+    100012: Body
+    100014: foot1
+    100016: foot10
+    100018: foot10_end
+    100020: foot11
+    100022: foot11_end
+    100024: foot1_end
+    100026: foot2
+    100028: foot2_end
+    100030: foot3
+    100032: foot3_end
+    100034: foot4
+    100036: foot4_end
+    100038: foot8
+    100040: foot8_end
+    100042: foot9
+    100044: foot9_end
+    100046: leg1
+    100048: leg10
+    100050: leg11
+    100052: leg12
+    100054: leg13
+    100056: leg14
+    100058: leg15
+    100060: leg16
+    100062: leg17
+    100064: leg18
+    100066: leg19
+    100068: leg2
+    100070: leg20
+    100072: leg21
+    100074: leg22
+    100076: leg23
+    100078: leg24
+    100080: leg25
+    100082: leg26
+    100084: leg27
+    100086: leg28
+    100088: leg29
+    100090: leg3
+    100092: leg30
+    100094: leg31
+    100096: leg32
+    100098: leg33
+    100100: leg4
+    100102: leg6
+    100104: leg7
+    100106: leg8
+    100108: leg9
+    100110: pincer1
+    100112: pincer2
+    100114: pincer2_end
+    100116: pincer3
+    100118: pincer4
+    100120: pincer4_end
+    100122: //RootNode
+    100124: Scorpio
+    100126: ScorpioLOD
+    100128: ScorpioSkeleton
+    100130: Tail1
+    100132: tail2
+    100134: tail3
+    100136: tail4
+    100138: tail5
+    100140: tail6
+    100142: venom
+    100144: venom_end
+    400000: arm1
+    400002: arm2
+    400004: arm4
+    400006: arm5
+    400008: arm6
+    400010: arm7
+    400012: Body
+    400014: foot1
+    400016: foot10
+    400018: foot10_end
+    400020: foot11
+    400022: foot11_end
+    400024: foot1_end
+    400026: foot2
+    400028: foot2_end
+    400030: foot3
+    400032: foot3_end
+    400034: foot4
+    400036: foot4_end
+    400038: foot8
+    400040: foot8_end
+    400042: foot9
+    400044: foot9_end
+    400046: leg1
+    400048: leg10
+    400050: leg11
+    400052: leg12
+    400054: leg13
+    400056: leg14
+    400058: leg15
+    400060: leg16
+    400062: leg17
+    400064: leg18
+    400066: leg19
+    400068: leg2
+    400070: leg20
+    400072: leg21
+    400074: leg22
+    400076: leg23
+    400078: leg24
+    400080: leg25
+    400082: leg26
+    400084: leg27
+    400086: leg28
+    400088: leg29
+    400090: leg3
+    400092: leg30
+    400094: leg31
+    400096: leg32
+    400098: leg33
+    400100: leg4
+    400102: leg6
+    400104: leg7
+    400106: leg8
+    400108: leg9
+    400110: pincer1
+    400112: pincer2
+    400114: pincer2_end
+    400116: pincer3
+    400118: pincer4
+    400120: pincer4_end
+    400122: //RootNode
+    400124: Scorpio
+    400126: ScorpioLOD
+    400128: ScorpioSkeleton
+    400130: Tail1
+    400132: tail2
+    400134: tail3
+    400136: tail4
+    400138: tail5
+    400140: tail6
+    400142: venom
+    400144: venom_end
+    4300000: ScorpioLOD
+    4300002: Scorpio
+    7400000: attack1
+    7400002: attack2
+    7400004: death
+    7400006: hurt
+    7400008: idle
+    7400010: walk
+    7400012: Scorpio|idle
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Scorpio
+    13700002: ScorpioLOD
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: attack1
+      takeName: ScorpioSkeleton|attack1
+      firstFrame: 0
+      lastFrame: 21
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Scorpio
+        weight: 1
+      - path: ScorpioLOD
+        weight: 1
+      - path: ScorpioSkeleton
+        weight: 1
+      - path: ScorpioSkeleton/Tail1
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm1
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm1/arm2
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm1/arm2/arm4
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm1/arm2/arm4/pincer1
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm1/arm2/arm4/pincer1/pincer2
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm1/arm2/arm4/pincer1/pincer2/pincer2_end
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm5
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm5/arm6
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm5/arm6/arm7
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm5/arm6/arm7/pincer3
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm5/arm6/arm7/pincer3/pincer4
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm5/arm6/arm7/pincer3/pincer4/pincer4_end
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg1
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg1/leg2
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg1/leg2/leg3
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg1/leg2/leg3/leg4
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg1/leg2/leg3/leg4/foot1
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg1/leg2/leg3/leg4/foot1/foot1_end
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg6
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg6/leg7
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg6/leg7/leg8
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg6/leg7/leg8/leg9
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg6/leg7/leg8/leg9/foot2
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg6/leg7/leg8/leg9/foot2/foot2_end
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg10
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg10/leg11
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg10/leg11/leg12
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg10/leg11/leg12/leg13
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg10/leg11/leg12/leg13/foot3
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg10/leg11/leg12/leg13/foot3/foot3_end
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg14
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg14/leg15
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg14/leg15/leg16
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg14/leg15/leg16/leg17
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg14/leg15/leg16/leg17/foot4
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg14/leg15/leg16/leg17/foot4/foot4_end
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg18
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg18/leg19
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg18/leg19/leg20
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg18/leg19/leg20/leg21
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg18/leg19/leg20/leg21/foot8
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg18/leg19/leg20/leg21/foot8/foot8_end
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg22
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg22/leg23
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg22/leg23/leg24
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg22/leg23/leg24/leg25
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg22/leg23/leg24/leg25/foot9
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg22/leg23/leg24/leg25/foot9/foot9_end
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg26
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg26/leg27
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg26/leg27/leg28
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg26/leg27/leg28/leg29
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg26/leg27/leg28/leg29/foot10
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg26/leg27/leg28/leg29/foot10/foot10_end
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg30
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg30/leg31
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg30/leg31/leg32
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg30/leg31/leg32/leg33
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg30/leg31/leg32/leg33/foot11
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg30/leg31/leg32/leg33/foot11/foot11_end
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/tail2
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/tail2/tail3
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/tail2/tail3/tail4
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/tail2/tail3/tail4/tail5/tail6/venom
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/tail2/tail3/tail4/tail5/tail6/venom/venom_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attack2
+      takeName: ScorpioSkeleton|attack2
+      firstFrame: 0
+      lastFrame: 21
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Scorpio
+        weight: 1
+      - path: ScorpioLOD
+        weight: 1
+      - path: ScorpioSkeleton
+        weight: 1
+      - path: ScorpioSkeleton/Tail1
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm1
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm1/arm2
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm1/arm2/arm4
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm1/arm2/arm4/pincer1
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm1/arm2/arm4/pincer1/pincer2
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm1/arm2/arm4/pincer1/pincer2/pincer2_end
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm5
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm5/arm6
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm5/arm6/arm7
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm5/arm6/arm7/pincer3
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm5/arm6/arm7/pincer3/pincer4
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm5/arm6/arm7/pincer3/pincer4/pincer4_end
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg1
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg1/leg2
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg1/leg2/leg3
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg1/leg2/leg3/leg4
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg1/leg2/leg3/leg4/foot1
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg1/leg2/leg3/leg4/foot1/foot1_end
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg6
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg6/leg7
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg6/leg7/leg8
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg6/leg7/leg8/leg9
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg6/leg7/leg8/leg9/foot2
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg6/leg7/leg8/leg9/foot2/foot2_end
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg10
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg10/leg11
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg10/leg11/leg12
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg10/leg11/leg12/leg13
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg10/leg11/leg12/leg13/foot3
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg10/leg11/leg12/leg13/foot3/foot3_end
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg14
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg14/leg15
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg14/leg15/leg16
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg14/leg15/leg16/leg17
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg14/leg15/leg16/leg17/foot4
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg14/leg15/leg16/leg17/foot4/foot4_end
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg18
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg18/leg19
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg18/leg19/leg20
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg18/leg19/leg20/leg21
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg18/leg19/leg20/leg21/foot8
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg18/leg19/leg20/leg21/foot8/foot8_end
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg22
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg22/leg23
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg22/leg23/leg24
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg22/leg23/leg24/leg25
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg22/leg23/leg24/leg25/foot9
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg22/leg23/leg24/leg25/foot9/foot9_end
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg26
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg26/leg27
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg26/leg27/leg28
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg26/leg27/leg28/leg29
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg26/leg27/leg28/leg29/foot10
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg26/leg27/leg28/leg29/foot10/foot10_end
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg30
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg30/leg31
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg30/leg31/leg32
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg30/leg31/leg32/leg33
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg30/leg31/leg32/leg33/foot11
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg30/leg31/leg32/leg33/foot11/foot11_end
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/tail2
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/tail2/tail3
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/tail2/tail3/tail4
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/tail2/tail3/tail4/tail5/tail6/venom
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/tail2/tail3/tail4/tail5/tail6/venom/venom_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: death
+      takeName: ScorpioSkeleton|death
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Scorpio
+        weight: 1
+      - path: ScorpioLOD
+        weight: 1
+      - path: ScorpioSkeleton
+        weight: 1
+      - path: ScorpioSkeleton/Tail1
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm1
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm1/arm2
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm1/arm2/arm4
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm1/arm2/arm4/pincer1
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm1/arm2/arm4/pincer1/pincer2
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm1/arm2/arm4/pincer1/pincer2/pincer2_end
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm5
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm5/arm6
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm5/arm6/arm7
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm5/arm6/arm7/pincer3
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm5/arm6/arm7/pincer3/pincer4
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm5/arm6/arm7/pincer3/pincer4/pincer4_end
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg1
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg1/leg2
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg1/leg2/leg3
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg1/leg2/leg3/leg4
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg1/leg2/leg3/leg4/foot1
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg1/leg2/leg3/leg4/foot1/foot1_end
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg6
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg6/leg7
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg6/leg7/leg8
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg6/leg7/leg8/leg9
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg6/leg7/leg8/leg9/foot2
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg6/leg7/leg8/leg9/foot2/foot2_end
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg10
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg10/leg11
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg10/leg11/leg12
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg10/leg11/leg12/leg13
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg10/leg11/leg12/leg13/foot3
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg10/leg11/leg12/leg13/foot3/foot3_end
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg14
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg14/leg15
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg14/leg15/leg16
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg14/leg15/leg16/leg17
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg14/leg15/leg16/leg17/foot4
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg14/leg15/leg16/leg17/foot4/foot4_end
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg18
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg18/leg19
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg18/leg19/leg20
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg18/leg19/leg20/leg21
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg18/leg19/leg20/leg21/foot8
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg18/leg19/leg20/leg21/foot8/foot8_end
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg22
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg22/leg23
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg22/leg23/leg24
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg22/leg23/leg24/leg25
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg22/leg23/leg24/leg25/foot9
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg22/leg23/leg24/leg25/foot9/foot9_end
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg26
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg26/leg27
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg26/leg27/leg28
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg26/leg27/leg28/leg29
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg26/leg27/leg28/leg29/foot10
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg26/leg27/leg28/leg29/foot10/foot10_end
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg30
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg30/leg31
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg30/leg31/leg32
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg30/leg31/leg32/leg33
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg30/leg31/leg32/leg33/foot11
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg30/leg31/leg32/leg33/foot11/foot11_end
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/tail2
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/tail2/tail3
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/tail2/tail3/tail4
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/tail2/tail3/tail4/tail5/tail6/venom
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/tail2/tail3/tail4/tail5/tail6/venom/venom_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hurt
+      takeName: ScorpioSkeleton|hurt
+      firstFrame: 0
+      lastFrame: 14
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Scorpio
+        weight: 1
+      - path: ScorpioLOD
+        weight: 1
+      - path: ScorpioSkeleton
+        weight: 1
+      - path: ScorpioSkeleton/Tail1
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm1
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm1/arm2
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm1/arm2/arm4
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm1/arm2/arm4/pincer1
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm1/arm2/arm4/pincer1/pincer2
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm1/arm2/arm4/pincer1/pincer2/pincer2_end
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm5
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm5/arm6
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm5/arm6/arm7
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm5/arm6/arm7/pincer3
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm5/arm6/arm7/pincer3/pincer4
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm5/arm6/arm7/pincer3/pincer4/pincer4_end
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg1
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg1/leg2
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg1/leg2/leg3
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg1/leg2/leg3/leg4
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg1/leg2/leg3/leg4/foot1
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg1/leg2/leg3/leg4/foot1/foot1_end
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg6
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg6/leg7
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg6/leg7/leg8
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg6/leg7/leg8/leg9
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg6/leg7/leg8/leg9/foot2
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg6/leg7/leg8/leg9/foot2/foot2_end
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg10
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg10/leg11
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg10/leg11/leg12
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg10/leg11/leg12/leg13
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg10/leg11/leg12/leg13/foot3
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg10/leg11/leg12/leg13/foot3/foot3_end
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg14
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg14/leg15
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg14/leg15/leg16
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg14/leg15/leg16/leg17
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg14/leg15/leg16/leg17/foot4
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg14/leg15/leg16/leg17/foot4/foot4_end
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg18
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg18/leg19
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg18/leg19/leg20
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg18/leg19/leg20/leg21
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg18/leg19/leg20/leg21/foot8
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg18/leg19/leg20/leg21/foot8/foot8_end
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg22
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg22/leg23
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg22/leg23/leg24
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg22/leg23/leg24/leg25
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg22/leg23/leg24/leg25/foot9
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg22/leg23/leg24/leg25/foot9/foot9_end
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg26
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg26/leg27
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg26/leg27/leg28
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg26/leg27/leg28/leg29
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg26/leg27/leg28/leg29/foot10
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg26/leg27/leg28/leg29/foot10/foot10_end
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg30
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg30/leg31
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg30/leg31/leg32
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg30/leg31/leg32/leg33
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg30/leg31/leg32/leg33/foot11
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg30/leg31/leg32/leg33/foot11/foot11_end
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/tail2
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/tail2/tail3
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/tail2/tail3/tail4
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/tail2/tail3/tail4/tail5/tail6/venom
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/tail2/tail3/tail4/tail5/tail6/venom/venom_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle
+      takeName: ScorpioSkeleton|idle
+      firstFrame: 0
+      lastFrame: 99
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Scorpio
+        weight: 1
+      - path: ScorpioLOD
+        weight: 1
+      - path: ScorpioSkeleton
+        weight: 1
+      - path: ScorpioSkeleton/Tail1
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm1
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm1/arm2
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm1/arm2/arm4
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm1/arm2/arm4/pincer1
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm1/arm2/arm4/pincer1/pincer2
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm1/arm2/arm4/pincer1/pincer2/pincer2_end
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm5
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm5/arm6
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm5/arm6/arm7
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm5/arm6/arm7/pincer3
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm5/arm6/arm7/pincer3/pincer4
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm5/arm6/arm7/pincer3/pincer4/pincer4_end
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg1
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg1/leg2
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg1/leg2/leg3
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg1/leg2/leg3/leg4
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg1/leg2/leg3/leg4/foot1
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg1/leg2/leg3/leg4/foot1/foot1_end
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg6
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg6/leg7
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg6/leg7/leg8
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg6/leg7/leg8/leg9
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg6/leg7/leg8/leg9/foot2
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg6/leg7/leg8/leg9/foot2/foot2_end
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg10
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg10/leg11
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg10/leg11/leg12
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg10/leg11/leg12/leg13
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg10/leg11/leg12/leg13/foot3
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg10/leg11/leg12/leg13/foot3/foot3_end
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg14
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg14/leg15
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg14/leg15/leg16
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg14/leg15/leg16/leg17
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg14/leg15/leg16/leg17/foot4
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg14/leg15/leg16/leg17/foot4/foot4_end
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg18
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg18/leg19
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg18/leg19/leg20
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg18/leg19/leg20/leg21
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg18/leg19/leg20/leg21/foot8
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg18/leg19/leg20/leg21/foot8/foot8_end
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg22
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg22/leg23
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg22/leg23/leg24
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg22/leg23/leg24/leg25
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg22/leg23/leg24/leg25/foot9
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg22/leg23/leg24/leg25/foot9/foot9_end
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg26
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg26/leg27
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg26/leg27/leg28
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg26/leg27/leg28/leg29
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg26/leg27/leg28/leg29/foot10
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg26/leg27/leg28/leg29/foot10/foot10_end
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg30
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg30/leg31
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg30/leg31/leg32
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg30/leg31/leg32/leg33
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg30/leg31/leg32/leg33/foot11
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg30/leg31/leg32/leg33/foot11/foot11_end
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/tail2
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/tail2/tail3
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/tail2/tail3/tail4
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/tail2/tail3/tail4/tail5/tail6/venom
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/tail2/tail3/tail4/tail5/tail6/venom/venom_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk
+      takeName: ScorpioSkeleton|walk
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Scorpio
+        weight: 1
+      - path: ScorpioLOD
+        weight: 1
+      - path: ScorpioSkeleton
+        weight: 1
+      - path: ScorpioSkeleton/Tail1
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm1
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm1/arm2
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm1/arm2/arm4
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm1/arm2/arm4/pincer1
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm1/arm2/arm4/pincer1/pincer2
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm1/arm2/arm4/pincer1/pincer2/pincer2_end
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm5
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm5/arm6
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm5/arm6/arm7
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm5/arm6/arm7/pincer3
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm5/arm6/arm7/pincer3/pincer4
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/arm5/arm6/arm7/pincer3/pincer4/pincer4_end
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg1
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg1/leg2
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg1/leg2/leg3
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg1/leg2/leg3/leg4
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg1/leg2/leg3/leg4/foot1
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg1/leg2/leg3/leg4/foot1/foot1_end
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg6
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg6/leg7
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg6/leg7/leg8
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg6/leg7/leg8/leg9
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg6/leg7/leg8/leg9/foot2
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg6/leg7/leg8/leg9/foot2/foot2_end
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg10
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg10/leg11
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg10/leg11/leg12
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg10/leg11/leg12/leg13
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg10/leg11/leg12/leg13/foot3
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg10/leg11/leg12/leg13/foot3/foot3_end
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg14
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg14/leg15
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg14/leg15/leg16
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg14/leg15/leg16/leg17
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg14/leg15/leg16/leg17/foot4
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg14/leg15/leg16/leg17/foot4/foot4_end
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg18
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg18/leg19
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg18/leg19/leg20
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg18/leg19/leg20/leg21
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg18/leg19/leg20/leg21/foot8
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg18/leg19/leg20/leg21/foot8/foot8_end
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg22
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg22/leg23
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg22/leg23/leg24
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg22/leg23/leg24/leg25
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg22/leg23/leg24/leg25/foot9
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg22/leg23/leg24/leg25/foot9/foot9_end
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg26
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg26/leg27
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg26/leg27/leg28
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg26/leg27/leg28/leg29
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg26/leg27/leg28/leg29/foot10
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg26/leg27/leg28/leg29/foot10/foot10_end
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg30
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg30/leg31
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg30/leg31/leg32
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg30/leg31/leg32/leg33
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg30/leg31/leg32/leg33/foot11
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/Body/leg30/leg31/leg32/leg33/foot11/foot11_end
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/tail2
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/tail2/tail3
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/tail2/tail3/tail4
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/tail2/tail3/tail4/tail5/tail6/venom
+        weight: 1
+      - path: ScorpioSkeleton/Tail1/tail2/tail3/tail4/tail5/tail6/venom/venom_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
