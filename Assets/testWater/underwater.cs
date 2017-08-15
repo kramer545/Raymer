@@ -64,6 +64,7 @@ public class underwater : MonoBehaviour {
 		Debug.Log ("underwater");
 		RenderSettings.fogColor = underWaterColor;
 		RenderSettings.fogDensity = underWaterFogStrength;
+        GetComponent<MorePPEffects.Wiggle>().enabled = true;
 	}
 
 	public void setNormal()
@@ -72,7 +73,8 @@ public class underwater : MonoBehaviour {
         Debug.Log ("above water");
 		RenderSettings.fogColor = normalColor;
 		RenderSettings.fogDensity = fogStrength;
-	}
+        GetComponent<MorePPEffects.Wiggle>().enabled = false;
+    }
 
 	public void moveToRiver()
 	{
