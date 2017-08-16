@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{14ACA339-CB82-7CCD-9F3A-442D57F3207E}") = "WaterFoam", "Assembly-CSharp-firstpass-vs.csproj", "{07A24DBD-F42A-62EC-9A58-B2600FC5BD77}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07A24DBD-F42A-62EC-9A58-B2600FC5BD77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07A24DBD-F42A-62EC-9A58-B2600FC5BD77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07A24DBD-F42A-62EC-9A58-B2600FC5BD77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07A24DBD-F42A-62EC-9A58-B2600FC5BD77}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	
+EndGlobal
