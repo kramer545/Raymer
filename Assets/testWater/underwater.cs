@@ -85,6 +85,7 @@ public class underwater : MonoBehaviour {
 	{
 		transform.position = new Vector3 (423F, 44.6F, -49.6F);
 		transform.eulerAngles = new Vector3 (32.82F, 0, 0);
+		GetComponent<Camera> ().backgroundColor = new Color32 (61,152,229,255);
 	}
 
 	public void moveDown()
