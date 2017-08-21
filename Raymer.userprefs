@@ -1,26 +1,8 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\testWater\changeFlowMap.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\testWater\underwater.cs">
     <Files>
-      <File FileName="Assets\cellScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\BeeMenu.cs" Line="1" Column="1" />
-      <File FileName="Assets\autoFiller.cs" Line="1" Column="1" />
-      <File FileName="Assets\OnEnableFlower.cs" Line="1" Column="1" />
-      <File FileName="Assets\FlowerPanelScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\randomMove.cs" Line="1" Column="1" />
-      <File FileName="Assets\Xeriscape_intro_script.cs" Line="1" Column="1" />
-      <File FileName="Assets\camBoundBox.cs" Line="1" Column="1" />
-      <File FileName="Assets\bloomTabBtn.cs" Line="1" Column="1" />
-      <File FileName="Assets\npcStayStill.cs" Line="1" Column="1" />
-      <File FileName="Assets\MapScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\followObj.cs" Line="1" Column="1" />
-      <File FileName="Assets\screenBtn.cs" Line="1" Column="1" />
-      <File FileName="Assets\screenSaver.cs" Line="1" Column="1" />
-      <File FileName="Assets\MapMenuController.cs" Line="1" Column="1" />
-      <File FileName="Assets\aboutBtn.cs" Line="1" Column="1" />
-      <File FileName="Assets\testWater\underwater.cs" Line="1" Column="1" />
-      <File FileName="Assets\Standard Assets\Environment\Water\Water\Scripts\Water.cs" Line="1" Column="1" />
-      <File FileName="Assets\testWater\changeFlowMap.cs" Line="21" Column="37" />
+      <File FileName="Assets\testWater\underwater.cs" Line="87" Column="54" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
