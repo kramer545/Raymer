@@ -249,7 +249,7 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
  </Reference>
  <Reference Include="CloudSystemFree.Runtime">
- <HintPath>C:/Users/Ryan/Documents/Raymer/Assets/Plugins/Cloud System/CloudSystemFree.Runtime.dll</HintPath>
+ <HintPath>C:/Users/generic/Documents/GitHub/Raymer/Assets/Plugins/Cloud System/CloudSystemFree.Runtime.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
