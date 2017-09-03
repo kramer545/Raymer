@@ -1,0 +1,317 @@
+fileFormatVersion: 2
+guid: 9e349bd80d8ccd04f9ab76aedf02ce84
+timeCreated: 1504399198
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: b_belly
+    100002: b_belly1
+    100004: b_braw_left1
+    100006: b_braw_left2
+    100008: b_braw_right1
+    100010: b_braw_right2
+    100012: b_chest
+    100014: b_chest001
+    100016: b_chest002
+    100018: b_eyelid_left_lower
+    100020: b_eyelid_left_upper
+    100022: b_eyelid_right_lower
+    100024: b_eyelid_right_upper
+    100026: b_head
+    100028: b_head_nub
+    100030: b_Jaw
+    100032: b_Jaw_nub
+    100034: b_left_arm
+    100036: b_left_chin
+    100038: b_left_ear
+    100040: b_left_ear_nub
+    100042: b_left_F_toe1
+    100044: b_left_F_toe2
+    100046: b_left_F_toe_nub
+    100048: b_left_forearm
+    100050: b_left_hip
+    100052: b_left_leg
+    100054: b_left_rist
+    100056: b_left_shoulder
+    100058: b_left_toe1
+    100060: b_left_toe2
+    100062: b_left_toe_nub
+    100064: b_lip
+    100066: b_lip_left1
+    100068: b_lip_left2
+    100070: b_lip_right1
+    100072: b_lip_right2
+    100074: b_lower_lip
+    100076: b_lower_lip_left1
+    100078: b_lower_lip_left2
+    100080: b_lower_lip_right1
+    100082: b_lower_lip_right2
+    100084: b_neck1
+    100086: b_neck2
+    100088: b_nose
+    100090: b_Right_arm
+    100092: b_Right_chin
+    100094: b_right_ear
+    100096: b_right_ear_nub
+    100098: b_Right_F_toe1
+    100100: b_Right_F_toe2
+    100102: b_Right_F_toe_nub
+    100104: b_Right_forearm
+    100106: b_Right_hip
+    100108: b_Right_leg
+    100110: b_Right_rist
+    100112: b_Right_Shoulder
+    100114: b_Right_toe1
+    100116: b_Right_toe2
+    100118: b_right_toe_nub
+    100120: b_Root
+    100122: b_Spine1
+    100124: b_Spine2
+    100126: b_Spine3
+    100128: b_Spine4
+    100130: b_tail1
+    100132: b_tail2
+    100134: b_tail3
+    100136: b_tail4
+    100138: b_tail_nub
+    100140: //RootNode
+    100142: Fur
+    100144: IK Left_Arm
+    100146: IK Left_Leg
+    100148: IK Right_Arm
+    100150: IK Right_Leg
+    100152: Wolf002
+    400000: b_belly
+    400002: b_belly1
+    400004: b_braw_left1
+    400006: b_braw_left2
+    400008: b_braw_right1
+    400010: b_braw_right2
+    400012: b_chest
+    400014: b_chest001
+    400016: b_chest002
+    400018: b_eyelid_left_lower
+    400020: b_eyelid_left_upper
+    400022: b_eyelid_right_lower
+    400024: b_eyelid_right_upper
+    400026: b_head
+    400028: b_head_nub
+    400030: b_Jaw
+    400032: b_Jaw_nub
+    400034: b_left_arm
+    400036: b_left_chin
+    400038: b_left_ear
+    400040: b_left_ear_nub
+    400042: b_left_F_toe1
+    400044: b_left_F_toe2
+    400046: b_left_F_toe_nub
+    400048: b_left_forearm
+    400050: b_left_hip
+    400052: b_left_leg
+    400054: b_left_rist
+    400056: b_left_shoulder
+    400058: b_left_toe1
+    400060: b_left_toe2
+    400062: b_left_toe_nub
+    400064: b_lip
+    400066: b_lip_left1
+    400068: b_lip_left2
+    400070: b_lip_right1
+    400072: b_lip_right2
+    400074: b_lower_lip
+    400076: b_lower_lip_left1
+    400078: b_lower_lip_left2
+    400080: b_lower_lip_right1
+    400082: b_lower_lip_right2
+    400084: b_neck1
+    400086: b_neck2
+    400088: b_nose
+    400090: b_Right_arm
+    400092: b_Right_chin
+    400094: b_right_ear
+    400096: b_right_ear_nub
+    400098: b_Right_F_toe1
+    400100: b_Right_F_toe2
+    400102: b_Right_F_toe_nub
+    400104: b_Right_forearm
+    400106: b_Right_hip
+    400108: b_Right_leg
+    400110: b_Right_rist
+    400112: b_Right_Shoulder
+    400114: b_Right_toe1
+    400116: b_Right_toe2
+    400118: b_right_toe_nub
+    400120: b_Root
+    400122: b_Spine1
+    400124: b_Spine2
+    400126: b_Spine3
+    400128: b_Spine4
+    400130: b_tail1
+    400132: b_tail2
+    400134: b_tail3
+    400136: b_tail4
+    400138: b_tail_nub
+    400140: //RootNode
+    400142: Fur
+    400144: IK Left_Arm
+    400146: IK Left_Leg
+    400148: IK Right_Arm
+    400150: IK Right_Leg
+    400152: Wolf002
+    2300000: b_belly
+    2300002: b_belly1
+    2300004: b_braw_left1
+    2300006: b_braw_left2
+    2300008: b_braw_right1
+    2300010: b_braw_right2
+    2300012: b_chest
+    2300014: b_chest001
+    2300016: b_chest002
+    2300018: b_eyelid_left_lower
+    2300020: b_eyelid_left_upper
+    2300022: b_eyelid_right_lower
+    2300024: b_eyelid_right_upper
+    2300026: b_lip
+    2300028: b_lip_left1
+    2300030: b_lip_left2
+    2300032: b_lip_right1
+    2300034: b_lip_right2
+    2300036: b_lower_lip
+    2300038: b_lower_lip_left1
+    2300040: b_lower_lip_left2
+    2300042: b_lower_lip_right1
+    2300044: b_lower_lip_right2
+    2300046: b_nose
+    2300048: b_Root
+    3300000: b_belly
+    3300002: b_belly1
+    3300004: b_braw_left1
+    3300006: b_braw_left2
+    3300008: b_braw_right1
+    3300010: b_braw_right2
+    3300012: b_chest
+    3300014: b_chest001
+    3300016: b_chest002
+    3300018: b_eyelid_left_lower
+    3300020: b_eyelid_left_upper
+    3300022: b_eyelid_right_lower
+    3300024: b_eyelid_right_upper
+    3300026: b_lip
+    3300028: b_lip_left1
+    3300030: b_lip_left2
+    3300032: b_lip_right1
+    3300034: b_lip_right2
+    3300036: b_lower_lip
+    3300038: b_lower_lip_left1
+    3300040: b_lower_lip_left2
+    3300042: b_lower_lip_right1
+    3300044: b_lower_lip_right2
+    3300046: b_nose
+    3300048: b_Root
+    4300000: Fur
+    4300002: b_Root
+    4300004: b_braw_left1
+    4300006: b_braw_right1
+    4300008: b_eyelid_left_upper
+    4300010: b_eyelid_right_upper
+    4300012: b_braw_left2
+    4300014: b_braw_right2
+    4300016: b_eyelid_left_lower
+    4300018: b_eyelid_right_lower
+    4300020: b_lip
+    4300022: b_nose
+    4300024: b_lip_right2
+    4300026: b_lip_left2
+    4300028: b_lip_right1
+    4300030: b_lip_left1
+    4300032: b_lower_lip
+    4300034: b_lower_lip_right1
+    4300036: b_lower_lip_left1
+    4300038: b_lower_lip_right2
+    4300040: b_lower_lip_left2
+    4300042: b_chest
+    4300044: b_chest001
+    4300046: b_chest002
+    4300048: b_belly1
+    4300050: b_belly
+    4300052: Wolf002
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Fur
+    13700002: Wolf002
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

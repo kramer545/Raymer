@@ -155,6 +155,7 @@
      <None Include="Assets\PostProcessing\Resources\Shaders\Blit.shader" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\frag_ao.cginc" />
      <None Include="Assets\PostProcessing\Editor Resources\Monitors\WaveformRender.shader" />
+     <None Include="Assets\lakeModels\Yacht\readme.txt" />
      <None Include="Assets\More PostProcessing Effects\Shaders\Sobel.shader" />
      <None Include="Assets\PostProcessing\Editor Resources\Monitors\VectorscopeCompute.compute" />
      <None Include="Assets\More PostProcessing Effects\Shaders\BlackAndGreen.shader" />
@@ -298,7 +299,7 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
  </Reference>
  <Reference Include="CloudSystemFree.Runtime">
- <HintPath>C:/Users/Ryan/Documents/Raymer/Assets/Plugins/Cloud System/CloudSystemFree.Runtime.dll</HintPath>
+ <HintPath>C:/Users/Ryans/Documents/Raymer/Assets/Plugins/Cloud System/CloudSystemFree.Runtime.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
