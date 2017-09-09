@@ -224,6 +224,10 @@
      <Compile Include="Assets\WaterFoam55\Assets\Standard Assets\Environment\Water\Water\Scripts\WaterBase.cs" />
      <Compile Include="Assets\WaterFoam55\Assets\Standard Assets\Environment\Water\Water\Scripts\WaterTile.cs" />
      <Compile Include="Assets\Xeriscape_intro_script.cs" />
+     <Compile Include="Assets\Yurowm\Demo\Scripts\Actions.cs" />
+     <Compile Include="Assets\Yurowm\Demo\Scripts\CharacterPanel.cs" />
+     <Compile Include="Assets\Yurowm\Demo\Scripts\CharacterViewer.cs" />
+     <Compile Include="Assets\Yurowm\Demo\Scripts\PlayerController.cs" />
      <None Include="Assets\PostProcessing\Resources\Shaders\DepthOfField.shader" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
@@ -291,6 +295,7 @@
      <None Include="Assets\GroundCover\ReadMe.txt" />
      <None Include="Assets\More PostProcessing Effects\Shaders\Drunk.shader" />
      <None Include="Assets\Fish\Readme.txt" />
+     <None Include="Assets\Yurowm\Shaders\SkinShader.shader" />
      <None Include="Assets\More PostProcessing Effects\Shaders\LowResolution.shader" />
      <None Include="Assets\More PostProcessing Effects\Shaders\Colorization.shader" />
      <None Include="Assets\WaterFoam55\Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />

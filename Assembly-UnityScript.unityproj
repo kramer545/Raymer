@@ -107,6 +107,7 @@
      <None Include="Assets\PostProcessing\Resources\Shaders\Blit.shader" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\frag_ao.cginc" />
      <None Include="Assets\PostProcessing\Editor Resources\Monitors\WaveformRender.shader" />
+     <None Include="Assets\lakeModels\Yacht\readme.txt" />
      <None Include="Assets\More PostProcessing Effects\Shaders\Sobel.shader" />
      <None Include="Assets\PostProcessing\Editor Resources\Monitors\VectorscopeCompute.compute" />
      <None Include="Assets\More PostProcessing Effects\Shaders\BlackAndGreen.shader" />
@@ -119,6 +120,7 @@
      <None Include="Assets\GroundCover\ReadMe.txt" />
      <None Include="Assets\More PostProcessing Effects\Shaders\Drunk.shader" />
      <None Include="Assets\Fish\Readme.txt" />
+     <None Include="Assets\Yurowm\Shaders\SkinShader.shader" />
      <None Include="Assets\More PostProcessing Effects\Shaders\LowResolution.shader" />
      <None Include="Assets\More PostProcessing Effects\Shaders\Colorization.shader" />
      <None Include="Assets\WaterFoam55\Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
@@ -250,7 +252,7 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
  </Reference>
  <Reference Include="CloudSystemFree.Runtime">
- <HintPath>C:/Users/Ryan/Documents/Raymer/Assets/Plugins/Cloud System/CloudSystemFree.Runtime.dll</HintPath>
+ <HintPath>C:/Users/Ryans/Documents/Raymer/Assets/Plugins/Cloud System/CloudSystemFree.Runtime.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

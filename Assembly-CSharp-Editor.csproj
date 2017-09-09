@@ -205,6 +205,7 @@
      <None Include="Assets\GroundCover\ReadMe.txt" />
      <None Include="Assets\More PostProcessing Effects\Shaders\Drunk.shader" />
      <None Include="Assets\Fish\Readme.txt" />
+     <None Include="Assets\Yurowm\Shaders\SkinShader.shader" />
      <None Include="Assets\More PostProcessing Effects\Shaders\LowResolution.shader" />
      <None Include="Assets\More PostProcessing Effects\Shaders\Colorization.shader" />
      <None Include="Assets\WaterFoam55\Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
