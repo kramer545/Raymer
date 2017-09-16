@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Riparian.unity
+- path: Assets/PatsGarden.unity
   isLoaded: 1
   isActive: 1

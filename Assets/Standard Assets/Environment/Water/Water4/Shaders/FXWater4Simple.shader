@@ -1,6 +1,5 @@
-// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
-
 // Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
 
 Shader "FX/SimpleWater4" {
 Properties {
@@ -252,7 +251,7 @@ CGINCLUDE
 
 		o.pos = UnityObjectToClipPos(v.vertex);
 
-		o.screenPos = ComputeNonStereoScreenPos(o.pos);
+		o.screenPos = ComputeScreenPos(o.pos);
 		
 		o.normalInterpolator.xyz = nrml;
 		
