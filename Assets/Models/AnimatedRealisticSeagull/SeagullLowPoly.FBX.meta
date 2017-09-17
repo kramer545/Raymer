@@ -1,0 +1,241 @@
+fileFormatVersion: 2
+guid: 2f47a62148cd3aa4d9115e7b7bba9940
+timeCreated: 18446744011573954816
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Bone005
+    100002: Bone006
+    100004: Bone007
+    100006: Bone008
+    100008: Bone009
+    100010: Bone010
+    100012: Bone010(mirrored)
+    100014: Bone011
+    100016: Bone011(mirrored)
+    100018: Bone012
+    100020: Bone012(mirrored)
+    100022: Bone013
+    100024: Bone013(mirrored)
+    100026: Bone014
+    100028: Bone014(mirrored)
+    100030: Bone015
+    100032: Bone015(mirrored)
+    100034: Bone016
+    100036: Bone016(mirrored)
+    100038: Bone017
+    100040: Bone017(mirrored)
+    100042: Bone018
+    100044: Bone018(mirrored)
+    100046: Bone018(mirrored) 1
+    100048: Bone019
+    100050: Bone019(mirrored)
+    100052: Bone019(mirrored) 1
+    100054: Bone020
+    100056: Bone020(mirrored)
+    100058: Bone021
+    100060: Bone021(mirrored)
+    100062: Bone022
+    100064: Bone022(mirrored)
+    100066: Bone023
+    100068: Bone023(mirrored)
+    100070: Bone024
+    100072: Bone024(mirrored)
+    100074: Bone025
+    100076: Bone025(mirrored)
+    100078: Bone026
+    100080: Bone026(mirrored)
+    100082: Bone027
+    100084: Bone027(mirrored)
+    100086: Bone028
+    100088: Bone029
+    100090: seagull
+    100092: //RootNode
+    100094: Omni001
+    100096: Omni002
+    400000: Bone005
+    400002: Bone006
+    400004: Bone007
+    400006: Bone008
+    400008: Bone009
+    400010: Bone010
+    400012: Bone010(mirrored)
+    400014: Bone011
+    400016: Bone011(mirrored)
+    400018: Bone012
+    400020: Bone012(mirrored)
+    400022: Bone013
+    400024: Bone013(mirrored)
+    400026: Bone014
+    400028: Bone014(mirrored)
+    400030: Bone015
+    400032: Bone015(mirrored)
+    400034: Bone016
+    400036: Bone016(mirrored)
+    400038: Bone017
+    400040: Bone017(mirrored)
+    400042: Bone018
+    400044: Bone018(mirrored)
+    400046: Bone018(mirrored) 1
+    400048: Bone019
+    400050: Bone019(mirrored)
+    400052: Bone019(mirrored) 1
+    400054: Bone020
+    400056: Bone020(mirrored)
+    400058: Bone021
+    400060: Bone021(mirrored)
+    400062: Bone022
+    400064: Bone022(mirrored)
+    400066: Bone023
+    400068: Bone023(mirrored)
+    400070: Bone024
+    400072: Bone024(mirrored)
+    400074: Bone025
+    400076: Bone025(mirrored)
+    400078: Bone026
+    400080: Bone026(mirrored)
+    400082: Bone027
+    400084: Bone027(mirrored)
+    400086: Bone028
+    400088: Bone029
+    400090: seagull
+    400092: //RootNode
+    400094: Omni001
+    400096: Omni002
+    4300000: seagull
+    7400000: seagullFlying
+    7400002: seagullGliding
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: seagull
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: seagullFlying
+      takeName: Take 001
+      firstFrame: 30
+      lastFrame: 60
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: seagullGliding
+      takeName: Take 001
+      firstFrame: 70
+      lastFrame: 200
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: Bone008
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

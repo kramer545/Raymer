@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/PlantGarden.unity
+- path: Assets/Mission_Creek.unity
   isLoaded: 1
   isActive: 1
