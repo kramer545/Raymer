@@ -1,0 +1,190 @@
+fileFormatVersion: 2
+guid: 910d8ab0974a7a74c8d3ea97d230809f
+timeCreated: 1505776245
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Box02
+    100004: objModel001_24_Bikini_1_0_0
+    100006: objModel001_24_Eyes_1_0_0
+    100008: objModel001_24_Face_1_0_0
+    100010: objModel001_24_Strap_1_0_0
+    100012: objModel001_25_FrontHair(1)_1_0_0
+    100014: objModel001_25_FrontHair_1_0_0
+    100016: objModel001_25_HairBase(1)_1_0_0
+    100018: objModel001_25_HairBase_1_0_0
+    100020: objModel001_25_Lace_1_0_0
+    100022: objModel001_25_Ponytails(1)_1_0_0
+    100024: objModel001_25_Ponytails(2)_1_0_0
+    100026: objModel001_25_Ponytails(3)_1_0_0
+    100028: objModel001_25_Ponytails_1_0_0
+    100030: objModel001_5_Ribbons(1)_1_0_0
+    100032: objModel001_5_Ribbons_1_0_0
+    100034: objModel001_7_LowerLashes(1)_1_0_0
+    100036: objModel001_7_LowerLashes(1)_1_0_01
+    100038: objModel001_7_LowerLashes(2)_1_0_01
+    100040: objModel001_8_Material35(1)_1_0_0
+    100042: objModel001_8_Material35_1_0_0
+    400000: //RootNode
+    400002: Box02
+    400004: objModel001_24_Bikini_1_0_0
+    400006: objModel001_24_Eyes_1_0_0
+    400008: objModel001_24_Face_1_0_0
+    400010: objModel001_24_Strap_1_0_0
+    400012: objModel001_25_FrontHair(1)_1_0_0
+    400014: objModel001_25_FrontHair_1_0_0
+    400016: objModel001_25_HairBase(1)_1_0_0
+    400018: objModel001_25_HairBase_1_0_0
+    400020: objModel001_25_Lace_1_0_0
+    400022: objModel001_25_Ponytails(1)_1_0_0
+    400024: objModel001_25_Ponytails(2)_1_0_0
+    400026: objModel001_25_Ponytails(3)_1_0_0
+    400028: objModel001_25_Ponytails_1_0_0
+    400030: objModel001_5_Ribbons(1)_1_0_0
+    400032: objModel001_5_Ribbons_1_0_0
+    400034: objModel001_7_LowerLashes(1)_1_0_0
+    400036: objModel001_7_LowerLashes(1)_1_0_01
+    400038: objModel001_7_LowerLashes(2)_1_0_01
+    400040: objModel001_8_Material35(1)_1_0_0
+    400042: objModel001_8_Material35_1_0_0
+    2300000: Box02
+    2300002: objModel001_24_Bikini_1_0_0
+    2300004: objModel001_24_Eyes_1_0_0
+    2300006: objModel001_24_Face_1_0_0
+    2300008: objModel001_24_Strap_1_0_0
+    2300010: objModel001_25_FrontHair(1)_1_0_0
+    2300012: objModel001_25_FrontHair_1_0_0
+    2300014: objModel001_25_HairBase(1)_1_0_0
+    2300016: objModel001_25_HairBase_1_0_0
+    2300018: objModel001_25_Lace_1_0_0
+    2300020: objModel001_25_Ponytails(1)_1_0_0
+    2300022: objModel001_25_Ponytails(2)_1_0_0
+    2300024: objModel001_25_Ponytails(3)_1_0_0
+    2300026: objModel001_25_Ponytails_1_0_0
+    2300028: objModel001_5_Ribbons(1)_1_0_0
+    2300030: objModel001_5_Ribbons_1_0_0
+    2300032: objModel001_7_LowerLashes(1)_1_0_0
+    2300034: objModel001_7_LowerLashes(1)_1_0_01
+    2300036: objModel001_7_LowerLashes(2)_1_0_01
+    2300038: objModel001_8_Material35(1)_1_0_0
+    2300040: objModel001_8_Material35_1_0_0
+    3300000: Box02
+    3300002: objModel001_24_Bikini_1_0_0
+    3300004: objModel001_24_Eyes_1_0_0
+    3300006: objModel001_24_Face_1_0_0
+    3300008: objModel001_24_Strap_1_0_0
+    3300010: objModel001_25_FrontHair(1)_1_0_0
+    3300012: objModel001_25_FrontHair_1_0_0
+    3300014: objModel001_25_HairBase(1)_1_0_0
+    3300016: objModel001_25_HairBase_1_0_0
+    3300018: objModel001_25_Lace_1_0_0
+    3300020: objModel001_25_Ponytails(1)_1_0_0
+    3300022: objModel001_25_Ponytails(2)_1_0_0
+    3300024: objModel001_25_Ponytails(3)_1_0_0
+    3300026: objModel001_25_Ponytails_1_0_0
+    3300028: objModel001_5_Ribbons(1)_1_0_0
+    3300030: objModel001_5_Ribbons_1_0_0
+    3300032: objModel001_7_LowerLashes(1)_1_0_0
+    3300034: objModel001_7_LowerLashes(1)_1_0_01
+    3300036: objModel001_7_LowerLashes(2)_1_0_01
+    3300038: objModel001_8_Material35(1)_1_0_0
+    3300040: objModel001_8_Material35_1_0_0
+    4300000: objModel001_8_Material35_1_0_0
+    4300002: objModel001_8_Material35(1)_1_0_0
+    4300004: objModel001_24_Eyes_1_0_0
+    4300006: objModel001_24_Face_1_0_0
+    4300008: objModel001_7_LowerLashes(1)_1_0_0
+    4300010: objModel001_25_Ponytails_1_0_0
+    4300012: objModel001_25_Ponytails(1)_1_0_0
+    4300014: objModel001_25_Ponytails(2)_1_0_0
+    4300016: objModel001_25_Ponytails(3)_1_0_0
+    4300018: objModel001_25_FrontHair_1_0_0
+    4300020: objModel001_25_FrontHair(1)_1_0_0
+    4300022: objModel001_25_HairBase_1_0_0
+    4300024: objModel001_25_HairBase(1)_1_0_0
+    4300026: objModel001_5_Ribbons_1_0_0
+    4300028: objModel001_5_Ribbons(1)_1_0_0
+    4300030: objModel001_24_Strap_1_0_0
+    4300032: objModel001_24_Bikini_1_0_0
+    4300034: objModel001_25_Lace_1_0_0
+    4300036: Box02
+    4300038: objModel001_7_LowerLashes(2)_1_0_01
+    4300040: objModel001_7_LowerLashes(1)_1_0_01
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
