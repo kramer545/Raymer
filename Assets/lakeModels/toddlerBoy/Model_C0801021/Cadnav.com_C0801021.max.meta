@@ -1,0 +1,226 @@
+fileFormatVersion: 2
+guid: 080a8de3c8e3caf4ab7318067d6fcf28
+timeCreated: 1505777858
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: CBoy0003-Bip
+    100004: CBoy0003-Footsteps
+    100006: CBoy0003-Head
+    100008: CBoy0003-HeadNub
+    100010: CBoy0003-L Calf
+    100012: CBoy0003-L Clavicle
+    100014: CBoy0003-L Finger0
+    100016: CBoy0003-L Finger01
+    100018: CBoy0003-L Finger02
+    100020: CBoy0003-L Finger0Nub
+    100022: CBoy0003-L Finger1
+    100024: CBoy0003-L Finger11
+    100026: CBoy0003-L Finger12
+    100028: CBoy0003-L Finger1Nub
+    100030: CBoy0003-L Finger2
+    100032: CBoy0003-L Finger21
+    100034: CBoy0003-L Finger22
+    100036: CBoy0003-L Finger2Nub
+    100038: CBoy0003-L Finger3
+    100040: CBoy0003-L Finger31
+    100042: CBoy0003-L Finger32
+    100044: CBoy0003-L Finger3Nub
+    100046: CBoy0003-L Finger4
+    100048: CBoy0003-L Finger41
+    100050: CBoy0003-L Finger42
+    100052: CBoy0003-L Finger4Nub
+    100054: CBoy0003-L Foot
+    100056: CBoy0003-L Forearm
+    100058: CBoy0003-L Hand
+    100060: CBoy0003-L Thigh
+    100062: CBoy0003-L Toe0
+    100064: CBoy0003-L Toe0Nub
+    100066: CBoy0003-L UpperArm
+    100068: CBoy0003-Mesh
+    100070: CBoy0003-Neck
+    100072: CBoy0003-Pelvis
+    100074: CBoy0003-R Calf
+    100076: CBoy0003-R Clavicle
+    100078: CBoy0003-R Finger0
+    100080: CBoy0003-R Finger01
+    100082: CBoy0003-R Finger02
+    100084: CBoy0003-R Finger0Nub
+    100086: CBoy0003-R Finger1
+    100088: CBoy0003-R Finger11
+    100090: CBoy0003-R Finger12
+    100092: CBoy0003-R Finger1Nub
+    100094: CBoy0003-R Finger2
+    100096: CBoy0003-R Finger21
+    100098: CBoy0003-R Finger22
+    100100: CBoy0003-R Finger2Nub
+    100102: CBoy0003-R Finger3
+    100104: CBoy0003-R Finger31
+    100106: CBoy0003-R Finger32
+    100108: CBoy0003-R Finger3Nub
+    100110: CBoy0003-R Finger4
+    100112: CBoy0003-R Finger41
+    100114: CBoy0003-R Finger42
+    100116: CBoy0003-R Finger4Nub
+    100118: CBoy0003-R Foot
+    100120: CBoy0003-R Forearm
+    100122: CBoy0003-R Hand
+    100124: CBoy0003-R Thigh
+    100126: CBoy0003-R Toe0
+    100128: CBoy0003-R Toe0Nub
+    100130: CBoy0003-R UpperArm
+    100132: CBoy0003-Spine
+    100134: CBoy0003-Spine1
+    100136: CBoy0003-Spine2
+    100138: CBoy0003-Spine3
+    400000: //RootNode
+    400002: CBoy0003-Bip
+    400004: CBoy0003-Footsteps
+    400006: CBoy0003-Head
+    400008: CBoy0003-HeadNub
+    400010: CBoy0003-L Calf
+    400012: CBoy0003-L Clavicle
+    400014: CBoy0003-L Finger0
+    400016: CBoy0003-L Finger01
+    400018: CBoy0003-L Finger02
+    400020: CBoy0003-L Finger0Nub
+    400022: CBoy0003-L Finger1
+    400024: CBoy0003-L Finger11
+    400026: CBoy0003-L Finger12
+    400028: CBoy0003-L Finger1Nub
+    400030: CBoy0003-L Finger2
+    400032: CBoy0003-L Finger21
+    400034: CBoy0003-L Finger22
+    400036: CBoy0003-L Finger2Nub
+    400038: CBoy0003-L Finger3
+    400040: CBoy0003-L Finger31
+    400042: CBoy0003-L Finger32
+    400044: CBoy0003-L Finger3Nub
+    400046: CBoy0003-L Finger4
+    400048: CBoy0003-L Finger41
+    400050: CBoy0003-L Finger42
+    400052: CBoy0003-L Finger4Nub
+    400054: CBoy0003-L Foot
+    400056: CBoy0003-L Forearm
+    400058: CBoy0003-L Hand
+    400060: CBoy0003-L Thigh
+    400062: CBoy0003-L Toe0
+    400064: CBoy0003-L Toe0Nub
+    400066: CBoy0003-L UpperArm
+    400068: CBoy0003-Mesh
+    400070: CBoy0003-Neck
+    400072: CBoy0003-Pelvis
+    400074: CBoy0003-R Calf
+    400076: CBoy0003-R Clavicle
+    400078: CBoy0003-R Finger0
+    400080: CBoy0003-R Finger01
+    400082: CBoy0003-R Finger02
+    400084: CBoy0003-R Finger0Nub
+    400086: CBoy0003-R Finger1
+    400088: CBoy0003-R Finger11
+    400090: CBoy0003-R Finger12
+    400092: CBoy0003-R Finger1Nub
+    400094: CBoy0003-R Finger2
+    400096: CBoy0003-R Finger21
+    400098: CBoy0003-R Finger22
+    400100: CBoy0003-R Finger2Nub
+    400102: CBoy0003-R Finger3
+    400104: CBoy0003-R Finger31
+    400106: CBoy0003-R Finger32
+    400108: CBoy0003-R Finger3Nub
+    400110: CBoy0003-R Finger4
+    400112: CBoy0003-R Finger41
+    400114: CBoy0003-R Finger42
+    400116: CBoy0003-R Finger4Nub
+    400118: CBoy0003-R Foot
+    400120: CBoy0003-R Forearm
+    400122: CBoy0003-R Hand
+    400124: CBoy0003-R Thigh
+    400126: CBoy0003-R Toe0
+    400128: CBoy0003-R Toe0Nub
+    400130: CBoy0003-R UpperArm
+    400132: CBoy0003-Spine
+    400134: CBoy0003-Spine1
+    400136: CBoy0003-Spine2
+    400138: CBoy0003-Spine3
+    4300000: CBoy0003-Mesh
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: CBoy0003-Mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
