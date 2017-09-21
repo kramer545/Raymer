@@ -34,9 +34,4 @@ public class lakeIconRotate : MonoBehaviour {
 			scaleIncreasing = !scaleIncreasing;
 		this.transform.localScale = new Vector3 (scale, scale, scale);
 	}
-
-	public void onClick()
-	{
-		Debug.Log ("Clicked");
-	}
 }
