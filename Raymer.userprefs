@@ -6,8 +6,8 @@
       <File FileName="Assets\Editor\Image Effects\CameraMotionBlurEditor.js" Line="1" Column="1" />
       <File FileName="Assets\Xeriscape_intro_script.cs" Line="1" Column="1" />
       <File FileName="Assets\BeeMenu.cs" Line="1" Column="1" />
-      <File FileName="Assets\lakeIconRotate.cs" Line="26" Column="61" />
-      <File FileName="Assets\lakeController.cs" Line="57" Column="37" />
+      <File FileName="Assets\lakeIconRotate.cs" Line="1" Column="1" />
+      <File FileName="Assets\lakeController.cs" Line="26" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
