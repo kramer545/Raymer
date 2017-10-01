@@ -10,6 +10,10 @@ public class lakeController : MonoBehaviour {
 	public GameObject[] garbagePile;
 	public GameObject garbageMinigame;
 	public float travelSpeed = 1.0f;
+	public float underWaterFogStrength = 0.012f;
+	public float fogStrength = 0.002f;
+	public Color normalColor;
+	public Color underWaterColor;
 
 	bool isTraveling = false;
 	float startTime;
@@ -46,15 +50,12 @@ public class lakeController : MonoBehaviour {
 
 		//Hide area indicators
 		//TODO replace this when replacing UI images with 3D models
-		if(tempIndex != 0)
-		{
-			backBtn.SetActive (true);
-		}
-		else //if index = 0, at base layer, show UI circles highlighting areas
-		{
+		if (tempIndex == 0) { //if index = 0, at base layer, show UI circles highlighting areas
+			setNormal ();
 			foreach (GameObject img in overlayImages)
 				img.SetActive (true);
-		}
+		} else
+			setUnderWater ();
 
 		//activate areaPanel
 		if(tempIndex  != 0)
@@ -68,5 +69,17 @@ public class lakeController : MonoBehaviour {
 	public void garbageMinigameClick(int index)
 	{
 		garbagePile [index].SetActive (false);
+	}
+
+	public void setUnderWater()
+	{
+		RenderSettings.fogColor = underWaterColor;
+		RenderSettings.fogDensity = underWaterFogStrength;
+	}
+
+	public void setNormal()
+	{
+		RenderSettings.fogColor = normalColor;
+		RenderSettings.fogDensity = fogStrength;
 	}
 }

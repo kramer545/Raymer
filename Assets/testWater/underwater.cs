@@ -26,82 +26,27 @@ public class underwater : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if ((transform.position.y <= waterLevel) && !isUnderWater)
+		if ((transform.position.y <= waterLevel))
 		{
-			isUnderWater = true;
 			setUnderWater ();
 		}
-		else if ((transform.position.y > waterLevel) && isUnderWater)
+		else if ((transform.position.y > waterLevel))
 		{
-			isUnderWater = false;
 			setNormal ();
 		}
-
-        if(movingUp)
-        {
-            float distCovered = (Time.time - startTime) * speed;
-            float fracJourney = distCovered / journeyLength;
-            transform.position = Vector3.Lerp(downPos,upPos, fracJourney);
-            if (fracJourney >= 1)
-                movingUp = false;
-        }
-        else if(movingDown)
-        {
-            float distCovered = (Time.time - startTime) * speed;
-            float fracJourney = distCovered / journeyLength;
-            transform.position = Vector3.Lerp(upPos, downPos, fracJourney);
-            if (fracJourney >= 1)
-                movingDown = false;
-        }
 
 	}
 
 	public void setUnderWater()
 	{
-		Debug.Log ("underwater");
 		RenderSettings.fogColor = underWaterColor;
 		RenderSettings.fogDensity = underWaterFogStrength;
-        GetComponent<MorePPEffects.Wiggle>().enabled = true;
 	}
 
 	public void setNormal()
 	{
-        Debug.Log ("above water");
 		RenderSettings.fogColor = normalColor;
 		RenderSettings.fogDensity = fogStrength;
-        GetComponent<MorePPEffects.Wiggle>().enabled = false;
-    }
-
-	public void moveToRiver()
-	{
-		transform.position = new Vector3 (55, 6, -17);
-	}
-
-	public void moveToLake()
-	{
-		transform.position = new Vector3 (423F, 44.6F, -49.6F);
-		transform.eulerAngles = new Vector3 (32.82F, 0, 0);
-		GetComponent<Camera> ().backgroundColor = new Color32 (61,152,229,255);
-	}
-
-	public void moveDown()
-	{
-        if(!movingUp && !movingDown)
-        {
-            movingDown = true;
-            startTime = Time.time;
-            journeyLength = Vector3.Distance(upPos, downPos);
-        }
-    }
-
-    public void moveUp()
-    {
-        if (!movingUp && !movingDown)
-        {
-            movingUp = true;
-            startTime = Time.time;
-            journeyLength = Vector3.Distance(upPos, downPos);
-        }
     }
 
 
