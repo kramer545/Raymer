@@ -83,6 +83,7 @@
      <Compile Include="Assets\Hummingbird\Scripts\HummingbirdUserControllerScript.cs" />
      <Compile Include="Assets\lakeController.cs" />
      <Compile Include="Assets\lakeIconRotate.cs" />
+     <Compile Include="Assets\lakeScene\DockArea\DocksController.cs" />
      <Compile Include="Assets\lookAtCam.cs" />
      <Compile Include="Assets\mainMenu.cs" />
      <Compile Include="Assets\makeBush.cs" />

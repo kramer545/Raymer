@@ -60,6 +60,5 @@ C:\Users\Ryans\Documents\Raymer\Temp\bin\Debug\nunit.framework.xml
 C:\Users\Ryans\Documents\Raymer\Temp\bin\Debug\UnityEngine.Timeline.xml
 C:\Users\Ryans\Documents\Raymer\Temp\bin\Debug\UnityEngine.Analytics.xml
 C:\Users\Ryans\Documents\Raymer\Temp\bin\Debug\UnityEngine.HoloLens.xml
-C:\Users\Ryans\Documents\Raymer\obj\Debug\Assembly-CSharp-firstpass.csprojResolveAssemblyReference.cache
 C:\Users\Ryans\Documents\Raymer\obj\Debug\Assembly-CSharp-firstpass.dll
 C:\Users\Ryans\Documents\Raymer\obj\Debug\Assembly-CSharp-firstpass.pdb
