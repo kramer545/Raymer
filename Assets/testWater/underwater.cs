@@ -18,8 +18,6 @@ public class underwater : MonoBehaviour {
 	public Vector3 upPos;
 	public Vector3 downPos;
 
-    public GameObject botWater;
-
 
 	// Use this for initialization
 	void Start () {
@@ -60,7 +58,6 @@ public class underwater : MonoBehaviour {
 
 	public void setUnderWater()
 	{
-        botWater.SetActive(true);
 		Debug.Log ("underwater");
 		RenderSettings.fogColor = underWaterColor;
 		RenderSettings.fogDensity = underWaterFogStrength;
@@ -69,7 +66,6 @@ public class underwater : MonoBehaviour {
 
 	public void setNormal()
 	{
-        botWater.SetActive(false);
         Debug.Log ("above water");
 		RenderSettings.fogColor = normalColor;
 		RenderSettings.fogDensity = fogStrength;
