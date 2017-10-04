@@ -1,17 +1,16 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\lakeIconRotate.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\lakeScene\WallController.cs">
     <Files>
       <File FileName="Assets\testWater\underwater.cs" Line="1" Column="1" />
       <File FileName="Assets\Editor\Image Effects\CameraMotionBlurEditor.js" Line="1" Column="1" />
       <File FileName="Assets\Xeriscape_intro_script.cs" Line="1" Column="1" />
       <File FileName="Assets\BeeMenu.cs" Line="1" Column="1" />
-      <File FileName="Assets\lakeIconRotate.cs" Line="23" Column="22" />
-      <File FileName="Assets\lakeController.cs" Line="1" Column="1" />
-      <File FileName="Assets\lakeScene\DockArea\DocksController.cs" Line="31" Column="17" />
-      <File FileName="Assets\lakeScene\WallController.cs" Line="60" Column="30" />
+      <File FileName="Assets\lakeIconRotate.cs" Line="56" Column="65" />
+      <File FileName="Assets\lakeController.cs" Line="90" Column="22" />
+      <File FileName="Assets\lakeScene\DockArea\DocksController.cs" Line="1" Column="1" />
+      <File FileName="Assets\lakeScene\WallController.cs" Line="29" Column="43" />
       <File FileName="Assets\lakeScene\retainWall.cs" Line="19" Column="2" />
-      <File FileName="Assets\lookAtCam.cs" Line="7" Column="27" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

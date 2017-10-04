@@ -9,6 +9,8 @@ public class lakeIconRotate : MonoBehaviour {
 	public float scaleSpeed = 0.05f;
 	public float maxScale = 1.2f;
 	public float minScale = 1.0f;
+	public int areaID;
+	public lakeController controller;
 	float rotation; // z rotation
 	float scale;
 	bool scaleIncreasing = true;
@@ -18,8 +20,27 @@ public class lakeIconRotate : MonoBehaviour {
 		rotation = this.transform.rotation.z;
 		scale = this.transform.localScale.x;
 	}
+
+	void Update()
+	{
+		if (Input.touchCount == 1)//checks for touch input over image
+		{
+			if (Input.touches[0].phase == TouchPhase.Stationary)
+			{
+				RaycastHit hit;
+				Ray ray = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
+				if (Physics.Raycast(ray, out hit))
+				{
+					if (hit.collider.gameObject == this.gameObject)
+					{
+						controller.areaClicked (areaID);
+					}
+				}
+			}
+		}
+	}
 	
-	// Update is called once per frame
+	// late update to avoid interferance with lookAtCam Script, which both affect rot
 	void LateUpdate () {
 		//rotating img
 		rotation += rotateSpeed * Time.deltaTime;
@@ -33,5 +54,10 @@ public class lakeIconRotate : MonoBehaviour {
 		if ((scale > maxScale) || (scale < minScale)) //once limit reached, switch direction of growth
 			scaleIncreasing = !scaleIncreasing;
 		this.transform.localScale = new Vector3 (scale, scale, scale);
+	}
+
+	void OnMouseDown() //for mouse testing, not used in final version, instead uses touch input in update
+	{
+		controller.areaClicked (areaID);
 	}
 }
