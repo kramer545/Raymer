@@ -84,7 +84,7 @@
      <Compile Include="Assets\lakeController.cs" />
      <Compile Include="Assets\lakeIconRotate.cs" />
      <Compile Include="Assets\lakeScene\DockArea\DocksController.cs" />
-     <Compile Include="Assets\lakeScene\retainWall.cs" />
+     <Compile Include="Assets\lakeScene\IslandController.cs" />
      <Compile Include="Assets\lakeScene\WallController.cs" />
      <Compile Include="Assets\lookAtCam.cs" />
      <Compile Include="Assets\mainMenu.cs" />

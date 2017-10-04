@@ -7,8 +7,6 @@ public class lakeController : MonoBehaviour {
 	public GameObject[] overlayImages;
 	public GameObject[] areaPanel;
 	public GameObject backBtn;
-	public GameObject[] garbagePile;
-	public GameObject garbageMinigame;
 	public float travelSpeed = 1.0f;
 	public float underWaterFogStrength = 0.012f;
 	public float fogStrength = 0.002f;
@@ -91,15 +89,8 @@ public class lakeController : MonoBehaviour {
 			areaPanel[tempIndex ].SetActive(true);
 		//TODO put switch case or something here
 		//Activate relevant gameobjects for specific areas
-		if (tempIndex  == 1) //trash island
-			garbageMinigame.SetActive (true);
 		if (tempIndex == 2) //docks
 			setUnderWater ();
-	}
-
-	public void garbageMinigameClick(int index)
-	{
-		garbagePile [index].SetActive (false);
 	}
 
 	public void setUnderWater()
