@@ -20,10 +20,10 @@ public class lakeIconRotate : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void LateUpdate () {
 		//rotating img
 		rotation += rotateSpeed * Time.deltaTime;
-		this.transform.eulerAngles = new Vector3 (0, 0, rotation);
+		this.transform.eulerAngles = new Vector3 (this.transform.eulerAngles.x, this.transform.eulerAngles.y, rotation);
 
 		//scaling img 
 		if (scaleIncreasing)
