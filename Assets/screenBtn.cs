@@ -17,6 +17,8 @@ public class screenBtn : MonoBehaviour {
 	public GameObject title;
     public GameObject cam;
     public float time2 = 0.0F;
+	public float wallDisappearTime = 2;
+	public float alphaSpeed = 100;
 
 	// Use this for initialization
 	void Start () {
@@ -30,7 +32,7 @@ public class screenBtn : MonoBehaviour {
 			float distCovered = (Time.time-startTime)*speed;
 			float fracJourney = distCovered / length;
 			wall.transform.position = Vector3.Lerp (startPos, endPos, fracJourney);
-			if((Time.time-startTime) > 5)
+			if((Time.time-startTime) > wallDisappearTime)
 			{
                 /*
 				alpha += (55 * Time.deltaTime)/255;
@@ -48,7 +50,7 @@ public class screenBtn : MonoBehaviour {
                 if (cam.transform.position.y < 0 )
                 {
                     title.SetActive(true);
-                    alpha += (55 * Time.deltaTime) / 255;
+                    alpha += (alphaSpeed * Time.deltaTime) / 255;
 					title.GetComponent<Text>().color = new Color(26.0F/255.0F, 143.0F/255.0F, 0, alpha);
                     if (alpha > 1.5)
                     {

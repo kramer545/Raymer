@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class IslandController : MonoBehaviour {
+public class IslandController : rotateCam {
 
 	public GameObject panelOne;
 	public GameObject panelTwo;
@@ -16,6 +16,7 @@ public class IslandController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		base.Update ();
 		if ((Input.touchCount > 0) && (garbageActive)) {
 			//Touch began, save position
 			if (Input.GetTouch (0).phase == TouchPhase.Began) {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DocksController : MonoBehaviour {
+public class DocksController : rotateCam {
 
 	/*This script handles the dock area, where the user is in the fov of a fish, who cant cross under the rock covered docks
 	Then after clicking the UI btn, this sends the cam to a new waypoint at end of dock, where they are eaten by a fish
@@ -35,6 +35,8 @@ public class DocksController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		base.Update ();
+		Debug.Log ("test2");
 		if(isBlackout)
 		{
 			if(Time.time - currBlackoutTime > blackoutTime)

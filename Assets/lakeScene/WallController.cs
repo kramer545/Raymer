@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WallController : MonoBehaviour {
+public class WallController : rotateCam {
 
 	public GameObject panelOne;
 	public GameObject panelTwo;
@@ -18,6 +18,7 @@ public class WallController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		base.Update ();
 		if ((Input.touchCount > 0) && (wallActive)) {
 			//Touch began, save position
 			if (Input.GetTouch (0).phase == TouchPhase.Began) {
