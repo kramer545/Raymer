@@ -312,6 +312,7 @@
      <None Include="Assets\More PostProcessing Effects\Shaders\Colorization.shader" />
      <None Include="Assets\WaterFoam55\Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
+     <None Include="Assets\Props\Info.txt" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
      <None Include="Assets\PostProcessing\Resources\Bluenoise64\LICENSE.txt" />
      <None Include="Assets\More PostProcessing Effects\Shaders\Laplacian.shader" />
