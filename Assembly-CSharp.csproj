@@ -68,6 +68,8 @@
      <Compile Include="Assets\bloomTabBtn.cs" />
      <Compile Include="Assets\CakeGotoBee.cs" />
      <Compile Include="Assets\camBoundBox.cs" />
+     <Compile Include="Assets\Cars\Scripts\TakeScreenshot.cs" />
+     <Compile Include="Assets\Cars\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
      <Compile Include="Assets\cellScript.cs" />
      <Compile Include="Assets\circleBush.cs" />
      <Compile Include="Assets\DialoguerOutput\Enums\DialoguerDialogues.cs" />
@@ -276,6 +278,7 @@
      <None Include="Assets\More PostProcessing Effects\Shaders\Scanner.shader" />
      <None Include="Assets\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+     <None Include="Assets\Low Poly Car Set 2 - Tuningcars\readme.txt" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\RadialBlur.shader" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
