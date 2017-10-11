@@ -35,8 +35,7 @@ public class DocksController : rotateCam {
 	
 	// Update is called once per frame
 	void Update () {
-		base.Update ();
-		Debug.Log ("test2");
+		base.rotate();
 		if(isBlackout)
 		{
 			if(Time.time - currBlackoutTime > blackoutTime)
@@ -62,27 +61,29 @@ public class DocksController : rotateCam {
 
 	public void swimOut()//first part, called by ui btn, starts anim to move cam around block and get eaten
 	{
+        GetComponent<Animator>().enabled = true;
 		animator.SetTrigger ("EdgeSwim");
 		stageUI [0].SetActive (false);
 	}
 
 	public void activateBlackout()
 	{
-		blackoutPanel.SetActive (true);
+        blackoutPanel.SetActive (true);
 		isBlackout = true;
 		currBlackoutTime = Time.time;
 	}
 
 	public void removeRocks()
 	{
-		rocks.SetActive (false);
+        rocks.SetActive (false);
 		animator.SetTrigger ("RockSwim");
 		stageUI [1].SetActive (false);
 	}
 
 	public void showEnd()
 	{
-		stageUI [2].SetActive (true);
+        GetComponent<Animator>().enabled = false;
+        stageUI [2].SetActive (true);
 	}
 
 	public void hideEnd()

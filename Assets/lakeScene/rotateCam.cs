@@ -15,9 +15,14 @@ public abstract class rotateCam : MonoBehaviour { //parent class for cameras tha
 	void Start () {
 		
 	}
-	
-	// Update is called once per frame
-	protected virtual void Update () {
+
+    private void Update()
+    {
+        
+    }
+
+    // Update is called once per frame
+    protected virtual void rotate() {
 		if(Input.touchCount > 0) {
 			//Touch began, save position
 			if(Input.GetTouch(0).phase == TouchPhase.Began) {

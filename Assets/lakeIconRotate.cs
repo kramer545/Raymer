@@ -23,7 +23,7 @@ public class lakeIconRotate : MonoBehaviour {
 
 	void Update()
 	{
-		if (Input.touchCount == 1)//checks for touch input over image
+		if (Input.touchCount > 0)//checks for touch input over image
 		{
 			if (Input.touches[0].phase == TouchPhase.Stationary)
 			{

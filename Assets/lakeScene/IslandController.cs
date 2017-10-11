@@ -16,7 +16,7 @@ public class IslandController : rotateCam {
 	
 	// Update is called once per frame
 	void Update () {
-		base.Update ();
+		base.rotate();
 		if ((Input.touchCount > 0) && (garbageActive)) {
 			//Touch began, save position
 			if (Input.GetTouch (0).phase == TouchPhase.Began) {
@@ -24,7 +24,7 @@ public class IslandController : rotateCam {
 				RaycastHit hit;
 				Debug.Log ("Tap");
 				if (Physics.Raycast (ray, out hit, Mathf.Infinity)) {
-					Debug.Log ("hit");
+					Debug.Log ("hit "+ hit.transform.name);
 					if (hit.transform.tag == "garbage") {
 						Debug.Log ("It worked");
 						hit.transform.gameObject.SetActive (false);

@@ -18,7 +18,7 @@ public class WallController : rotateCam {
 	
 	// Update is called once per frame
 	void Update () {
-		base.Update ();
+		base.rotate();
 		if ((Input.touchCount > 0) && (wallActive)) {
 			//Touch began, save position
 			if (Input.GetTouch (0).phase == TouchPhase.Began) {

@@ -79,18 +79,18 @@ public class TouchCamera : MonoBehaviour
 
     public void cameraBoundingArea()//ensures camera stays in certain area of map
     {
-        if (transform.position.y < yMin)
-            transform.position = new Vector3(transform.position.x, yMin, transform.position.z);
-        if (transform.position.y > yMax)
-            transform.position = new Vector3(transform.position.x, yMax, transform.position.z);
-        if (transform.position.x < xMin)
-            transform.position = new Vector3(xMin, transform.position.y, transform.position.z);
-        else if (transform.position.x > xMax)
-            transform.position = new Vector3(xMax, transform.position.y, transform.position.z);
-        if (transform.position.z < zMin)
-            transform.position = new Vector3(transform.position.x, transform.position.y, zMin);
-        else if (transform.position.z > zMax)
-            transform.position = new Vector3(transform.position.x, transform.position.y, zMax);
+        if (transform.localPosition.y < yMin)
+            transform.localPosition = new Vector3(transform.localPosition.x, yMin, transform.localPosition.z);
+        if (transform.localPosition.y > yMax)
+            transform.localPosition = new Vector3(transform.localPosition.x, yMax, transform.localPosition.z);
+        if (transform.localPosition.x < xMin)
+            transform.localPosition = new Vector3(xMin, transform.localPosition.y, transform.localPosition.z);
+        else if (transform.localPosition.x > xMax)
+            transform.localPosition = new Vector3(xMax, transform.localPosition.y, transform.localPosition.z);
+        if (transform.localPosition.z < zMin)
+            transform.localPosition = new Vector3(transform.localPosition.x, transform.localPosition.y, zMin);
+        else if (transform.localPosition.z > zMax)
+            transform.localPosition = new Vector3(transform.localPosition.x, transform.localPosition.y, zMax);
     }
 
     public void zoomIn(int amnt)

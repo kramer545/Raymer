@@ -20,21 +20,26 @@ public class lakeController : MonoBehaviour {
 	int startPosIndex;
 	int endPosIndex;
 	int tempIndex = 0;
+    bool[] overlayActive;
 
 	// Use this for initialization
 	void Start () {
 		endPosIndex = 0;
 		tempIndex = 0;
+        overlayActive = new bool[overlayImages.Length];
+        for(int x = 0;x<overlayActive.Length;x++)
+        {
+            overlayActive[x] = true;
+        }
 	}
 	
 	// Update is called once per frame
 	void Update () {
-			
+        Debug.Log(Input.touchCount);
 	}
 
 	public void areaClicked(int index)
 	{
-		tempIndex = index;
 
 		//TODO fix this when moving from UI to 3D, hides UI elements while moving, disable all possible ui elements
 		foreach (GameObject img in overlayImages)
@@ -46,12 +51,25 @@ public class lakeController : MonoBehaviour {
 		cams [index].SetActive (true);
 		backBtn.SetActive (false);
 
-		//Hide area indicators
-		//TODO replace this when replacing UI images with 3D models
-		if (tempIndex == 0) { //if index = 0, at base layer, show UI circles highlighting areas
+        if(tempIndex != 0)
+        {
+            overlayActive[tempIndex - 1] = false;
+            //Destroy(overlayImages[tempIndex - 1]);
+        }
+
+        tempIndex = index;
+
+        //Hide area indicators
+        //TODO replace this when replacing UI images with 3D models
+        if (tempIndex == 0) { //if index = 0, at base layer, show UI circles highlighting areas
 			setNormal (); //reset underwater effects/fog 
-			foreach (GameObject img in overlayImages)
-				img.SetActive (true);
+            for(int x = 0;x<overlayImages.Length;x++)
+            {
+                if(overlayActive[x] == true)
+                {
+                    overlayImages[x].SetActive(true);
+                }
+            }
 		}
 
 		//activate areaPanel

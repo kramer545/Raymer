@@ -23,7 +23,7 @@ public class MapMenuController : MonoBehaviour {
 	// Listen on each menu button for an action
 	void Start () {
 		MapMaterials[0].renderQueue = 1999;
-		for (int a = 0; a < 6; a++){
+		for (int a = 0; a < 8; a++){
 			Button menuButton = MenuButtons[a].GetComponent<Button>();
 			int index = a;
 			menuButton.onClick.AddListener(() => menuListener(index));
@@ -64,7 +64,7 @@ public class MapMenuController : MonoBehaviour {
 		LayerButtons[0].GetComponent<Toggle>().colors = colblock;
 		*/
 		Button returnButton = ReturnButton.GetComponent<Button>();
-		returnButton.onClick.AddListener(() => menuListener(6));
+		returnButton.onClick.AddListener(() => menuListener(8));
 		ReturnButton.SetActive(false);
 		SolutionIcons.SetActive(false);
 		SolutionTexts.SetActive(false);
@@ -88,8 +88,10 @@ public class MapMenuController : MonoBehaviour {
 			ReturnButton.SetActive (true);
               break;
         case 1: //Work Like a Bee
-			  MenuButtons[0].transform.parent.gameObject.SetActive(false);
-			  SceneManager.LoadScene("PatsGarden");
+                //MenuButtons[0].transform.parent.gameObject.SetActive(false);
+                LayerTexts[11].SetActive(true);
+                MenuButtons[6].SetActive(!MenuButtons[6].activeSelf);
+              MenuButtons[7].SetActive(!MenuButtons[7].activeSelf);
               break;
         case 2: //Map Okanagan
 			  MenuButtons[0].transform.parent.gameObject.SetActive(false);
@@ -133,40 +135,55 @@ public class MapMenuController : MonoBehaviour {
 			  MenuBackdrop.SetActive(false);
 			startTexts [1].SetActive (true);
               break;
-		case 6: //Return to Main Menu
-			foreach(GameObject layer in LayerButtons){
-				//Toggle toggle = layer.GetComponent<Toggle>();
-				//toggle.isOn = false;
-				layer.SetActive(false);
-                layer.GetComponent<Image>().color = new Color(1, 1, 1, 0.65F);
+
+            case 6: //Salmon Level
+                MenuButtons[0].transform.parent.gameObject.SetActive(false);
+                SceneManager.LoadScene("LakeDemo");
+                break;
+            case 7: //Bee Level
+                MenuButtons[0].transform.parent.gameObject.SetActive(false);
+                SceneManager.LoadScene("PatsGarden");
+                break;
+
+            case 8: //Return to Main Menu
+                foreach (GameObject layer in LayerButtons)
+                {
+                    //Toggle toggle = layer.GetComponent<Toggle>();
+                    //toggle.isOn = false;
+                    layer.SetActive(false);
+                    layer.GetComponent<Image>().color = new Color(1, 1, 1, 0.65F);
                 }
-            LayerButtons[0].GetComponent<Image>().color = new Color(1, 1, 1, 1);//reset default layer to active
+                LayerButtons[0].GetComponent<Image>().color = new Color(1, 1, 1, 1);//reset default layer to active
                 MapMaterials[0].mainTextureScale = new Vector2(1.0f, -1.0f);
-			for(int x = 1;x<MapMaterials.Length;x++)
-			{
-				MapMaterials[x].mainTextureScale = new Vector2(0,0);
-			}
-			/*
-			ColorBlock cb = LayerButtons[0].GetComponent<Toggle>().colors;
-			cb.normalColor = Color.white;
-			LayerButtons[0].GetComponent<Toggle>().colors = cb;
-			*/
-			MenuButtons[0].transform.parent.gameObject.SetActive(true);
-			foreach(GameObject text in LayerTexts){
-				text.SetActive(false);
-			}
-			foreach(GameObject legend in LayerLegends){
-				legend.SetActive(false);
-			}
-			ReturnButton.SetActive(false);
-			MenuBackdrop.SetActive(true);
-			SolutionIcons.SetActive(false);
-			SolutionTexts.SetActive(false);
-			OkanaganText.SetActive(false);
-			LayerTexts [11].SetActive (true);
-			MapMaterials[0].SetColor("_Color", Color.white);
-            break;
-      }
+                for (int x = 1; x < MapMaterials.Length; x++)
+                {
+                    MapMaterials[x].mainTextureScale = new Vector2(0, 0);
+                }
+                /*
+                ColorBlock cb = LayerButtons[0].GetComponent<Toggle>().colors;
+                cb.normalColor = Color.white;
+                LayerButtons[0].GetComponent<Toggle>().colors = cb;
+                */
+                MenuButtons[0].transform.parent.gameObject.SetActive(true);
+                foreach (GameObject text in LayerTexts)
+                {
+                    text.SetActive(false);
+                }
+                foreach (GameObject legend in LayerLegends)
+                {
+                    legend.SetActive(false);
+                }
+                ReturnButton.SetActive(false);
+                MenuBackdrop.SetActive(true);
+                SolutionIcons.SetActive(false);
+                SolutionTexts.SetActive(false);
+                OkanaganText.SetActive(false);
+                LayerTexts[11].SetActive(true);
+                MapMaterials[0].SetColor("_Color", Color.white);
+                break;
+
+
+        }
 	}
 	
 	void toggleListener(int index){
