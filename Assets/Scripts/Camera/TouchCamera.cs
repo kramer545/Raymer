@@ -18,10 +18,11 @@ public class TouchCamera : MonoBehaviour
     };
     Vector2 oldTouchVector;
     float oldTouchDistance;
+	public Vector3 oldPos;
 
     void Update()
     {
-
+		oldPos = transform.position;
         cameraBoundingArea();//checks camera is in bounds
 
 
