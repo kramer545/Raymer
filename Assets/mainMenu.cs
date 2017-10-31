@@ -20,10 +20,10 @@ public class mainMenu : MonoBehaviour {
 	}
 
 	public void startCake() {
-		SceneManager.LoadScene("cake");
+		SceneManager.LoadScene("MainMenu");
 	}
 
 	public void menu() {
-		SceneManager.LoadScene("cake"); //main menu is now cake
+		SceneManager.LoadScene("MainMenu"); //main menu is now cake
 	}
 }
