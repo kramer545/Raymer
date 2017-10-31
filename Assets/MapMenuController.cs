@@ -90,7 +90,7 @@ public class MapMenuController : MonoBehaviour {
         case 1: //Work Like a Bee
                 //MenuButtons[0].transform.parent.gameObject.SetActive(false);
                 LayerTexts[11].SetActive(true);
-                MenuButtons[6].SetActive(!MenuButtons[6].activeSelf);
+                //MenuButtons[6].SetActive(!MenuButtons[6].activeSelf);
               MenuButtons[7].SetActive(!MenuButtons[7].activeSelf);
               break;
         case 2: //Map Okanagan
