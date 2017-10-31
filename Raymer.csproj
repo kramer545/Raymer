@@ -255,6 +255,7 @@
     <Compile Include="Assets\Scripts\AnimatedRealisticSeagull\Seagull.cs" />
     <Compile Include="Assets\Scripts\AnimatedRealisticSeagull\SeagullDemo.cs" />
     <Compile Include="Assets\Scripts\AnimatedRealisticSeagull\SeagullGroup.cs" />
+    <Compile Include="Assets\Scripts\Camera\CamBoundBox.cs" />
     <Compile Include="Assets\Scripts\Camera\TouchCamera.cs" />
     <Compile Include="Assets\Scripts\resetCamBtn.cs" />
     <Compile Include="Assets\SolutionCatchMouse.cs" />
