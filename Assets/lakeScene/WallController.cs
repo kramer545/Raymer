@@ -11,6 +11,7 @@ public class WallController : rotateCam {
 	public GameObject walls;
 	public GameObject gravel;
 	public GameObject wetland;
+	public GameObject areaObjs;
 
 	// Use this for initialization
 	void Start () {
@@ -48,6 +49,7 @@ public class WallController : rotateCam {
 		walls.SetActive (true);
 		gravel.SetActive (false);
 		wetland.SetActive (false);
+		areaObjs.SetActive (true);
 		panelText.text = "Retaining walls are the most harmful option for the enviromnent as it does bad things";
 	}
 
@@ -56,6 +58,7 @@ public class WallController : rotateCam {
 		walls.SetActive (false);
 		gravel.SetActive (true);
 		wetland.SetActive (false);
+		areaObjs.SetActive (true);
 		panelText.text = "Gravel beachs are a good middle ground between human development and enviroment protection while reducing shoreline erosion";
 	}
 
@@ -64,6 +67,7 @@ public class WallController : rotateCam {
 		walls.SetActive (false);
 		gravel.SetActive (false);
 		wetland.SetActive (true);
+		areaObjs.SetActive (false);
 		panelText.text = "Converting the shoreline, while drastic provides the best support for the enviorment, letting the water saturate the land or something";
 	}
 }
