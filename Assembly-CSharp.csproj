@@ -378,6 +378,7 @@
      <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
      <None Include="Assets\PostProcessing\Editor Resources\UI\Trackball.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ChromaticAberrationShader.shader" />
+     <None Include="Assets\Summer  trees\Shader\Detail.shader" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ConvertDepth.shader" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
@@ -517,7 +518,7 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
  </Reference>
  <Reference Include="CloudSystemFree.Runtime">
- <HintPath>C:/Users/Ryans/Documents/Raymer/Assets/Plugins/Cloud System/CloudSystemFree.Runtime.dll</HintPath>
+ <HintPath>C:/Users/jeaangel/Documents/Raymer/Raymer/Assets/Plugins/Cloud System/CloudSystemFree.Runtime.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
