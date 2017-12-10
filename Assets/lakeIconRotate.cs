@@ -11,9 +11,12 @@ public class lakeIconRotate : MonoBehaviour {
 	public float minScale = 1.0f;
 	public int areaID;
 	public lakeController controller;
+	public GameObject aboveLake;
+	public GameObject levelLake;
 	float rotation; // z rotation
 	float scale;
 	bool scaleIncreasing = true;
+
 
 	// Use this for initialization
 	void Start () {
@@ -58,6 +61,8 @@ public class lakeIconRotate : MonoBehaviour {
 
 	void OnMouseDown() //for mouse testing, not used in final version, instead uses touch input in update
 	{
+		aboveLake.SetActive (false);
+		levelLake.SetActive (true);
 		controller.areaClicked (areaID);
 	}
 }

@@ -7,6 +7,8 @@ public class lakeController : MonoBehaviour {
 	public GameObject[] overlayImages;
 	public GameObject[] areaPanel;
 	public GameObject backBtn;
+	public GameObject aboveLake;
+	public GameObject levelLake;
 	public float travelSpeed = 1.0f;
 	public float underWaterFogStrength = 0.012f;
 	public float fogStrength = 0.002f;
@@ -40,7 +42,6 @@ public class lakeController : MonoBehaviour {
 
 	public void areaClicked(int index)
 	{
-
 		//TODO fix this when moving from UI to 3D, hides UI elements while moving, disable all possible ui elements
 		foreach (GameObject img in overlayImages)
 			img.SetActive (false);
@@ -62,6 +63,8 @@ public class lakeController : MonoBehaviour {
         //Hide area indicators
         //TODO replace this when replacing UI images with 3D models
         if (tempIndex == 0) { //if index = 0, at base layer, show UI circles highlighting areas
+			aboveLake.SetActive (true);
+			levelLake.SetActive (false);
 			setNormal (); //reset underwater effects/fog 
             for(int x = 0;x<overlayImages.Length;x++)
             {

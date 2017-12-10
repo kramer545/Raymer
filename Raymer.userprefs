@@ -1,8 +1,10 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\lakeScene\WallController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\lakeController.cs">
     <Files>
       <File FileName="Assets\lakeScene\WallController.cs" Line="14" Column="29" />
+      <File FileName="Assets\lakeController.cs" Line="56" Column="10" />
+      <File FileName="Assets\lakeIconRotate.cs" Line="62" Column="34" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
