@@ -14,6 +14,7 @@ public class lakeController : MonoBehaviour {
 	public float fogStrength = 0.002f;
 	public Color normalColor;
 	public Color underWaterColor;
+	public int stageNum;
 
 	bool isTraveling = false;
 	float startTime;
@@ -33,6 +34,7 @@ public class lakeController : MonoBehaviour {
         {
             overlayActive[x] = true;
         }
+		stageNum = 0;
 	}
 	
 	// Update is called once per frame
