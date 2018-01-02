@@ -14,20 +14,22 @@ public class fishCam : rotateCam {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetKey("up")) {
-			cam.transform.Translate (Vector3.forward * moveSpeed);
-		}
+		if(base.isActive) {
+			if (Input.GetKey("up")) {
+				cam.transform.Translate (Vector3.forward * moveSpeed);
+			}
 
-		if (Input.GetKey("down")) {
-			cam.transform.Translate (Vector3.forward * moveSpeed * -1);
-		}
+			if (Input.GetKey("down")) {
+				cam.transform.Translate (Vector3.forward * moveSpeed * -1);
+			}
 
-		if (Input.GetKey("left")) {
-			cam.transform.Translate (Vector3.right * moveSpeed * -1);
-		}
+			if (Input.GetKey("left")) {
+				cam.transform.Translate (Vector3.right * moveSpeed * -1);
+			}
 
-		if (Input.GetKey("right")) {
-			cam.transform.Translate (Vector3.right * moveSpeed);
+			if (Input.GetKey("right")) {
+				cam.transform.Translate (Vector3.right * moveSpeed);
+			}
 		}
 	}
 }
