@@ -6,6 +6,7 @@ public class lakeController : MonoBehaviour {
 	public GameObject[] cams;
 	public GameObject[] overlayImages;
 	public GameObject[] areaPanel;
+	public GameObject[] walls;
 	public GameObject backBtn;
 	public GameObject aboveLake;
 	public GameObject levelLake;
@@ -40,6 +41,11 @@ public class lakeController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		
+	}
+
+	public void changeWalls() {
+		walls [stageNum-1].SetActive (false);
+		walls [stageNum].SetActive (true);
 	}
 
 	public void areaClicked(int index)

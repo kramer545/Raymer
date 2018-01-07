@@ -89,6 +89,7 @@
      <Compile Include="Assets\lakeScene\fishCam.cs" />
      <Compile Include="Assets\lakeScene\fishCam2.cs" />
      <Compile Include="Assets\lakeScene\IslandController.cs" />
+     <Compile Include="Assets\lakeScene\objFinder.cs" />
      <Compile Include="Assets\lakeScene\PollutionController.cs" />
      <Compile Include="Assets\lakeScene\rotateCam.cs" />
      <Compile Include="Assets\lakeScene\TapController.cs" />

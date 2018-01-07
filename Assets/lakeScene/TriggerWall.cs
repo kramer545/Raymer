@@ -6,14 +6,13 @@ public class TriggerWall : MonoBehaviour {
 
 	public fishCam cam;
 	public lakeController controller;
-	public GameObject stageOneWalls;
-	public GameObject stageTwoWalls;
 	public GameObject fish;
 	public GameObject dockRocks;
 	public float turnSpeed;
 	public float fishSpeed;
 	public GameObject blackScreen;
 	float timer;
+	bool eventActive;
 
 
 	private Vector3 camStartPos;
@@ -23,6 +22,7 @@ public class TriggerWall : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		eventActive = false;
 		fishMoving = false;
 		camTurning = false;
 		timer = 0;
@@ -32,7 +32,7 @@ public class TriggerWall : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		stageOneUpdates ();
+		stageOneUpdates();
 	}
 
 	void OnTriggerEnter (Collider col)
@@ -44,21 +44,30 @@ public class TriggerWall : MonoBehaviour {
 	}
 
 	void startEvent() {
-		int num = controller.stageNum;
-		controller.stageNum++;
-		switch(num) {
-		case 0:
-			fish.SetActive (true);
-			fish.transform.position = (cam.gameObject.transform.position - (cam.gameObject.transform.forward * 10));
-			fish.transform.LookAt (cam.gameObject.transform);
-			fish.transform.position = new Vector3 (fish.transform.position.x, cam.gameObject.transform.position.y - 1.5f, fish.transform.position.z);
-			cam.isActive = false;
-			camTurning = true;
-			Debug.Log ("one");
-			break;
-		default:
-			Debug.Log ("default");
-			break;
+		if (!eventActive) {
+			eventActive = true;
+			int num = controller.stageNum;
+			controller.stageNum++;
+			switch(num) {
+			case 0: //dock scene
+				fish.SetActive (true);
+				fish.transform.position = (cam.gameObject.transform.position - (cam.gameObject.transform.forward * 10));
+				fish.transform.LookAt (cam.gameObject.transform);
+				fish.transform.position = new Vector3 (fish.transform.position.x, cam.gameObject.transform.position.y - 1.5f, fish.transform.position.z);
+				cam.isActive = false;
+				camTurning = true;
+				break;
+			case 1: //boat scene?
+				Debug.Log ("hit stage 2");
+				controller.changeWalls ();
+				eventActive = false;
+				break;
+			case 2: //garbage island
+				Debug.Log ("hit stage 3");
+				break;
+			default:
+				break;
+			}
 		}
 	}
 
@@ -89,11 +98,11 @@ public class TriggerWall : MonoBehaviour {
 			}
 			if(timer > 2.3) {
 				timer = 0;
-				stageTwoWalls.SetActive (true);
 				fishMoving = false;
 				blackScreen.SetActive (false);
 				cam.isActive = true;
-				stageOneWalls.SetActive (false);
+				controller.changeWalls ();
+				eventActive = false;
 			}
 		}
 	}
