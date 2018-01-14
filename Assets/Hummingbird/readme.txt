@@ -1,12 +1,12 @@
-Thank you for downloading.
+Thank you for downlording.
 
--Modals folder contains BroadTailHummingbird.fbx.
--Animations folder contains additional animation's files.
--Scenes folder contains a demo scene.
--Prefabs folder contains a prefab that was used in the demo scene.
-This prefab's Head size is larger than original fbx file's model.
-This prefab's Head's bone's scale is set 1.4.
-This can be changed to your preference.
-(Search the "Head" in the demo scene, then change the scale by inspector.)
+-Models folder contains fbx files of sardine's meshes.
+-Animatiions folder contains animation's fbx files.
+You can use these animation in all of sardine models(SardineBoneModel.fbx, SardineSkinAndBoneModel.fbx, SardineSkinModel.fbx, 
+SimpleSardine.fbx).
+-Scenes folder contains two demo scenes.
+-Prefabs folder contains prefabs.
+SardineSkinWithDemoScript is used in Demo1.0
+SardineSkinWithController is used in Demo1.2.1
 
 support@ryousirikigaku.com

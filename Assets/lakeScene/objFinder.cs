@@ -18,9 +18,6 @@ public class objFinder : MonoBehaviour {
 	void Update () {
 		Vector3 targetScreenPoint = cam.WorldToScreenPoint (target.transform.position);
 		this.transform.position = targetScreenPoint;
-		Debug.Log ("z: " + targetScreenPoint.z);
-		Debug.Log ("x: " + this.gameObject.transform.position.x);
-		Debug.Log ("y: " + this.gameObject.transform.position.y);
 		//bool onScreen = targetScreenPoint.z > 0 && targetScreenPoint.x > 0 && targetScreenPoint.x < 800 && targetScreenPoint.y > 0 && targetScreenPoint.y < 400;
 		bool onScreen = targetScreenPoint.z > 100;
 		if(!onScreen) {
