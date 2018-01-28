@@ -281,6 +281,7 @@
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
      <None Include="Assets\More PostProcessing Effects\Shaders\Posterization.shader" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\Urban_Props\readme.txt" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\EdgeDetectNormals.shader" />
      <None Include="Assets\PostProcessing\Editor Resources\Monitors\VectorscopeRender.shader" />
      <None Include="Assets\PostProcessing\Resources\Shaders\EyeAdaptation.shader" />

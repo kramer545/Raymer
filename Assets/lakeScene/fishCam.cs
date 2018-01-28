@@ -30,6 +30,14 @@ public class fishCam : rotateCam {
 			if (Input.GetKey("right")) {
 				cam.transform.Translate (Vector3.right * moveSpeed);
 			}
+
+			if (Input.GetKey("e")) {
+				cam.transform.Rotate (Vector3.up * moveSpeed * 10);
+			}
+
+			if (Input.GetKey("q")) {
+				cam.transform.Rotate (Vector3.up * moveSpeed * -10);
+			}
 		}
 	}
 }

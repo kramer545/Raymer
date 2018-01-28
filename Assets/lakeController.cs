@@ -7,6 +7,7 @@ public class lakeController : MonoBehaviour {
 	public GameObject[] overlayImages;
 	public GameObject[] areaPanel;
 	public GameObject[] walls;
+	public GameObject[] aboveWaterObjs;
 	public GameObject backBtn;
 	public GameObject aboveLake;
 	public GameObject levelLake;
@@ -36,6 +37,7 @@ public class lakeController : MonoBehaviour {
             overlayActive[x] = true;
         }
 		stageNum = 0;
+		setUnderWater ();
 	}
 	
 	// Update is called once per frame
@@ -94,12 +96,20 @@ public class lakeController : MonoBehaviour {
 
 	public void setUnderWater()
 	{
+		for(int x = 0;x<aboveWaterObjs.Length;x++)
+		{
+			aboveWaterObjs[x].SetActive(false);
+		}
 		RenderSettings.fogColor = underWaterColor;
 		RenderSettings.fogDensity = underWaterFogStrength;
 	}
 
 	public void setNormal()
 	{
+		for(int x = 0;x<aboveWaterObjs.Length;x++)
+		{
+			aboveWaterObjs[x].SetActive(true);
+		}
 		RenderSettings.fogColor = normalColor;
 		RenderSettings.fogDensity = fogStrength;
 	}
