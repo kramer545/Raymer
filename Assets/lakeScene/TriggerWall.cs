@@ -11,6 +11,7 @@ public class TriggerWall : MonoBehaviour {
 	public float turnSpeed;
 	public float fishSpeed;
 	public GameObject blackScreen;
+	public GameObject playerObj;
 	float timer;
 	bool eventActive;
 
@@ -19,12 +20,14 @@ public class TriggerWall : MonoBehaviour {
 	private Quaternion camStartRot;
 	private bool fishMoving;
 	private bool camTurning;
+	private bool fishPoison;
 
 	// Use this for initialization
 	void Start () {
 		eventActive = false;
 		fishMoving = false;
 		camTurning = false;
+		fishPoison = false;
 		timer = 0;
 		camStartPos = cam.gameObject.transform.position;
 		camStartRot = cam.gameObject.transform.rotation;
@@ -33,6 +36,7 @@ public class TriggerWall : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		stageOneUpdates();
+		stageFourUpdates();
 	}
 
 	void OnTriggerEnter (Collider col)
@@ -64,6 +68,14 @@ public class TriggerWall : MonoBehaviour {
 				break;
 			case 2: //garbage island
 				Debug.Log ("hit stage 3");
+				controller.changeWalls ();
+				eventActive = false;
+				break;
+			case 3: //pollution?
+				Debug.Log ("hit stage 4");
+				controller.setPolluted ();
+				timer = 0;
+				fishPoison = true;
 				break;
 			default:
 				break;
@@ -103,6 +115,27 @@ public class TriggerWall : MonoBehaviour {
 				cam.isActive = true;
 				controller.changeWalls ();
 				eventActive = false;
+			}
+		}
+	}
+
+	public void stageFourUpdates() {
+		if (fishPoison) {
+			timer += Time.deltaTime;
+			if(timer < 2) {
+				playerObj.GetComponent<MorePPEffects.Wiggle>().distortionX = (0.5f * timer);
+				playerObj.GetComponent<MorePPEffects.Wiggle>().distortionY = (0.5f * timer);
+			} else if (timer < 4 && timer > 2) {
+				playerObj.GetComponent<MorePPEffects.Ripple>().distortion = (1.5f * (timer-2.0f));
+			} else if (timer < 6 && timer > 4) {
+				playerObj.GetComponent<MorePPEffects.Headache>().strength = ((timer/2)-4.0f);
+			} else if (timer > 6 && timer < 8) {
+				Debug.Log ("done poisioning");
+				blackScreen.SetActive (true);
+			} else if (timer > 7) {
+				eventActive = false;
+				blackScreen.SetActive (false);
+				fishPoison = false;
 			}
 		}
 	}

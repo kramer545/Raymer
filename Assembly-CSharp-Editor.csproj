@@ -53,6 +53,7 @@
   <ItemGroup>
      <Compile Include="Assets\Editor\CleanMaterials.cs" />
      <Compile Include="Assets\Editor\NewBehaviourScript.cs" />
+     <Compile Include="Assets\Editor\TerrainRaiseLowerHeightmapEditor.cs" />
      <Compile Include="Assets\Flowhiz\Assets\Editor\Brush.cs" />
      <Compile Include="Assets\Flowhiz\Assets\Editor\Commands\ClearCommand.cs" />
      <Compile Include="Assets\Flowhiz\Assets\Editor\Commands\Command.cs" />

@@ -238,6 +238,7 @@
      <Compile Include="Assets\Scripts\resetCamBtn.cs" />
      <Compile Include="Assets\SolutionCatchMouse.cs" />
      <Compile Include="Assets\SolutionScript.cs" />
+     <Compile Include="Assets\TerrainRaiseLowerHeightmap.cs" />
      <Compile Include="Assets\testWater\animatedProjector.cs" />
      <Compile Include="Assets\testWater\camMovement.cs" />
      <Compile Include="Assets\testWater\changeFlowMap.cs" />

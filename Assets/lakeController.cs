@@ -14,8 +14,10 @@ public class lakeController : MonoBehaviour {
 	public float travelSpeed = 1.0f;
 	public float underWaterFogStrength = 0.012f;
 	public float fogStrength = 0.002f;
+	public float pollutedFogStrength = 0.02f;
 	public Color normalColor;
 	public Color underWaterColor;
+	public Color pollutedColor;
 	public int stageNum;
 
 	bool isTraveling = false;
@@ -96,6 +98,7 @@ public class lakeController : MonoBehaviour {
 
 	public void setUnderWater()
 	{
+		Debug.Log ("set water");
 		for(int x = 0;x<aboveWaterObjs.Length;x++)
 		{
 			aboveWaterObjs[x].SetActive(false);
@@ -106,11 +109,22 @@ public class lakeController : MonoBehaviour {
 
 	public void setNormal()
 	{
+		Debug.Log ("set normal");
 		for(int x = 0;x<aboveWaterObjs.Length;x++)
 		{
 			aboveWaterObjs[x].SetActive(true);
 		}
 		RenderSettings.fogColor = normalColor;
 		RenderSettings.fogDensity = fogStrength;
+	}
+
+	public void setPolluted() {
+		Debug.Log ("set Polluteed");
+		for(int x = 0;x<aboveWaterObjs.Length;x++)
+		{
+			aboveWaterObjs[x].SetActive(false);
+		}
+		RenderSettings.fogColor = pollutedColor;
+		RenderSettings.fogDensity = pollutedFogStrength;
 	}
 }
