@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class rotateCam : MonoBehaviour { //parent class for cameras that rotate with touchscreen for looking around
+public class rotateCam : MonoBehaviour { //parent class for cameras that rotate with touchscreen for looking around
 
 	private Vector3 firstpoint;
 	private Vector3 secondpoint;
@@ -10,11 +10,11 @@ public abstract class rotateCam : MonoBehaviour { //parent class for cameras tha
 	private float yAngle = 0.0f;
 	private float xAngTemp = 0.0f;
 	private float yAngTemp = 0.0f;
-	public bool isActive;
+	public static bool isActive = true;
 
 	// Use this for initialization
 	void Start () {
-		isActive = true;
+		
 	}
 
     private void Update()
@@ -23,7 +23,8 @@ public abstract class rotateCam : MonoBehaviour { //parent class for cameras tha
     }
 
     // Update is called once per frame
-    protected virtual void rotate() {
+    public void rotate() {
+		Debug.Log (isActive);
 		if(isActive) {
 			if(Input.touchCount > 0) {
 				//Touch began, save position
@@ -47,5 +48,9 @@ public abstract class rotateCam : MonoBehaviour { //parent class for cameras tha
 				}
 			}
 		}
+	}
+
+	public static void setActive(bool active) {
+		isActive = active;
 	}
 }
