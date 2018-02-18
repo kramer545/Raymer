@@ -11,6 +11,7 @@ public class lakeController : MonoBehaviour {
 	public GameObject backBtn;
 	public GameObject aboveLake;
 	public GameObject levelLake;
+	public GameObject rocks;
 	public float travelSpeed = 1.0f;
 	public float underWaterFogStrength = 0.012f;
 	public float fogStrength = 0.002f;
@@ -19,7 +20,6 @@ public class lakeController : MonoBehaviour {
 	public Color underWaterColor;
 	public Color pollutedColor;
 	public int stageNum;
-
 	bool isTraveling = false;
 	float startTime;
 	float journeyLength;
@@ -54,46 +54,20 @@ public class lakeController : MonoBehaviour {
 
 	public void areaClicked(int index)
 	{
-		//TODO fix this when moving from UI to 3D, hides UI elements while moving, disable all possible ui elements
-		foreach (GameObject img in overlayImages)
-			img.SetActive (false);
-		for(int x = 1;x<areaPanel.Length;x++)
-			areaPanel[x].SetActive (false);
-		foreach (GameObject cam in cams)
-			cam.SetActive (false);
-		cams [index].SetActive (true);
-		backBtn.SetActive (false);
-
-        if(tempIndex != 0)
-        {
-            overlayActive[tempIndex - 1] = false;
-            //Destroy(overlayImages[tempIndex - 1]);
-        }
-
-        tempIndex = index;
-
-        //Hide area indicators
-        //TODO replace this when replacing UI images with 3D models
-        if (tempIndex == 0) { //if index = 0, at base layer, show UI circles highlighting areas
-			aboveLake.SetActive (true);
-			levelLake.SetActive (false);
-			setNormal (); //reset underwater effects/fog 
-            for(int x = 0;x<overlayImages.Length;x++)
-            {
-                if(overlayActive[x] == true)
-                {
-                    overlayImages[x].SetActive(true);
-                }
-            }
+		setCamMove(false);
+		areaPanel[index].SetActive(true);
+		if(index == 1) {
+			cams [0].SetActive (false);
+			cams [1].SetActive (true);
 		}
+	}
 
-		//activate areaPanel
-		if(tempIndex  != 0)
-			areaPanel[tempIndex ].SetActive(true);
-		//TODO put switch case or something here
-		//Activate relevant gameobjects for specific areas
-		if (tempIndex == 2) //docks
-			setUnderWater ();
+	public void setCamMove(bool canMove) {
+		rotateCam.setActive(canMove);
+	}
+
+	public void removeRocks() {
+		rocks.SetActive (false);
 	}
 
 	public void setUnderWater()

@@ -24,7 +24,6 @@ public class rotateCam : MonoBehaviour { //parent class for cameras that rotate 
 
     // Update is called once per frame
     public void rotate() {
-		Debug.Log (isActive);
 		if(isActive) {
 			if(Input.touchCount > 0) {
 				//Touch began, save position

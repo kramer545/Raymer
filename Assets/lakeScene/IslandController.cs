@@ -11,7 +11,7 @@ public class IslandController : rotateCam {
 
 	// Use this for initialization
 	void Start () {
-		numItemsLeft = 2;
+		numItemsLeft = 3;
 	}
 	
 	// Update is called once per frame
@@ -34,6 +34,13 @@ public class IslandController : rotateCam {
 					}
 				}
 			}
+		}
+	}
+
+	public void removeItem() {
+		numItemsLeft--;
+		if(numItemsLeft == 0) {
+			showPanelTwo ();
 		}
 	}
 
