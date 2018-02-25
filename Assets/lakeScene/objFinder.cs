@@ -19,7 +19,7 @@ public class objFinder : MonoBehaviour {
 		Vector3 targetScreenPoint = cam.WorldToScreenPoint (target.transform.position);
 		this.transform.position = targetScreenPoint;
 		//bool onScreen = targetScreenPoint.z > 0 && targetScreenPoint.x > 0 && targetScreenPoint.x < 800 && targetScreenPoint.y > 0 && targetScreenPoint.y < 400;
-		bool onScreen = targetScreenPoint.z > 100;
+		bool onScreen = targetScreenPoint.z > 10;
 		if(!onScreen) {
 			icon.SetActive (false);
 			arrow.SetActive (true);

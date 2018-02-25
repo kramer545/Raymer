@@ -8,6 +8,7 @@ public class IslandController : rotateCam {
 	public GameObject panelTwo;
 	int numItemsLeft;
 	bool garbageActive;
+	public GameObject underwaterGarbage;
 
 	// Use this for initialization
 	void Start () {
@@ -40,6 +41,7 @@ public class IslandController : rotateCam {
 	public void removeItem() {
 		numItemsLeft--;
 		if(numItemsLeft == 0) {
+			underwaterGarbage.SetActive (false);
 			showPanelTwo ();
 		}
 	}

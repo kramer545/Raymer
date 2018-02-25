@@ -6,6 +6,8 @@ public class fishCam : rotateCam {
 
 	public GameObject cam;
 	public float moveSpeed;
+	public Vector3 playerObjPos;
+	public Vector3 playerObjRot;
 
 	// Use this for initialization
 	void Start () {
@@ -39,5 +41,11 @@ public class fishCam : rotateCam {
 				cam.transform.Rotate (Vector3.up * moveSpeed * -10);
 			}
 		}
+	}
+
+	public void setAdultPos() {
+		cam.transform.position = playerObjPos;
+		cam.transform.eulerAngles = playerObjRot;
+		rotateCam.setActive(true);
 	}
 }

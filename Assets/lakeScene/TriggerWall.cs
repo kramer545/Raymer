@@ -93,7 +93,7 @@ public class TriggerWall : MonoBehaviour {
 		}
 	}
 
-	public void stageOneUpdates() {
+	public void stageOneUpdates() { //eaten
 		if(camTurning) {
 			Vector3 dir = fish.transform.position - cam.gameObject.transform.position;
 			dir.y = 0;
@@ -129,7 +129,7 @@ public class TriggerWall : MonoBehaviour {
 		}
 	}
 
-	public void stageFourUpdates() {
+	public void stageFourUpdates() { //poison
 		if (fishPoison) {
 			timer += Time.deltaTime;
 			if(timer < 2) {
@@ -161,7 +161,7 @@ public class TriggerWall : MonoBehaviour {
 		}
 	}
 
-	public void stageThreeUpdates() {
+	public void stageThreeUpdates() { //choke
 		if (fishChoke) {
 			timer += Time.deltaTime;
 			fishCam.setActive (false);
