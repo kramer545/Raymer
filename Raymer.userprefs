@@ -2,14 +2,14 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\lakeScene\TriggerWall.cs">
     <Files>
-      <File FileName="Assets\lakeController.cs" Line="66" Column="3" />
-      <File FileName="Assets\lakeScene\TriggerWall.cs" Line="132" Column="43" />
-      <File FileName="Assets\lakeScene\fishCam.cs" Line="50" Column="3" />
+      <File FileName="Assets\lakeController.cs" Line="57" Column="21" />
+      <File FileName="Assets\lakeScene\TriggerWall.cs" Line="117" Column="21" />
+      <File FileName="Assets\lakeScene\fishCam.cs" Line="51" Column="30" />
       <File FileName="Assets\lakeScene\rotateCam.cs" Line="1" Column="1" />
-      <File FileName="Assets\lakeScene\DockArea\DocksController.cs" Line="76" Column="27" />
-      <File FileName="Assets\lakeScene\IslandController.cs" Line="19" Column="18" />
+      <File FileName="Assets\lakeScene\IslandController.cs" Line="11" Column="38" />
       <File FileName="Assets\Scripts\garbageClick.cs" Line="19" Column="4" />
-      <File FileName="Assets\lakeScene\objFinder.cs" Line="26" Column="43" />
+      <File FileName="Assets\lakeScene\objFinder.cs" Line="1" Column="1" />
+      <File FileName="Assets\lakeScene\WallController.cs" Line="47" Column="23" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

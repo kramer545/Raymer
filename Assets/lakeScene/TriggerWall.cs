@@ -15,6 +15,8 @@ public class TriggerWall : MonoBehaviour {
 	public Vector3 playerObjRot;
 	public GameObject fishChokeBubbles;
 	public GameObject garbage;
+	public GameObject aboveCam;
+	public GameObject abovePanel;
 	float timer;
 	bool eventActive;
 
@@ -24,6 +26,7 @@ public class TriggerWall : MonoBehaviour {
 	private bool fishMoving;
 	private bool camTurning;
 	private bool fishPoison;
+	private bool fishPoison2;
 	private bool fishChoke;
 	private int turnDir;
 	private float centerPoint;
@@ -34,6 +37,7 @@ public class TriggerWall : MonoBehaviour {
 		fishMoving = false;
 		camTurning = false;
 		fishPoison = false;
+		fishPoison2 = false;
 		fishChoke = false;
 		turnDir = 1;
 		timer = 0;
@@ -44,6 +48,7 @@ public class TriggerWall : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		stageOneUpdates();
+		stageTwoUpdates();
 		stageFourUpdates();
 		stageThreeUpdates ();
 	}
@@ -63,10 +68,10 @@ public class TriggerWall : MonoBehaviour {
 			controller.stageNum++;
 			switch(num) {
 			case 0: //dock scene
+				fishSpeed = Vector3.Distance (cam.gameObject.transform.position, fish.gameObject.transform.position)/2;
+				Debug.Log (fishSpeed);
 				fish.SetActive (true);
-				fish.transform.position = (cam.gameObject.transform.position - (cam.gameObject.transform.forward * 10));
 				fish.transform.LookAt (cam.gameObject.transform);
-				fish.transform.position = new Vector3 (fish.transform.position.x, cam.gameObject.transform.position.y - 1.5f, fish.transform.position.z);
 				rotateCam.isActive = false;
 				camTurning = true;
 				break;
@@ -85,7 +90,7 @@ public class TriggerWall : MonoBehaviour {
 			case 3: //pollution
 				controller.setPolluted ();
 				timer = 0;
-				fishPoison = true;
+				fishPoison2 = true;
 				break;
 			default:
 				break;
@@ -96,12 +101,10 @@ public class TriggerWall : MonoBehaviour {
 	public void stageOneUpdates() { //eaten
 		if(camTurning) {
 			Vector3 dir = fish.transform.position - cam.gameObject.transform.position;
-			dir.y = 0;
+			dir.y = dir.y + 5;
 			cam.gameObject.transform.rotation = Quaternion.RotateTowards(cam.gameObject.transform.rotation, Quaternion.LookRotation (dir), turnSpeed * Time.deltaTime);
 			timer = timer + Time.deltaTime;
-			if(timer > 0.9) {
-				fishMoving = true;
-			}
+			fishMoving = true;
 			if(timer > 1) {
 				camTurning = false;
 			}
@@ -109,15 +112,15 @@ public class TriggerWall : MonoBehaviour {
 		if(fishMoving) {
 			timer = timer + Time.deltaTime;
 			fish.transform.position = Vector3.MoveTowards (fish.transform.position, 
-				new Vector3(cam.gameObject.transform.position.x, cam.gameObject.transform.position.y-1.5f, cam.gameObject.transform.position.z), fishSpeed * Time.deltaTime);
+				new Vector3(cam.gameObject.transform.position.x, cam.gameObject.transform.position.y-2.5f, cam.gameObject.transform.position.z), fishSpeed * Time.deltaTime);
 			fish.GetComponent<Animation> ().Play ();
-			if(timer > 1.8) {
+			if(timer > 2.2) {
 				blackScreen.SetActive (true);
 				fish.SetActive (false);
 				cam.gameObject.transform.position = camStartPos;
 				cam.gameObject.transform.rotation = camStartRot;
 			}
-			if(timer > 2.3) {
+			if(timer > 3.2) {
 				timer = 0;
 				fishMoving = false;
 				blackScreen.SetActive (false);
@@ -129,7 +132,7 @@ public class TriggerWall : MonoBehaviour {
 		}
 	}
 
-	public void stageFourUpdates() { //poison
+	public void stageTwoUpdates() { //poison
 		if (fishPoison) {
 			timer += Time.deltaTime;
 			if(timer < 2) {
@@ -157,6 +160,33 @@ public class TriggerWall : MonoBehaviour {
 				controller.changeWalls();
 				controller.setUnderWater ();
 				controller.areaClicked (4);
+			}
+		}
+	}
+
+	public void stageFourUpdates() { //poison
+		if (fishPoison2) {
+			timer += Time.deltaTime;
+			if(timer < 2) {
+				playerObj.GetComponent<MorePPEffects.Wiggle>().distortionX = (0.5f * timer);
+				playerObj.GetComponent<MorePPEffects.Wiggle>().distortionY = (0.5f * timer);
+			} else if (timer < 4 && timer > 2) {
+				playerObj.GetComponent<MorePPEffects.Ripple>().distortion = (1.5f * (timer-2.0f));
+			} else if (timer < 6 && timer > 4) {
+				playerObj.GetComponent<MorePPEffects.Headache>().strength = ((timer/2)-4.0f);
+				playerObj.transform.eulerAngles = new Vector3 (0, playerObj.transform.rotation.y, 180 * (timer / 2) - 4.0f);
+				fishCam.setActive (false);
+			} else if (timer > 6 && timer < 7) {
+				blackScreen.SetActive (true);
+			} else if (timer > 7) {
+				playerObj.SetActive (false);
+				aboveCam.SetActive (true);
+				abovePanel.SetActive (true);
+				playerObj.transform.eulerAngles = playerObjRot;
+				eventActive = false;
+				blackScreen.SetActive (false);
+				fishPoison2 = false;
+				controller.setNormal ();
 			}
 		}
 	}

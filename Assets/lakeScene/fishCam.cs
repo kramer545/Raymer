@@ -8,6 +8,7 @@ public class fishCam : rotateCam {
 	public float moveSpeed;
 	public Vector3 playerObjPos;
 	public Vector3 playerObjRot;
+	public lakeController controller;
 
 	// Use this for initialization
 	void Start () {
@@ -47,5 +48,6 @@ public class fishCam : rotateCam {
 		cam.transform.position = playerObjPos;
 		cam.transform.eulerAngles = playerObjRot;
 		rotateCam.setActive(true);
+		controller.setUnderWater();
 	}
 }
