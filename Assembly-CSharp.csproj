@@ -93,6 +93,7 @@
      <Compile Include="Assets\Hummingbird\Scripts\SardineUserController.cs" />
      <Compile Include="Assets\lakeController.cs" />
      <Compile Include="Assets\lakeIconRotate.cs" />
+     <Compile Include="Assets\lakeMoveBtns.cs" />
      <Compile Include="Assets\lakeScene\DockArea\DocksController.cs" />
      <Compile Include="Assets\lakeScene\fishCam.cs" />
      <Compile Include="Assets\lakeScene\fishCam2.cs" />
