@@ -3,14 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class lakeMoveBtns : MonoBehaviour {
-
-	public GameObject cam;
+	
+	public GameObject fishCam;
+	public GameObject wallCam;
 	public float moveSpeed;
+	GameObject cam;
 	int dir = -1;
 	float yPos;
 
 	// Use this for initialization
 	void Start () {
+		cam = fishCam;
 		yPos = cam.transform.position.y;
 	}
 
@@ -29,6 +32,16 @@ public class lakeMoveBtns : MonoBehaviour {
 	public void btnUp()
 	{
 		dir = -1;
+	}
+
+	public void setFishCam() {
+		cam = fishCam;
+		yPos = cam.transform.position.y;
+	}
+
+	public void setWallCam() {
+		cam = wallCam;
+		yPos = cam.transform.position.y;
 	}
 
 	void move() {

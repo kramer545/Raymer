@@ -12,6 +12,7 @@ public class lakeController : MonoBehaviour {
 	public GameObject aboveLake;
 	public GameObject levelLake;
 	public GameObject rocks;
+	public GameObject botWater;
 	public float travelSpeed = 1.0f;
 	public float underWaterFogStrength = 0.012f;
 	public float fogStrength = 0.002f;
@@ -69,6 +70,15 @@ public class lakeController : MonoBehaviour {
 	public void removeRocks() {
 		rocks.SetActive (false);
 	}
+
+	public void setWaterLow() {
+		botWater.transform.position = new Vector3(botWater.transform.position.x, 7f, botWater.transform.position.z);
+	}
+
+	public void setWaterNormal() {
+		botWater.transform.position = new Vector3(botWater.transform.position.x, 9.3f, botWater.transform.position.z);
+	}
+
 
 	public void setUnderWater()
 	{
