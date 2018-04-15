@@ -18,6 +18,7 @@ public class fishCam : rotateCam {
 	// Update is called once per frame
 	void Update () {
 		if(rotateCam.isActive) {
+			rotate ();
 			if (Input.GetKey("up")) {
 				cam.transform.Translate (Vector3.forward * moveSpeed);
 			}

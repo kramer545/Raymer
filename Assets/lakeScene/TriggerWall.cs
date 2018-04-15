@@ -17,6 +17,8 @@ public class TriggerWall : MonoBehaviour {
 	public GameObject garbage;
 	public GameObject aboveCam;
 	public GameObject abovePanel;
+	public GameObject botWater;
+	public float waterSpeed;
 	float timer;
 	bool eventActive;
 
@@ -30,6 +32,9 @@ public class TriggerWall : MonoBehaviour {
 	private bool fishChoke;
 	private int turnDir;
 	private float centerPoint;
+	private Vector3 waterStartPos;
+	private Vector3 waterEndPos;
+	private float waterLength;
 
 	// Use this for initialization
 	void Start () {
@@ -43,6 +48,11 @@ public class TriggerWall : MonoBehaviour {
 		timer = 0;
 		camStartPos = cam.gameObject.transform.position;
 		camStartRot = cam.gameObject.transform.rotation;
+		if(botWater) {
+			waterStartPos = botWater.transform.position;
+			waterEndPos = new Vector3 (waterStartPos.x, 6, waterStartPos.z);
+			waterLength = Vector3.Distance (waterStartPos, waterEndPos);
+		}
 	}
 	
 	// Update is called once per frame
@@ -88,7 +98,6 @@ public class TriggerWall : MonoBehaviour {
 				fishChokeBubbles.transform.position = new Vector3 (fishChokeBubbles.transform.position.x, fishChokeBubbles.transform.position.y - 5, fishChokeBubbles.transform.position.z);
 				break;
 			case 3: //pollution
-				controller.setPolluted ();
 				timer = 0;
 				fishPoison2 = true;
 				break;
@@ -164,21 +173,14 @@ public class TriggerWall : MonoBehaviour {
 		}
 	}
 
-	public void stageFourUpdates() { //poison
+	public void stageFourUpdates() { //water level
 		if (fishPoison2) {
-			timer += Time.deltaTime;
-			if(timer < 2) {
-				playerObj.GetComponent<MorePPEffects.Wiggle>().distortionX = (0.5f * timer);
-				playerObj.GetComponent<MorePPEffects.Wiggle>().distortionY = (0.5f * timer);
-			} else if (timer < 4 && timer > 2) {
-				playerObj.GetComponent<MorePPEffects.Ripple>().distortion = (1.5f * (timer-2.0f));
-			} else if (timer < 6 && timer > 4) {
-				playerObj.GetComponent<MorePPEffects.Headache>().strength = ((timer/2)-4.0f);
-				playerObj.transform.eulerAngles = new Vector3 (0, playerObj.transform.rotation.y, 180 * (timer / 2) - 4.0f);
-				fishCam.setActive (false);
-			} else if (timer > 6 && timer < 7) {
+			timer += Time.deltaTime/3;
+			float fracJourney = timer / waterLength;
+			botWater.transform.position = Vector3.Lerp (waterStartPos, waterEndPos, fracJourney);
+			if ((timer*2.5) > 6 && (timer*2.5) < 7) {
 				blackScreen.SetActive (true);
-			} else if (timer > 7) {
+			} else if ((timer*2.5) > 7) {
 				playerObj.SetActive (false);
 				aboveCam.SetActive (true);
 				abovePanel.SetActive (true);
