@@ -65,6 +65,8 @@ public class TriggerWall : MonoBehaviour {
 
 	void OnTriggerEnter (Collider col)
 	{
+		Debug.Log("wut");
+		Debug.Log(col.gameObject.tag);
 		if(col.gameObject.tag == "MainCamera")
 		{
 			startEvent();
